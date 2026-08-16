@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Catálogo Interdimensional</title>
+<meta name="description" content="Colección de personajes de ficción de Marvel, DC, Five Nights at Freddy's, Zenless Zone Zero, NieR: Automata y más.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Russo+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23FFE14D'/><path d='M9 25.5A2.5 2.5 0 0 1 11.5 23H24M11.5 7H24v18H11.5A2.5 2.5 0 0 1 9 22.5v-13A2.5 2.5 0 0 1 11.5 7z' fill='none' stroke='%230B0B10' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+</head>
+<body>
+
+<!-- iconos reutilizables -->
+<svg style="display:none" aria-hidden="true">
+  <symbol id="i-libro" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></symbol>
+  <symbol id="i-persona" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+  <symbol id="i-personas" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/></symbol>
+  <symbol id="i-globo" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20"/></symbol>
+  <symbol id="i-candado" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></symbol>
+  <symbol id="i-lupa" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></symbol>
+  <symbol id="i-mas" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></symbol>
+  <symbol id="i-alerta" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v5M12 16.5v.01"/></symbol>
+  <symbol id="i-basura" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6"/></symbol>
+  <symbol id="i-subir" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M17 8l-5-5-5 5M12 3v12"/></symbol>
+  <symbol id="i-nube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 17.6A4.5 4.5 0 0 0 17.5 9h-1.3A7 7 0 1 0 5 16.3"/><path d="M12 12v9M8.5 15.5 12 12l3.5 3.5"/></symbol>
+  <symbol id="i-rueda" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.2-8.5"/></symbol>
+  <symbol id="i-salir" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/></symbol>
+  <symbol id="i-flecha" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+</svg>
+
+<!-- ============ BARRA SUPERIOR ============ -->
+<header class="topbar">
+  <div class="marca">
+    <span class="glifo"><svg><use href="#i-libro"/></svg></span>
+    <span>CATÁLOGO</span>
+  </div>
+  <div class="sep"></div>
+  <div class="miga" id="miga">Archivo interdimensional de personajes</div>
+  <div class="derecha">
+    <div class="sesion oculto" id="sesion"><span class="punto"></span><span id="sesionNombre">—</span></div>
+  </div>
+</header>
+
+<!-- ============ 1. BIENVENIDA ============ -->
+<section class="pantalla activa" id="bienvenida">
+  <div class="aurora"><i></i><i></i><i></i></div>
+  <div class="rejilla"></div>
+  <div class="bienvenida-centro">
+    <div class="ceja"><b></b> <span id="estadoCarga">Cargando archivo…</span></div>
+    <h1>CATÁLOGO<br><em>INTERDIMENSIONAL</em></h1>
+    <p class="bienvenida-sub">Una colección de personajes de todos los universos que importan. Marvel, DC, Five Nights at Freddy's, Zenless Zone Zero, NieR y los que vengan.</p>
+    <div class="cifras">
+      <div class="cifra"><div class="n" id="cifraMundos">—</div><div class="k">Mundos</div></div>
+      <div class="cifra"><div class="n" id="cifraPersonajes">—</div><div class="k">Personajes</div></div>
+      <div class="cifra"><div class="n" id="cifraCompletos">—</div><div class="k">Con ficha</div></div>
+    </div>
+    <button class="btn btn-primario" id="btnEntrar" disabled>
+      Entrar al catálogo <svg><use href="#i-flecha"/></svg>
+    </button>
+  </div>
+  <div class="bienvenida-pie">
+    <span>Proyecto personal · Andrés Pedraza</span>
+    <button data-abrir-sesion><svg><use href="#i-candado"/></svg> Acceso de editor</button>
+  </div>
+</section>
+
+<!-- ============ 2. EXPLORADOR ============ -->
+<section class="pantalla" id="explorador">
+  <aside class="lateral">
+    <div class="lateral-cabeza">
+      <div class="buscador" id="cajaBuscar">
+        <svg><use href="#i-lupa"/></svg>
+        <input id="buscar" placeholder="Buscar personaje…" aria-label="Buscar personaje">
+        <button id="limpiarBuscar" aria-label="Limpiar búsqueda"><svg><use href="#i-x"/></svg></button>
+      </div>
+    </div>
+    <nav class="mundos" id="listaMundos"><div class="label">Universos</div></nav>
+    <div class="lateral-pie">
+      <button data-abrir-sesion id="btnEditar"><svg><use href="#i-candado"/></svg> <span>Modo editor</span></button>
+    </div>
+  </aside>
+
+  <div class="escena">
+    <div class="carrusel-caja">
+      <div class="carrusel-cabeza">
+        <h2 id="tituloMundo">—</h2>
+        <span class="cuenta" id="cuentaMundo"></span>
+        <span class="pista"><span class="tecla">←</span><span class="tecla">→</span> navegar</span>
+      </div>
+      <div class="riel" id="riel"></div>
+    </div>
+    <div class="detalle" id="detalle"></div>
+  </div>
+</section>
+
+<!-- ============ 3. ADMIN ============ -->
+<section class="pantalla" id="admin">
+  <nav class="admin-nav">
+    <div class="label">Edición</div>
+    <button class="anav activo" data-vista="personajes"><svg><use href="#i-personas"/></svg> Personajes</button>
+    <button class="anav" data-vista="mundos"><svg><use href="#i-globo"/></svg> Mundos</button>
+    <div style="margin-top:auto"></div>
+    <button class="anav" id="btnPublicar"><svg><use href="#i-nube"/></svg> <span>Publicar cambios</span></button>
+    <button class="anav" id="btnSalirAdmin"><svg><use href="#i-salir"/></svg> Salir del modo editor</button>
+  </nav>
+  <div class="admin-principal">
+    <div class="admin-cabeza">
+      <h2 id="adminTitulo">Personajes</h2>
+      <span class="pendientes oculto" id="pendientes"><svg><use href="#i-alerta"/></svg> <span></span></span>
+      <div class="acciones">
+        <button class="btn btn-primario btn-sm" id="btnNuevo"><svg><use href="#i-mas"/></svg> <span>Nuevo</span></button>
+      </div>
+    </div>
+    <div class="admin-cols">
+      <div class="admin-lista">
+        <div class="admin-lista-filtro">
+          <div class="buscador">
+            <svg><use href="#i-lupa"/></svg>
+            <input id="filtroAdmin" placeholder="Filtrar…" aria-label="Filtrar lista">
+          </div>
+        </div>
+        <div id="filasAdmin"></div>
+      </div>
+      <div class="admin-form" id="formAdmin"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MODAL: ACCESO ============ -->
+<div class="velo" id="modalSesion">
+  <div class="modal">
+    <div class="icono"><svg><use href="#i-candado"/></svg></div>
+    <h3>Acceso de editor</h3>
+    <p>Necesitas un token de GitHub con permiso de escritura sobre este repositorio. Se guarda solo en este navegador y nunca se sube a ningún sitio.</p>
+    <div class="pasos">
+      <strong style="color:var(--fg);display:block;margin-bottom:4px">Si el repositorio es tuyo</strong>
+      <ol>
+        <li><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Crear token fino</a></li>
+        <li><em>Repository access</em>: <code>Only select repositories</code> → este repo</li>
+        <li><em>Permissions → Repository</em>: <code>Contents: Read and write</code></li>
+      </ol>
+    </div>
+    <div class="pasos">
+      <strong style="color:var(--fg);display:block;margin-bottom:4px">Si colaboras en el repositorio de otra persona</strong>
+      <ol>
+        <li><a href="https://github.com/settings/tokens/new" target="_blank" rel="noopener">Crear token clásico</a> (el fino no sirve en este caso)</li>
+        <li>Marca <strong>solo</strong> la casilla <code>public_repo</code></li>
+        <li>No marques <code>repo</code>: daría acceso también a tus repositorios privados</li>
+      </ol>
+    </div>
+    <div class="campo">
+      <label for="token">Token</label>
+      <input id="token" type="password" placeholder="github_pat_…" autocomplete="off" spellcheck="false">
+      <div class="error oculto" id="errorToken"><svg><use href="#i-alerta"/></svg> <span></span></div>
+    </div>
+    <div class="modal-acciones">
+      <button class="btn btn-fantasma" data-cerrar-modal>Cancelar</button>
+      <button class="btn btn-primario" id="btnValidarToken">Entrar</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ MODAL: CONFIRMAR ============ -->
+<div class="velo" id="modalConfirmar">
+  <div class="modal">
+    <div class="icono rojo"><svg><use href="#i-basura"/></svg></div>
+    <h3 id="confirmarTitulo">¿Borrar?</h3>
+    <p id="confirmarTexto"></p>
+    <div class="modal-acciones">
+      <button class="btn btn-fantasma" data-cerrar-modal>Cancelar</button>
+      <button class="btn btn-peligro" id="btnConfirmar">Borrar</button>
+    </div>
+  </div>
+</div>
+
+<div class="avisos" id="avisos"></div>
+
+<script src="js/config.js"></script>
+<script src="js/imagen.js"></script>
+<script src="js/github.js"></script>
+<script src="js/app.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>
