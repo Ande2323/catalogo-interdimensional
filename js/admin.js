@@ -4,6 +4,7 @@ const Admin = (() => {
   let vista = "personajes";
   let seleccion = null;
   let filtro = "";
+  let mundoFiltro = null;   // null = todos los mundos
 
   /* ---------- sesión ---------- */
   function marcarSesion(u) {
@@ -59,6 +60,8 @@ const Admin = (() => {
 
   /* ---------- panel ---------- */
   function abrirAdmin() {
+    // se entra directamente al mundo que se estaba viendo, no a la lista entera
+    if (mundoFiltro === null && Estado.mundoId) mundoFiltro = Estado.mundoId;
     irA("admin");
     pintarPanel();
   }
@@ -76,26 +79,57 @@ const Admin = (() => {
   function pintarPanel() {
     $("#adminTitulo").textContent = vista === "personajes" ? "Personajes" : "Mundos";
     $("#btnNuevo").querySelector("span").textContent = vista === "personajes" ? "Nuevo personaje" : "Nuevo mundo";
-    const inc = Estado.datos.personajes.filter(p => !estaCompleto(p)).length;
     const av = $("#pendientes");
+    const inc = personajesFiltrados({ soloMundo: true }).filter(p => !estaCompleto(p)).length;
     av.classList.toggle("oculto", vista !== "personajes" || inc === 0);
     if (inc) av.querySelector("span").textContent = `${inc} sin descripción`;
+    pintarChips();
     pintarLista();
     pintarFormulario();
+  }
+
+  /* La lista del editor se parte por mundos: con cien personajes de un solo
+     universo, verlos todos juntos no hay quien lo maneje. */
+  function pintarChips() {
+    const caja = $("#chipsMundo");
+    caja.classList.toggle("oculto", vista !== "personajes");
+    if (vista !== "personajes") return;
+    caja.innerHTML = "";
+
+    const hacer = (id, nombre, color, n) => {
+      const b = document.createElement("button");
+      b.className = "chip-mundo" + (mundoFiltro === id ? " activo" : "");
+      b.innerHTML = `${color ? `<span class="p" style="background:${esc(color)}"></span>` : ""}
+        <span class="t">${esc(nombre)}</span><span class="c">${n}</span>`;
+      b.onclick = () => { mundoFiltro = id; seleccion = null; pintarPanel(); };
+      caja.appendChild(b);
+    };
+
+    hacer(null, "Todos", null, Estado.datos.personajes.length);
+    [...Estado.datos.mundos]
+      .sort((a, b) => (a.orden ?? 0) - (b.orden ?? 0))
+      .forEach(m => hacer(m.id, m.nombre, m.acento, personajesDe(m.id).length));
+  }
+
+  function personajesFiltrados({ soloMundo = false } = {}) {
+    return Estado.datos.personajes
+      .filter(p => !mundoFiltro || p.mundo === mundoFiltro)
+      .filter(p => soloMundo || !filtro || p.nombre.toLowerCase().includes(filtro));
   }
 
   function pintarLista() {
     const cont = $("#filasAdmin");
     cont.innerHTML = "";
     const items = vista === "personajes"
-      ? Estado.datos.personajes.filter(p => !filtro || p.nombre.toLowerCase().includes(filtro))
-          .sort((a, b) => a.nombre.localeCompare(b.nombre, "es"))
+      ? personajesFiltrados().sort((a, b) => a.nombre.localeCompare(b.nombre, "es"))
       : [...Estado.datos.mundos].filter(m => !filtro || m.nombre.toLowerCase().includes(filtro))
           .sort((a, b) => (a.orden ?? 0) - (b.orden ?? 0));
 
     if (!items.length) {
+      const mundo = mundoFiltro ? mundoPorId(mundoFiltro)?.nombre : null;
       cont.innerHTML = `<div class="vacio" style="padding:var(--s6) var(--s4)">
-        ${icono("i-lupa")}<p>${filtro ? "Nada coincide con el filtro." : "Todavía no hay nada aquí."}</p></div>`;
+        ${icono("i-lupa")}<p>${filtro ? "Nada coincide con el filtro."
+          : mundo ? `«${esc(mundo)}» todavía no tiene personajes.` : "Todavía no hay nada aquí."}</p></div>`;
       return;
     }
 
@@ -107,7 +141,7 @@ const Admin = (() => {
         b.innerHTML = `<span class="mini">${src ? `<img src="${esc(src)}" alt="" loading="lazy">` : icono("i-persona")}</span>
           <span class="t"><span class="n">${esc(it.nombre)}</span>
           <span class="s">${esc(mundoPorId(it.mundo)?.nombre ?? "sin mundo")}</span></span>
-          ${estaCompleto(it) ? "" : '<span class="aviso" title="Sin descripción"></span>'}`;
+          ${estaCompleto(it) ? "" : '<span class="falta" title="Sin descripción"></span>'}`;
       } else {
         const n = personajesDe(it.id).length;
         b.innerHTML = `<span class="mini" style="background:${esc(it.acento)};border-radius:5px"></span>
@@ -248,6 +282,9 @@ const Admin = (() => {
     if (campo === "acento" || campo === "tinta") {
       if (obj.id === Estado.mundoId) aplicarAcento(obj);
     }
+    // si le cambias el mundo a un personaje, el filtro le sigue en vez de
+    // hacerlo desaparecer de la lista
+    if (campo === "mundo" && mundoFiltro) { mundoFiltro = valor; pintarChips(); }
     if (el) validar(el);
     pintarLista();
     if (vista === "mundos") pintarMundos();
@@ -326,7 +363,7 @@ const Admin = (() => {
       descripcion: "", etiquetas: [], imagen: "",
     };
     Estado.datos.personajes.push(p);
-    vista = "personajes"; seleccion = p.id; filtro = "";
+    vista = "personajes"; seleccion = p.id; filtro = ""; mundoFiltro = p.mundo;
     $$(".anav[data-vista]").forEach(x => x.classList.toggle("activo", x.dataset.vista === "personajes"));
     marcarSucio(); irA("admin"); pintarPanel();
     setTimeout(() => { const c = $("#c-nombre"); c?.focus(); c?.select(); }, 60);
