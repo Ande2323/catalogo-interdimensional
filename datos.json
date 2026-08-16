@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-16T22:46:59.399Z",
+ "actualizado": "2026-08-16T22:58:42.125Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -1769,6 +1769,56 @@
     "Marvel"
    ],
    "imagen": "imagenes/nuevo-1786920255771.webp"
+  },
+  {
+   "id": "nuevo-1786920657058",
+   "mundo": "marvel",
+   "nombre": "Capitán América",
+   "alias": "El Primer Vengador",
+   "nombreReal": "Steve Rogers",
+   "edad": "No especificada",
+   "nacimiento": "4 de julio de 1918",
+   "especie": "Humano mejorado",
+   "rol": "Superhéroe, soldado, líder",
+   "afiliacion": "Avengers, S.H.I.E.L.D., Ejército de los Estados Unidos",
+   "primeraAparicion": "Captain America Comics #1 (1941)",
+   "estado": "Vivo (MCU)",
+   "descripcion": "Steve Rogers es un soldado estadounidense que, después de recibir el suero del supersoldado, obtiene habilidades físicas extraordinarias y se convierte en el Capitán América. Armado con su escudo indestructible y guiado por un fuerte sentido de justicia, se transforma en uno de los héroes más respetados de Marvel.\n\nComo líder de los Avengers, Steve destaca por su valentía, disciplina y capacidad para inspirar a otros. A pesar de los cambios que experimenta el mundo a su alrededor, mantiene firmemente sus principios y está dispuesto a enfrentarse a cualquier amenaza para proteger a las personas.",
+   "etiquetas": [
+    "Héroe",
+    "Vengador",
+    "Soldado",
+    "Líder",
+    "Supersoldado",
+    "Fundador",
+    "Marvel"
+   ],
+   "imagen": "imagenes/nuevo-1786920657058.webp"
+  },
+  {
+   "id": "nuevo-1786920849823",
+   "mundo": "marvel",
+   "nombre": "Thor",
+   "alias": "Dios del Trueno",
+   "nombreReal": "Thor Odinson",
+   "edad": "Más de 1.500 años (MCU)",
+   "nacimiento": "No especificada",
+   "especie": "Asgardiano",
+   "rol": "Dios del Trueno, guerrero, príncipe de Asgard",
+   "afiliacion": "Avengers, Asgard",
+   "primeraAparicion": "Journey into Mystery #83 (1962)",
+   "estado": "Vivo (MCU)",
+   "descripcion": "Thor Odinson es el Dios del Trueno y uno de los guerreros más poderosos de Asgard. Es hijo de Odín y hermano de Loki, y durante gran parte de su vida fue preparado para convertirse en rey. Posee una fuerza extraordinaria y controla el poder del trueno y los relámpagos.\n\nA lo largo de sus aventuras, Thor aprende a dejar atrás su orgullo y a comprender lo que significa ser un verdadero líder. Como miembro de los Avengers, combate numerosas amenazas mientras protege tanto Asgard como la Tierra y a quienes considera su familia.",
+   "etiquetas": [
+    "Héroe",
+    "Vengador",
+    "Asgardiano",
+    "Dios",
+    "Guerrero",
+    "Trueno",
+    "Marvel"
+   ],
+   "imagen": "imagenes/nuevo-1786920849823.webp"
   }
  ]
 }
