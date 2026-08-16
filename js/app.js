@@ -13,6 +13,7 @@ const Estado = {
   imagenesNuevas: [],      // [{ruta, base64}]
   rutasABorrar: [],
   previas: {},             // ruta -> blob URL, para ver la imagen antes de publicarla
+  sinPublicar: new Set(),  // ids creados en esta sesión y aún no publicados
 };
 
 /* Una imagen recién soltada aún no existe en el repositorio: mientras tanto
@@ -45,6 +46,8 @@ const personajePorId = id => Estado.datos.personajes.find(p => p.id === id);
 const personajesDe = id => Estado.datos.personajes.filter(p => p.mundo === id);
 const estaCompleto = p => Boolean(p.descripcion && p.descripcion.trim());
 
+/* El id acaba siendo el nombre del archivo de la imagen, así que conviene que
+   se lea: «marvel-iron-man.webp» y no «nuevo-1786920255771.webp». */
 function idLibre(base, existentes) {
   const limpio = base.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "")
     .replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "") || "sin-nombre";

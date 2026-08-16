@@ -273,10 +273,49 @@ const Admin = (() => {
     return !vacio;
   }
 
+  /* Mientras la ficha no se haya publicado, su id sigue al nombre. Después se
+     congela: renombrarlo dejaría la imagen huérfana en el repositorio y
+     rompería cualquier enlace que alguien haya guardado. */
+  function reidentificar(obj, esMundo) {
+    if (!Estado.sinPublicar.has(obj.id)) return;
+    const viejo = obj.id;
+    const lista = esMundo ? Estado.datos.mundos : Estado.datos.personajes;
+    const ocupados = lista.filter(x => x !== obj).map(x => x.id);
+    const base = esMundo ? obj.nombre : `${obj.mundo} ${obj.nombre}`;
+    const nuevo = idLibre(base, ocupados);
+    if (nuevo === viejo) return;
+
+    obj.id = nuevo;
+    Estado.sinPublicar.delete(viejo);
+    Estado.sinPublicar.add(nuevo);
+
+    if (esMundo) {
+      Estado.datos.personajes.forEach(p => { if (p.mundo === viejo) p.mundo = nuevo; });
+      if (Estado.mundoId === viejo) Estado.mundoId = nuevo;
+      if (mundoFiltro === viejo) mundoFiltro = nuevo;
+    } else if (obj.imagen) {
+      // la imagen pendiente viaja con el id
+      const rutaVieja = obj.imagen, rutaNueva = `imagenes/${nuevo}.webp`;
+      const pend = Estado.imagenesNuevas.find(i => i.ruta === rutaVieja);
+      if (pend) pend.ruta = rutaNueva;
+      if (Estado.previas[rutaVieja]) {
+        Estado.previas[rutaNueva] = Estado.previas[rutaVieja];
+        delete Estado.previas[rutaVieja];
+      }
+      Estado.rutasABorrar = Estado.rutasABorrar.filter(r => r !== rutaVieja);
+      obj.imagen = rutaNueva;
+    }
+
+    if (seleccion === viejo) seleccion = nuevo;
+    if (Estado.personajeId === viejo) Estado.personajeId = nuevo;
+  }
+
   function aplicar(obj, campo, valor, el) {
     if (campo === "etiquetas") obj.etiquetas = valor.split(",").map(s => s.trim()).filter(Boolean);
     else if (campo === "orden") obj.orden = Number(valor) || 0;
     else obj[campo] = valor;
+
+    if (campo === "nombre" || campo === "mundo") reidentificar(obj, vista === "mundos");
 
     marcarSucio();
     if (campo === "acento" || campo === "tinta") {
@@ -355,14 +394,16 @@ const Admin = (() => {
     if (!Estado.datos.mundos.length) {
       return Aviso.error("Primero necesitas un mundo", "Crea un universo antes de meterle personajes.");
     }
+    const mundo = mundoId || Estado.datos.mundos[0].id;
     const p = {
-      id: idLibre(`nuevo-${Date.now()}`, Estado.datos.personajes.map(x => x.id)),
-      mundo: mundoId || Estado.datos.mundos[0].id,
+      id: idLibre(`${mundo} sin nombre`, Estado.datos.personajes.map(x => x.id)),
+      mundo,
       nombre: "Personaje sin nombre", alias: "", nombreReal: "", edad: "", nacimiento: "",
       especie: "", rol: "", afiliacion: "", primeraAparicion: "", estado: "",
       descripcion: "", etiquetas: [], imagen: "",
     };
     Estado.datos.personajes.push(p);
+    Estado.sinPublicar.add(p.id);
     vista = "personajes"; seleccion = p.id; filtro = ""; mundoFiltro = p.mundo;
     $$(".anav[data-vista]").forEach(x => x.classList.toggle("activo", x.dataset.vista === "personajes"));
     marcarSucio(); irA("admin"); pintarPanel();
@@ -371,11 +412,12 @@ const Admin = (() => {
 
   function nuevoMundo() {
     const m = {
-      id: idLibre(`mundo-${Date.now()}`, Estado.datos.mundos.map(x => x.id)),
+      id: idLibre("mundo nuevo", Estado.datos.mundos.map(x => x.id)),
       nombre: "Mundo nuevo", acento: "#7C3AED", tinta: "#FFFFFF",
       descripcion: "", orden: Estado.datos.mundos.length,
     };
     Estado.datos.mundos.push(m);
+    Estado.sinPublicar.add(m.id);
     vista = "mundos"; seleccion = m.id; filtro = "";
     $$(".anav[data-vista]").forEach(x => x.classList.toggle("activo", x.dataset.vista === "mundos"));
     marcarSucio(); pintarPanel(); pintarMundos();
@@ -444,6 +486,7 @@ const Admin = (() => {
       });
       Estado.sucio = false;
       Estado.imagenesNuevas = []; Estado.rutasABorrar = [];
+      Estado.sinPublicar.clear();   // a partir de aquí los ids quedan congelados
       t.cerrar();
       Aviso.ok("Publicado", `Commit ${commit.sha.slice(0, 7)}. La web tarda menos de un minuto en actualizarse.`);
       $("#btnPublicar").classList.remove("activo");
