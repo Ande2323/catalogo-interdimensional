@@ -140,7 +140,7 @@ a{color:var(--accent)}
   background:var(--bg-700);border:1px solid var(--line);
   transition:transform .25s var(--ease),border-color .2s,box-shadow .25s}
 .ficha-card:hover{transform:translateY(-5px);border-color:var(--line-strong)}
-.ficha-card .arte{position:absolute;inset:0;display:grid;place-items:center;padding:14px 10px 46px}
+.ficha-card .arte{position:absolute;inset:0;display:grid;place-items:center;padding:10px 8px 42px}
 .ficha-card .arte img{max-height:100%;width:auto;object-fit:contain;filter:drop-shadow(0 8px 18px rgba(0,0,0,.55))}
 .ficha-card .arte svg{width:60%;height:60%;color:var(--fg-faint);opacity:.32}
 .ficha-card .placa{position:absolute;left:0;right:0;bottom:0;padding:20px 11px 10px;
@@ -160,9 +160,12 @@ a{color:var(--accent)}
 .detalle{flex:1;min-height:0;margin:0 var(--s6) var(--s6);background:var(--bg-800);
   border:1px solid var(--line);border-radius:var(--r-panel);display:flex;overflow:hidden;position:relative}
 .detalle::after{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent);opacity:.9}
-.detalle-arte{width:230px;flex:none;border-right:1px solid var(--line);position:relative;
-  background:radial-gradient(ellipse 90% 70% at 50% 30%,var(--accent-soft),transparent 70%);display:grid;place-items:center;padding:var(--s5)}
-.detalle-arte img{max-height:100%;object-fit:contain;filter:drop-shadow(0 14px 30px rgba(0,0,0,.6))}
+.detalle-arte{width:320px;flex:none;border-right:1px solid var(--line);position:relative;
+  background:radial-gradient(ellipse 90% 70% at 50% 30%,var(--accent-soft),transparent 70%);display:grid;place-items:center;padding:var(--s4)}
+/* `contain` nunca recorta: si la imagen no cabe, se reduce. Prefiero un hueco
+   a los lados antes que cortarle la cabeza a nadie. */
+.detalle-arte img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;
+  filter:drop-shadow(0 14px 30px rgba(0,0,0,.6))}
 .detalle-arte svg{width:52%;color:var(--fg-faint);opacity:.3}
 .detalle-cuerpo{flex:1;min-width:0;overflow-y:auto;padding:var(--s5) var(--s6)}
 .detalle-titulo{display:flex;align-items:flex-end;gap:var(--s3);flex-wrap:wrap;margin-bottom:var(--s2)}
@@ -301,8 +304,9 @@ a{color:var(--accent)}
   .carrusel-cabeza{padding-bottom:var(--s3)}
   .riel{padding-bottom:var(--s3)}
   .ficha-card{width:136px;height:184px}
+  .ficha-card .arte{padding:8px 6px 38px}
   .detalle{margin:0 var(--s5) var(--s5)}
-  .detalle-arte{width:196px}
+  .detalle-arte{width:264px}
   .detalle-titulo h2{font-size:27px}
   .detalle-cuerpo{padding:var(--s4) var(--s5)}
 }
@@ -312,7 +316,7 @@ a{color:var(--accent)}
   .ficha-card .placa{padding:16px 9px 8px}
   .ficha-card .placa .n{font-size:11.5px}
   .ficha-card .placa .r{display:none}
-  .detalle-arte{width:164px;padding:var(--s4)}
+  .detalle-arte{width:212px;padding:var(--s3)}
   .detalle-titulo h2{font-size:23px}
   .campos{grid-template-columns:repeat(auto-fill,minmax(142px,1fr));gap:var(--s2);margin-bottom:var(--s4)}
   .campos .c{padding:8px 11px}
