@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-16T23:01:44.842Z",
+ "actualizado": "2026-08-16T23:35:36.436Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -1819,6 +1819,175 @@
     "Marvel"
    ],
    "imagen": "imagenes/nuevo-1786920849823.webp"
+  },
+  {
+   "id": "nier-2b",
+   "mundo": "nier",
+   "nombre": "2B",
+   "alias": "2B",
+   "nombreReal": "YoRHa No. 2 Type B",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Androide",
+   "rol": "Soldado, combatiente, miembro de YoRHa",
+   "afiliacion": "YoRHa, Bunker",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Fallecida",
+   "descripcion": "2B es una androide de combate perteneciente a la organización YoRHa, creada para luchar contra las máquinas que controlan la Tierra. Es una combatiente extremadamente habilidosa, especializada en enfrentamientos directos y equipada con diferentes armas, incluyendo espadas, lanzas y otras armas blancas.\n\nA pesar de su personalidad aparentemente seria, disciplinada y reservada, 2B desarrolla un fuerte vínculo con 9S a medida que avanzan sus misiones. Su existencia está marcada por los secretos de YoRHa y por una misión mucho más compleja de lo que inicialmente conoce.\n\nSu habilidad en combate, disciplina y determinación la convierten en una de las unidades más eficientes de YoRHa. La historia de 2B está profundamente relacionada con los temas de identidad, memoria, sacrificio y la naturaleza de la humanidad.\n",
+   "etiquetas": [
+    "Androide",
+    "YoRHa",
+    "Soldado",
+    "Guerrera",
+    "Combate",
+    "Espada",
+    "NieR:Automata"
+   ],
+   "imagen": "imagenes/nier-2b.webp"
+  },
+  {
+   "id": "nier-9s",
+   "mundo": "nier",
+   "nombre": "9S",
+   "alias": "Nines",
+   "nombreReal": "YoRHa No. 9 Type S",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Androide",
+   "rol": "Explorador, unidad de reconocimiento, especialista en hackeo",
+   "afiliacion": "YoRHa, Bunker",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Fallecido",
+   "descripcion": "9S es una androide de tipo *scanner*, diseñado para tareas de investigación, análisis y hackeo más que para el combate frontal. Aun así es plenamente capaz de defenderse: su especialidad es infiltrarse en los sistemas de las máquinas y desactivarlas desde dentro, un método muy distinto al de las unidades de asalto.\n\nSu carácter contrasta con el de 2B. Es curioso, expresivo y hablador, y rompe el protocolo con frecuencia al dirigirse a ella con familiaridad. Ese vínculo entre ambos es uno de los ejes de la historia, y también su mayor debilidad.\n\nSu capacidad para acceder a información restringida es precisamente lo que lo condena: descubre una y otra vez verdades que la organización necesita mantener enterradas. La transformación de 9S a lo largo del juego, desde la curiosidad hasta algo mucho más oscuro, es uno de los arcos más duros del relato.",
+   "etiquetas": [
+    "Androide",
+    "YoRHa",
+    "Explorador",
+    "Hackeo",
+    "Apoyo",
+    "Combate",
+    "NieR:Automata"
+   ],
+   "imagen": "imagenes/nier-9s.webp"
+  },
+  {
+   "id": "nier-a2",
+   "mundo": "nier",
+   "nombre": "A2",
+   "alias": "A2",
+   "nombreReal": "YoRHa Type A No. 2",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Androide",
+   "rol": "Soldado, prototipo de ataque, desertora",
+   "afiliacion": "YoRHa (desertora)",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Fallecida",
+   "descripcion": "A2 es un prototipo de androide de ataque de una generación anterior a la de 2B, y la única superviviente de una operación en la que YoRHa sacrificó deliberadamente a su escuadrón. Desde entonces vive al margen de la organización, cazada por sus antiguos compañeros y hostil a todo lo que represente el mando.\n\nSu forma de luchar es brutal y directa, sin la contención táctica de las unidades más modernas. Puede sobrecargar sus propios sistemas para combatir por encima de sus límites, a costa de dañarse a sí misma. Se cortó ella misma el pelo largo que llevaba como modelo de serie.\n\nBajo la hostilidad hay una lealtad intacta hacia quienes perdió, y un rencor que la vuelve tan peligrosa para sus enemigos como para quienes intentan acercarse. Su historia obliga a replantear quiénes son realmente los antagonistas del juego.",
+   "etiquetas": [
+    "Androide",
+    "YoRHa",
+    "Desertora",
+    "Prototipo",
+    "Guerrera",
+    "Combate",
+    "NieR:Automata"
+   ],
+   "imagen": "imagenes/nier-a2.webp"
+  },
+  {
+   "id": "nier-pod-042",
+   "mundo": "nier",
+   "nombre": "Pod 042",
+   "alias": "Pod 042",
+   "nombreReal": "Pod 042",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Unidad de apoyo (robot)",
+   "rol": "Apoyo táctico, análisis, arma a distancia, enlace de comunicaciones",
+   "afiliacion": "YoRHa, Bunker",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Activo",
+   "descripcion": "Pod 042 es la unidad de apoyo flotante asignada a 2B. Actúa como arma a distancia, como archivo de datos y como enlace permanente con el Bunker, acompañando a su unidad en todo momento y ofreciendo información táctica sobre el terreno y los enemigos.\n\nSe comunica siempre en un registro plano de informe militar, encabezando sus frases con fórmulas como «Propuesta», «Alerta» o «Análisis». Esa monotonía deliberada contrasta con las emociones que los androides intentan reprimir sin conseguirlo.\n\nAunque está diseñado como una simple herramienta sin voluntad propia, Pod 042 desarrolla algo muy parecido a la iniciativa a lo largo del juego. Su papel en el desenlace es mucho más importante de lo que su función sugiere.",
+   "etiquetas": [
+    "Robot",
+    "YoRHa",
+    "Apoyo",
+    "Aliado",
+    "Soporte",
+    "NieR:Automata"
+   ],
+   "imagen": "imagenes/nier-pod-042.webp"
+  },
+  {
+   "id": "nier-adam",
+   "mundo": "nier",
+   "nombre": "Adam",
+   "alias": "Adam",
+   "nombreReal": "Adam",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Forma de vida mecánica",
+   "rol": "Antagonista, líder de las máquinas conscientes",
+   "afiliacion": "Red de las máquinas",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Fallecido",
+   "descripcion": "Adam es una máquina que desarrolló consciencia individual dentro de la red colectiva de las formas de vida mecánicas, y que adoptó forma humana al estudiar a la especie que las creó. A diferencia del resto de máquinas, no actúa por instinto ni por órdenes: elige.\n\nSu motor es una obsesión intelectual con la humanidad. Lee, imita, experimenta y provoca a los androides para averiguar qué los distingue de él, convencido de que el conflicto y la muerte son el rasgo humano definitivo. Esa curiosidad lo lleva a buscar deliberadamente el enfrentamiento.\n\nJunto a su hermano Eve representa el momento en que las máquinas dejan de ser un enemigo mecánico para convertirse en algo inquietantemente parecido a las personas que dicen odiar.",
+   "etiquetas": [
+    "Máquina",
+    "Antagonista",
+    "Consciente",
+    "Filosofía",
+    "NieR:Automata"
+   ],
+   "imagen": "imagenes/nier-adam.webp"
+  },
+  {
+   "id": "nier-eve",
+   "mundo": "nier",
+   "nombre": "Eve",
+   "alias": "Eve",
+   "nombreReal": "Eve",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Forma de vida mecánica",
+   "rol": "Antagonista",
+   "afiliacion": "Red de las máquinas",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Fallecido",
+   "descripcion": "Eve es el hermano de Adam, creado junto a él por la red de las máquinas y, como él, con forma humana y consciencia propia. Donde Adam es analítico y contenido, Eve es impulsivo, físico y directo, y resuelve por la fuerza lo que su hermano intenta comprender.\n\nNo comparte la fascinación de Adam por la humanidad. No le interesan los libros, ni la filosofía, ni entender a los androides: lo único que le importa de verdad es su hermano, del que depende por completo para saber qué hacer y quién ser.\n\nCuando pierde a Adam, esa dependencia se convierte en una furia incontrolable que arrasa con todo lo que encuentra, incluidas las propias máquinas. Su desenlace es una de las secuencias más violentas del juego.",
+   "etiquetas": [
+    "Máquina",
+    "Antagonista",
+    "Consciente",
+    "Fuerza",
+    "NieR:Automata"
+   ],
+   "imagen": "imagenes/nier-eve.webp"
+  },
+  {
+   "id": "nier-pascal",
+   "mundo": "nier",
+   "nombre": "Pascal",
+   "alias": "Pascal",
+   "nombreReal": "Pascal",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Forma de vida mecánica",
+   "rol": "Aliado, líder de la aldea de las máquinas, mercader",
+   "afiliacion": "Aldea de las máquinas (independiente de la red)",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Desconocido",
+   "descripcion": "Pascal es una forma de vida mecánica que renunció por completo a la violencia y fundó una aldea donde otras máquinas pueden convivir sin combatir. Se separó de la red colectiva por voluntad propia y desde entonces intenta construir algo distinto a la guerra que consume a los suyos.\n\nEstudia filosofía por su cuenta, hace de maestro de las máquinas más pequeñas y busca activamente entenderse con los androides, a los que trata como vecinos y no como enemigos. Su aldea es uno de los pocos lugares del juego donde no se lucha.\n\nSu historia es de las más crueles del relato, precisamente porque hace todo lo correcto. Lo que le ocurre plantea sin rodeos si el pacifismo tiene alguna posibilidad en un mundo construido para el conflicto.",
+   "etiquetas": [
+    "Máquina",
+    "Aliado",
+    "Pacifista",
+    "Aldea",
+    "Filosofía",
+    "NieR:Automata"
+   ],
+   "imagen": "imagenes/nier-pascal.webp"
   }
  ]
 }
