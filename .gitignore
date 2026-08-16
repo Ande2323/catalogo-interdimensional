@@ -1,3 +1,8 @@
 .DS_Store
 Thumbs.db
 node_modules/
+
+# tokens y secretos: nunca deben subirse
+*token*.txt
+*.token
+secretos*
