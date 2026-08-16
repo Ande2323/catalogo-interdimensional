@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-16T22:37:18.554Z",
+ "actualizado": "2026-08-16T22:45:05.128Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -1743,6 +1743,32 @@
    "descripcion": "",
    "etiquetas": [],
    "imagen": "imagenes/fnaf-yenndo.webp"
+  },
+  {
+   "id": "nuevo-1786920255771",
+   "mundo": "marvel",
+   "nombre": "Iron Man",
+   "alias": "Hombre de Hierro",
+   "nombreReal": "Tony Stark",
+   "edad": "53 años (hasta Endgame)",
+   "nacimiento": "29 de mayo de 1970",
+   "especie": "Humano",
+   "rol": "Superhéroe, empresario",
+   "afiliacion": "Avengers, S.H.I.E.L.D.",
+   "primeraAparicion": "Tales of Suspense #39 (1963)",
+   "estado": "Fallecido (MCU)",
+   "descripcion": "Tony Stark, conocido como Iron Man, es un brillante inventor, ingeniero, empresario y uno de los héroes más importantes del universo Marvel. Gracias a su extraordinaria inteligencia y conocimientos tecnológicos, desarrolla una avanzada armadura que le permite volar, combatir enemigos y utilizar diferentes sistemas de defensa y ataque. Con el tiempo, Tony perfecciona su tecnología y convierte la armadura en una de las herramientas más poderosas de los Avengers.\n\nAunque inicialmente es arrogante, impulsivo y muy confiado en sus capacidades, Tony Stark evoluciona hasta convertirse en un héroe responsable, valiente y dispuesto a proteger a los demás. Como miembro fundamental de los Avengers, enfrenta numerosas amenazas junto a otros héroes y utiliza su inteligencia para encontrar soluciones incluso en situaciones difíciles. Su liderazgo, sacrificio, tecnología y legado lo convierten en uno de los personajes más emblemáticos de Marvel.",
+   "etiquetas": [
+    "Héroe",
+    "Vengador",
+    "Inventor",
+    "Empresario",
+    "Tecnología",
+    "Armadura",
+    "Fundador",
+    "Marvel"
+   ],
+   "imagen": ""
   }
  ]
 }
