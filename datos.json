@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-17T00:24:12.278Z",
+ "actualizado": "2026-08-17T00:26:03.177Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -2065,23 +2065,6 @@
    "imagen": "imagenes/marvel-spider-man.webp"
   },
   {
-   "id": "nier-sin-nombre-2",
-   "mundo": "nier",
-   "nombre": "Personaje sin nombre",
-   "alias": "",
-   "nombreReal": "",
-   "edad": "",
-   "nacimiento": "",
-   "especie": "",
-   "rol": "",
-   "afiliacion": "",
-   "primeraAparicion": "",
-   "estado": "",
-   "descripcion": "",
-   "etiquetas": [],
-   "imagen": ""
-  },
-  {
    "id": "marvel-black-panther",
    "mundo": "marvel",
    "nombre": "Black Panther",
@@ -2154,7 +2137,7 @@
     "Científico",
     "Marvel"
    ],
-   "imagen": ""
+   "imagen": "imagenes/marvel-ant-man.webp"
   },
   {
    "id": "marvel-wasp",
