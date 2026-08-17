@@ -99,7 +99,11 @@ function elegirMundo(id) {
   aplicarAcento(mundoPorId(id));
   pintarMundos();
   pintarRiel();
-  $("#miga").textContent = `Explorador · ${mundoPorId(id)?.nombre ?? ""}`;
+  // sólo si ya estamos en el explorador: al arrancar esto corría con la
+  // bienvenida delante y le ponía el nombre del primer mundo.
+  if ($("#explorador").classList.contains("activa")) {
+    $("#miga").textContent = `Explorador · ${mundoPorId(id)?.nombre ?? ""}`;
+  }
 }
 
 /* ---------- render: carrusel ---------- */
