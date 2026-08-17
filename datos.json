@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-17T00:26:03.177Z",
+ "actualizado": "2026-08-17T01:14:44.511Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -2163,6 +2163,40 @@
     "Marvel"
    ],
    "imagen": "imagenes/marvel-wasp.webp"
+  },
+  {
+   "id": "marvel-sin-nombre",
+   "mundo": "marvel",
+   "nombre": "Personaje sin nombre",
+   "alias": "",
+   "nombreReal": "",
+   "edad": "",
+   "nacimiento": "",
+   "especie": "",
+   "rol": "",
+   "afiliacion": "",
+   "primeraAparicion": "",
+   "estado": "",
+   "descripcion": "",
+   "etiquetas": [],
+   "imagen": ""
+  },
+  {
+   "id": "dc-superman",
+   "mundo": "dc",
+   "nombre": "Superman",
+   "alias": "",
+   "nombreReal": "",
+   "edad": "",
+   "nacimiento": "",
+   "especie": "",
+   "rol": "",
+   "afiliacion": "",
+   "primeraAparicion": "",
+   "estado": "",
+   "descripcion": "",
+   "etiquetas": [],
+   "imagen": "imagenes/dc-superman.webp"
   }
  ]
 }
