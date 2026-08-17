@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-17T19:10:34.760Z",
+ "actualizado": "2026-08-17T19:25:44.170Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -41,6 +41,14 @@
    "tinta": "#0B0B10",
    "descripcion": "Androides de YoRHa en una Tierra abandonada por la humanidad.",
    "orden": 4
+  },
+  {
+   "id": "harry-potter",
+   "nombre": "Harry Potter",
+   "acento": "#462a0e",
+   "tinta": "#FFFFFF",
+   "descripcion": "El universo de Harry Potter, creado por J.K. Rowling, es un mundo mágico que existe en paralelo al mundo muggle (no mágico), oculto mediante encantamientos, leyes de secretismo y la labor del Ministerio de Magia. Su núcleo es Hogwarts, un castillo-escuela de magia y hechicería situado en las Tierras Altas de Escocia, donde los jóvenes magos son seleccionados en cuatro casas —Gryffindor, Slytherin, Ravenclaw y Hufflepuff— según sus cualidades, y formados durante siete años en disciplinas como Pociones, Transformaciones, Encantamientos y Defensa Contra las Artes Oscuras.",
+   "orden": 5
   }
  ],
  "personajes": [
