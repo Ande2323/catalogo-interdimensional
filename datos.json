@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-17T19:25:44.170Z",
+ "actualizado": "2026-08-17T19:32:31.016Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -2755,6 +2755,82 @@
    "descripcion": "Hijo de un faro y una atlante exiliada, Arthur Curry creció dividido entre dos mundos que rara vez lo reclaman por completo: la superficie lo ve como un extraño con branquias, y Atlantis lo ve como un mestizo sin derecho pleno al trono. Su fuerza, resistencia y capacidad para comunicarse con la vida marina lo convirtieron en un pilar físico de la Liga de la Justicia, pero su verdadero conflicto ha sido siempre político: gobernar un reino que desconfía de la superficie mientras intenta convencer a los humanos de que el océano no es un vertedero infinito. Ha perdido tronos, esposas e hijos en distintas versiones de su historia, y aun así vuelve una y otra vez a reclamar su lugar. Aquaman representa la idea de que liderar no es solo tener poder, sino sostener la paz entre dos pueblos que preferirían ignorarse.",
    "etiquetas": [],
    "imagen": "imagenes/dc-aquaman.webp"
+  },
+  {
+   "id": "harry-potter-harry-potter",
+   "mundo": "harry-potter",
+   "nombre": "Harry Potter",
+   "alias": "El Niño que Vivió, El Elegido, El Indeseable Nº1",
+   "nombreReal": "Harry James Potter",
+   "edad": "17 al final de la saga principal",
+   "nacimiento": "31 de julio de 1980",
+   "especie": "Humano (mago mestizo)",
+   "rol": "Estudiante, líder del Ejército de Dumbledore, Horrocrux involuntario",
+   "afiliacion": "Hogwarts (Gryffindor), Ejército de Dumbledore, Orden del Fénix",
+   "primeraAparicion": "Harry Potter y la Piedra Filosofal (1997)",
+   "estado": "Vivo",
+   "descripcion": "Harry es un mago huérfano criado por sus tíos muggles, los Dursley, sin saber nada del mundo mágico hasta que recibe su carta de Hogwarts a los once años. Posee una cicatriz en forma de rayo en la frente, resultado de la maldición asesina que Voldemort le lanzó de bebé y que rebotó gracias al sacrificio de su madre Lily. A lo largo de siete años en Hogwarts, Harry descubre que está ligado a una profecía que lo señala como el único capaz de derrotar a Voldemort. Es un volador excepcional (el buscador más joven en un siglo), leal hasta la imprudencia y con una tendencia a cargar con todo él solo. Porta la Varita de Saúco tras derrotar a su anterior dueño y es el último poseedor legítimo de las tres Reliquias de la Muerte, convirtiéndose brevemente en el Amo de la Muerte.",
+   "etiquetas": [
+    "Mago",
+    "Gryffindor",
+    "Ejército de Dumbledore",
+    "Orden del Fénix",
+    "Horrocrux",
+    "Reliquias de la Muerte",
+    "Profecía"
+   ],
+   "imagen": "imagenes/harry-potter-harry-potter.webp"
+  },
+  {
+   "id": "harry-potter-hermione-granger",
+   "mundo": "harry-potter",
+   "nombre": "Hermione Granger",
+   "alias": "La bruja más brillante de su generación",
+   "nombreReal": "Hermione Jean Granger",
+   "edad": "17 al final de la saga principal",
+   "nacimiento": "19 de septiembre de 1979",
+   "especie": "Humana (bruja nacida de muggles)",
+   "rol": "Estudiante, prefecta de Gryffindor",
+   "afiliacion": "Hogwarts (Gryffindor), Ejército de Dumbledore, Orden del Fénix",
+   "primeraAparicion": "Harry Potter y la Piedra Filosofal (1997)",
+   "estado": "Viva",
+   "descripcion": "Hermione es hija de dentistas muggles y desde su llegada a Hogwarts se establece como la estudiante más talentosa de su generación. Es metódica, enciclopédica y profundamente ética: funda la P.E.D.D.O. (Plataforma Élfica de Defensa de los Derechos Obreros) para luchar por los derechos de los elfos domésticos. Sin su preparación, ingenio y el bolso con encantamiento de extensión indetectable, la búsqueda de Horrocruxes habría fracasado. Usa un giratiempo en su tercer año para asistir a múltiples clases simultáneas. En la batalla final, destruye la copa de Hufflepuff con un colmillo de basilisco. Es la cabeza pensante del trío y, con el tiempo, la compañera sentimental de Ron.",
+   "etiquetas": [
+    "Bruja",
+    "Gryffindor",
+    "Nacida de muggles",
+    "Ejército de Dumbledore",
+    "P.E.D.D.O.",
+    "Giratiempo",
+    "Prefecta"
+   ],
+   "imagen": "imagenes/harry-potter-hermione-granger.webp"
+  },
+  {
+   "id": "harry-potter-albus-dumbledore",
+   "mundo": "harry-potter",
+   "nombre": "Albus Dumbledore",
+   "alias": "Jefe Supremo de la Confederación Internacional de Magos, Jefe de Magos del Wizengamot",
+   "nombreReal": "Albus Percival Wulfric Brian Dumbledore",
+   "edad": "115 al momento de su muerte",
+   "nacimiento": "Verano de 1881",
+   "especie": "Humano (mago mestizo)",
+   "rol": "Director de Hogwarts, líder de la Orden del Fénix",
+   "afiliacion": "Hogwarts (ex-Gryffindor), Orden del Fénix, Wizengamot, Confederación Internacional de Magos",
+   "primeraAparicion": "Harry Potter y la Piedra Filosofal (1997)",
+   "estado": "Fallecido (1997, Torre de Astronomía de Hogwarts)",
+   "descripcion": "Dumbledore es considerado el mago más poderoso de su época y el único al que Voldemort temió. Detrás de su imagen de anciano excéntrico amante de los caramelos de limón se esconde un estratega implacable con un pasado oscuro: en su juventud fue amigo íntimo de Gellert Grindelwald, con quien planeó una revolución mágica bajo el lema \"Por el bien mayor\", hasta que un duelo a tres bandas provocó la muerte de su hermana Ariana. Derrotó a Grindelwald en 1945 y obtuvo la Varita de Saúco. Como director, orquesta durante años un plan para derrotar a Voldemort que incluye su propia muerte planificada a manos de Snape, causada en parte por la maldición del anillo-Horrocrux de los Gaunt que le marchita la mano.",
+   "etiquetas": [
+    "Mago",
+    "Gryffindor",
+    "Director de Hogwarts",
+    "Orden del Fénix",
+    "Varita de Saúco",
+    "Reliquias de la Muerte",
+    "Grindelwald",
+    "Fallecido"
+   ],
+   "imagen": "imagenes/harry-potter-albus-dumbledore.webp"
   }
  ]
 }
