@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-17T20:00:32.560Z",
+ "actualizado": "2026-08-17T21:13:04.946Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -2358,7 +2358,7 @@
     "Alerta permanente",
     "Veterano"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-alastor-moody.webp"
   },
   {
    "id": "harry-potter-albus-dumbledore",
@@ -2408,7 +2408,7 @@
     "Familia Weasley",
     "Muggles"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-arthur-weasley.webp"
   },
   {
    "id": "harry-potter-bellatrix-lestrange",
@@ -2433,7 +2433,7 @@
     "Azkaban",
     "Antagonista"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-bellatrix-lestrange.webp"
   },
   {
    "id": "harry-potter-cedric-diggory",
@@ -2457,7 +2457,7 @@
     "Prefecto",
     "Quidditch"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-cedric-diggory.webp"
   },
   {
    "id": "harry-potter-dobby",
@@ -2481,7 +2481,7 @@
     "Sacrificio",
     "Magia élfica"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-dobby.webp"
   },
   {
    "id": "harry-potter-dolores-umbridge",
@@ -2505,7 +2505,7 @@
     "Suma inquisidora",
     "Burocracia"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-dolores-umbridge.webp"
   },
   {
    "id": "harry-potter-draco-malfoy",
@@ -2530,7 +2530,7 @@
     "Antagonista",
     "Quidditch"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-draco-malfoy.webp"
   },
   {
    "id": "harry-potter-fawkes",
@@ -2554,7 +2554,7 @@
     "Criatura mágica",
     "Renacimiento"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-fawkes.webp"
   },
   {
    "id": "harry-potter-filius-flitwick",
@@ -2579,7 +2579,7 @@
     "Hogwarts",
     "Ascendencia duende"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-filius-flitwick.webp"
   },
   {
    "id": "harry-potter-fleur-delacour",
@@ -2603,7 +2603,7 @@
     "Orden del Fénix",
     "Familia Weasley"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-fleur-delacour.webp"
   },
   {
    "id": "harry-potter-fred-weasley",
@@ -2627,7 +2627,7 @@
     "Bromas",
     "Ejército de Dumbledore"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-fred-weasley.webp"
   },
   {
    "id": "harry-potter-george-weasley",
@@ -2651,7 +2651,7 @@
     "Bromas",
     "Orden del Fénix"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-george-weasley.webp"
   },
   {
    "id": "harry-potter-gilderoy-lockhart",
@@ -2676,7 +2676,7 @@
     "Humor",
     "San Mungo"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-gilderoy-lockhart.webp"
   },
   {
    "id": "harry-potter-ginny-weasley",
@@ -2700,7 +2700,7 @@
     "Quidditch",
     "Cámara Secreta"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-ginny-weasley.webp"
   },
   {
    "id": "harry-potter-harry-potter",
@@ -2749,7 +2749,7 @@
     "Compañera",
     "Privet Drive"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-hedwig.webp"
   },
   {
    "id": "harry-potter-hermione-granger",
@@ -2799,32 +2799,7 @@
     "Club de las Eminencias",
     "Horrocruxes"
    ],
-   "imagen": ""
-  },
-  {
-   "id": "harry-potter-james-potter",
-   "mundo": "harry-potter",
-   "nombre": "James Potter",
-   "alias": "Cornamenta",
-   "nombreReal": "James Potter",
-   "edad": "21 al morir",
-   "nacimiento": "27 de marzo de 1960",
-   "especie": "Humano (mago de sangre pura)",
-   "rol": "Miembro de la Orden del Fénix",
-   "afiliacion": "Orden del Fénix, Hogwarts (Gryffindor)",
-   "primeraAparicion": "Harry Potter y la Piedra Filosofal (1997)",
-   "estado": "Muerto",
-   "descripcion": "El padre de Harry, muerto a los veintiún años defendiendo la puerta de su casa sin varita para que Lily tuviera tiempo de huir. En Hogwarts fue buscador, capitán y un chico bastante insoportable: arrogante, popular y cruel con Snape de un modo que Harry descubre con horror en un pensadero. Es animago no registrado, se transforma en ciervo y lidera a los merodeadores, que se hacen animagos para acompañar a Lupin en las lunas llenas. Madura tarde y por Lily. Su legado material es la capa de invisibilidad, una de las tres Reliquias de la Muerte.",
-   "etiquetas": [
-    "Mago",
-    "Gryffindor",
-    "Sangre pura",
-    "Orden del Fénix",
-    "Merodeadores",
-    "Animago",
-    "Quidditch"
-   ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-horace-slughorn.webp"
   },
   {
    "id": "harry-potter-kreacher",
@@ -2848,31 +2823,7 @@
     "Lealtad",
     "Redención"
    ],
-   "imagen": ""
-  },
-  {
-   "id": "harry-potter-lily-potter",
-   "mundo": "harry-potter",
-   "nombre": "Lily Potter",
-   "alias": "La madre de Harry",
-   "nombreReal": "Lily Evans",
-   "edad": "21 al morir",
-   "nacimiento": "30 de enero de 1960",
-   "especie": "Humana (bruja nacida de muggles)",
-   "rol": "Miembro de la Orden del Fénix",
-   "afiliacion": "Orden del Fénix, Hogwarts (Gryffindor)",
-   "primeraAparicion": "Harry Potter y la Piedra Filosofal (1997)",
-   "estado": "Muerta",
-   "descripcion": "Nacida de muggles y hermana de Petunia, Lily fue amiga de Severus Snape desde la infancia hasta que él eligió un camino que ella no estaba dispuesta a acompañar. Brillante en Pociones y en Encantamientos, es descrita por todos los que la conocieron con la misma palabra: buena. Muere poniéndose entre Voldemort y la cuna de Harry cuando podía haberse apartado, y esa elección voluntaria activa una magia antigua que él no comprende. Toda la saga descansa sobre ese gesto: la protección que deja en su hijo es lo que hace fracasar la maldición asesina y lo que mantiene a Harry a salvo durante diecisiete años.",
-   "etiquetas": [
-    "Bruja",
-    "Gryffindor",
-    "Nacida de muggles",
-    "Orden del Fénix",
-    "Sacrificio",
-    "Magia antigua"
-   ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-kreacher.webp"
   },
   {
    "id": "harry-potter-lord-voldemort",
@@ -2897,7 +2848,7 @@
     "Legeremancia",
     "Mestizo"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-lord-voldemort.webp"
   },
   {
    "id": "harry-potter-lucius-malfoy",
@@ -2921,7 +2872,7 @@
     "Antagonista",
     "Ministerio de Magia"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-lucius-malfoy.webp"
   },
   {
    "id": "harry-potter-luna-lovegood",
@@ -2945,7 +2896,7 @@
     "El Quisquilloso",
     "Excéntrica"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-luna-lovegood.webp"
   },
   {
    "id": "harry-potter-minerva-mcgonagall",
@@ -2970,7 +2921,7 @@
     "Profesora",
     "Directora"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-minerva-mcgonagall.webp"
   },
   {
    "id": "harry-potter-molly-weasley",
@@ -2994,7 +2945,7 @@
     "Familia Weasley",
     "Duelista"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-molly-weasley.webp"
   },
   {
    "id": "harry-potter-neville-longbottom",
@@ -3018,7 +2969,7 @@
     "Espada de Gryffindor",
     "Resistencia"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-neville-longbottom.webp"
   },
   {
    "id": "harry-potter-nymphadora-tonks",
@@ -3042,7 +2993,7 @@
     "Metamorfomaga",
     "Familia Black"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-nymphadora-tonks.webp"
   },
   {
    "id": "harry-potter-peter-pettigrew",
@@ -3067,7 +3018,7 @@
     "Traición",
     "Antagonista"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-peter-pettigrew.webp"
   },
   {
    "id": "harry-potter-remus-lupin",
@@ -3092,7 +3043,7 @@
     "Profesor",
     "Patronus"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-remus-lupin.webp"
   },
   {
    "id": "harry-potter-ron-weasley",
@@ -3116,7 +3067,7 @@
     "Ajedrez",
     "Prefecto"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-ron-weasley.webp"
   },
   {
    "id": "harry-potter-rubeus-hagrid",
@@ -3140,7 +3091,7 @@
     "Hogwarts",
     "Guardabosques"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-rubeus-hagrid.webp"
   },
   {
    "id": "harry-potter-severus-snape",
@@ -3165,7 +3116,7 @@
     "Pociones",
     "Oclumancia"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-severus-snape.webp"
   },
   {
    "id": "harry-potter-sirius-black",
@@ -3190,7 +3141,7 @@
     "Azkaban",
     "Padrino"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-sirius-black.webp"
   },
   {
    "id": "harry-potter-sybill-trelawney",
@@ -3214,7 +3165,7 @@
     "Hogwarts",
     "Vidente"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-sybill-trelawney.webp"
   },
   {
    "id": "harry-potter-viktor-krum",
@@ -3238,7 +3189,7 @@
     "Buscador",
     "Bulgaria"
    ],
-   "imagen": ""
+   "imagen": "imagenes/harry-potter-viktor-krum.webp"
   },
   {
    "id": "marvel-ant-man",
