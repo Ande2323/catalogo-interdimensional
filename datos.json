@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-17T01:17:26.996Z",
+ "actualizado": "2026-08-17T17:15:18.504Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -2180,6 +2180,23 @@
    "descripcion": "",
    "etiquetas": [],
    "imagen": "imagenes/dc-superman.webp"
+  },
+  {
+   "id": "dc-aquaman",
+   "mundo": "dc",
+   "nombre": "Aquaman",
+   "alias": "Rey de atlantis",
+   "nombreReal": "Arthur Curry",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Híbrido atlante-humano",
+   "rol": "Miembro fundador de la liga de la justicia",
+   "afiliacion": "liga de la justicia/atlantis",
+   "primeraAparicion": "More fun comics #73 ( 1941)",
+   "estado": "Vivo",
+   "descripcion": "Hijo de un faro y una atlante exiliada, Arthur Curry creció dividido entre dos mundos que rara vez lo reclaman por completo: la superficie lo ve como un extraño con branquias, y Atlantis lo ve como un mestizo sin derecho pleno al trono. Su fuerza, resistencia y capacidad para comunicarse con la vida marina lo convirtieron en un pilar físico de la Liga de la Justicia, pero su verdadero conflicto ha sido siempre político: gobernar un reino que desconfía de la superficie mientras intenta convencer a los humanos de que el océano no es un vertedero infinito. Ha perdido tronos, esposas e hijos en distintas versiones de su historia, y aun así vuelve una y otra vez a reclamar su lugar. Aquaman representa la idea de que liderar no es solo tener poder, sino sostener la paz entre dos pueblos que preferirían ignorarse.",
+   "etiquetas": [],
+   "imagen": "imagenes/dc-aquaman.webp"
   }
  ]
 }
