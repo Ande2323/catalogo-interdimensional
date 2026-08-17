@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-17T21:13:04.946Z",
+ "actualizado": "2026-08-17T22:16:52.989Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -3610,6 +3610,23 @@
     "NieR:Automata"
    ],
    "imagen": "imagenes/nier-pod-042.webp"
+  },
+  {
+   "id": "dc-sin-nombre",
+   "mundo": "dc",
+   "nombre": "Personaje sin nombre",
+   "alias": "",
+   "nombreReal": "",
+   "edad": "",
+   "nacimiento": "",
+   "especie": "",
+   "rol": "",
+   "afiliacion": "",
+   "primeraAparicion": "",
+   "estado": "",
+   "descripcion": "",
+   "etiquetas": [],
+   "imagen": ""
   }
  ]
 }
