@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-18T00:13:30.103Z",
+ "actualizado": "2026-08-18T00:17:42.600Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -49,6 +49,14 @@
    "tinta": "#FFFFFF",
    "descripcion": "El universo de Harry Potter, creado por J.K. Rowling, es un mundo mágico que existe en paralelo al mundo muggle (no mágico), oculto mediante encantamientos, leyes de secretismo y la labor del Ministerio de Magia. Su núcleo es Hogwarts, un castillo-escuela de magia y hechicería situado en las Tierras Altas de Escocia, donde los jóvenes magos son seleccionados en cuatro casas —Gryffindor, Slytherin, Ravenclaw y Hufflepuff— según sus cualidades, y formados durante siete años en disciplinas como Pociones, Transformaciones, Encantamientos y Defensa Contra las Artes Oscuras.",
    "orden": 5
+  },
+  {
+   "id": "god-of-war",
+   "nombre": "God of War",
+   "acento": "#ee913a",
+   "tinta": "#FFFFFF",
+   "descripcion": "El universo de God of War, creado por David Jaffe y desarrollado por Santa Monica Studio, es un mundo donde los mitos son reales y los dioses gobiernan sobre los mortales. La saga sigue a Kratos, un general espartano que, tras ser engañado por Ares para asesinar a su propia familia, jura venganza contra los dioses. En la era griega, destruye prácticamente todo el panteón del Olimpo —Ares, Zeus, Poseidón, Hades— sumiendo a Grecia en el caos. En la era nórdica, huye al norte buscando paz, pero se ve arrastrado junto a su hijo Atreus (quien resulta ser Loki) a un conflicto contra Baldur, Thor y Odín que desemboca en el Ragnarök. Los escenarios abarcan desde el Monte Olimpo y el Inframundo griego hasta los Nueve Reinos nórdicos conectados por el Yggdrasil.\n\nLa saga comprende God of War (2005), God of War II (2007), God of War III (2010), Chains of Olympus (2008), Ghost of Sparta (2010), Ascension (2013), God of War (2018) y God of War Ragnarök (2022). Es una historia sobre la ira, la culpa, la paternidad y la posibilidad de que incluso un monstruo pueda elegir ser algo distinto.",
+   "orden": 6
   }
  ],
  "personajes": [
