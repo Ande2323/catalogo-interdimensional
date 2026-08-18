@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-18T00:17:42.600Z",
+ "actualizado": "2026-08-18T00:57:48.381Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -2365,7 +2365,7 @@
     "Superviviente",
     "Neutral"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-afrodita.webp"
   },
   {
    "id": "god-of-war-alecto",
@@ -2389,7 +2389,7 @@
     "Ilusiones",
     "Ascension"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-alecto.webp"
   },
   {
    "id": "god-of-war-angrboda",
@@ -2413,7 +2413,7 @@
     "Profecía",
     "Última superviviente"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-angrboda.webp"
   },
   {
    "id": "god-of-war-ares",
@@ -2437,7 +2437,7 @@
     "Espadas del Caos",
     "Traición"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-ares.webp"
   },
   {
    "id": "god-of-war-atenea",
@@ -2461,7 +2461,7 @@
     "Sabiduría",
     "Espíritu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-atenea.webp"
   },
   {
    "id": "god-of-war-atlas",
@@ -2485,7 +2485,7 @@
     "Perséfone",
     "Colosal"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-atlas.webp"
   },
   {
    "id": "god-of-war-atreus",
@@ -2510,7 +2510,7 @@
     "Hijo de Kratos",
     "Midgard"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-atreus.webp"
   },
   {
    "id": "god-of-war-baldur",
@@ -2534,7 +2534,7 @@
     "Freya",
     "Odín"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-baldur.webp"
   },
   {
    "id": "god-of-war-brok",
@@ -2558,7 +2558,7 @@
     "Hacha Leviatán",
     "Trágico"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-brok.webp"
   },
   {
    "id": "god-of-war-calisto",
@@ -2582,7 +2582,7 @@
     "Maldición",
     "Trágica"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-calisto.webp"
   },
   {
    "id": "god-of-war-caliope",
@@ -2606,7 +2606,7 @@
     "Trágica",
     "Memoria"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-caliope.webp"
   },
   {
    "id": "god-of-war-caronte",
@@ -2629,7 +2629,7 @@
     "Barquero",
     "Chains of Olympus"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-caronte.webp"
   },
   {
    "id": "god-of-war-ceryx",
@@ -2677,7 +2677,7 @@
     "Colosal",
     "Padre de Zeus"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-cronos.webp"
   },
   {
    "id": "god-of-war-deimos",
@@ -2701,7 +2701,7 @@
     "Tánatos",
     "Trágico"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-deimos.webp"
   },
   {
    "id": "god-of-war-dedalo",
@@ -2725,7 +2725,7 @@
     "Inventor",
     "Trágico"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-dedalo.webp"
   },
   {
    "id": "god-of-war-faye",
@@ -2749,7 +2749,7 @@
     "Midgard",
     "Guerrera"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-faye.webp"
   },
   {
    "id": "god-of-war-fenrir",
@@ -2773,7 +2773,7 @@
     "Atreus",
     "Ragnarök"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-fenrir.webp"
   },
   {
    "id": "god-of-war-freya",
@@ -2797,7 +2797,7 @@
     "Magia",
     "Madre de Baldur"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-freya.webp"
   },
   {
    "id": "god-of-war-freyr",
@@ -2821,7 +2821,7 @@
     "Hermano de Freya",
     "Sacrificio"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-freyr.webp"
   },
   {
    "id": "god-of-war-gaia",
@@ -2845,7 +2845,7 @@
     "Tierra",
     "Traición"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-gaia.webp"
   },
   {
    "id": "god-of-war-garm",
@@ -2869,7 +2869,7 @@
     "Fenrir",
     "Ragnarök"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-garm.webp"
   },
   {
    "id": "god-of-war-hades",
@@ -2893,7 +2893,7 @@
     "Garras de Hades",
     "Olimpo"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-hades.webp"
   },
   {
    "id": "god-of-war-hefesto",
@@ -2917,7 +2917,7 @@
     "Inframundo",
     "Trágico"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-hefesto.webp"
   },
   {
    "id": "god-of-war-heimdall",
@@ -2941,7 +2941,7 @@
     "Telepatía",
     "Arrogancia"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-heimdall.webp"
   },
   {
    "id": "god-of-war-helios",
@@ -2965,7 +2965,7 @@
     "Cabeza de Helios",
     "Oscuridad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-helios.webp"
   },
   {
    "id": "god-of-war-hera",
@@ -2989,7 +2989,7 @@
     "Jardines",
     "Zeus"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-hera.webp"
   },
   {
    "id": "god-of-war-hermes",
@@ -3013,7 +3013,7 @@
     "Botas de Hermes",
     "Plaga"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-hermes.webp"
   },
   {
    "id": "god-of-war-hercules",
@@ -3037,7 +3037,7 @@
     "Cestos de Nemea",
     "Hermano"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-hercules.webp"
   },
   {
    "id": "god-of-war-jormungandr",
@@ -3061,7 +3061,7 @@
     "Colosal",
     "Bucle temporal"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-jormungandr.webp"
   },
   {
    "id": "god-of-war-kratos",
@@ -3086,7 +3086,7 @@
     "Hacha Leviatán",
     "Icónico"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-kratos.webp"
   },
   {
    "id": "god-of-war-las-hermanas-del-destino",
@@ -3110,7 +3110,7 @@
     "Telar",
     "Profecía"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-las-hermanas-del-destino.webp"
   },
   {
    "id": "god-of-war-lisandra",
@@ -3134,7 +3134,7 @@
     "Trágica",
     "Memoria"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-lisandra.webp"
   },
   {
    "id": "god-of-war-magni",
@@ -3157,7 +3157,7 @@
     "Hijo de Thor",
     "Fuerza"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-magni.webp"
   },
   {
    "id": "god-of-war-megera",
@@ -3180,7 +3180,7 @@
     "Insectos",
     "Ascension"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-megera.webp"
   },
   {
    "id": "god-of-war-modi",
@@ -3204,7 +3204,7 @@
     "Cobardía",
     "Trágico"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-modi.webp"
   },
   {
    "id": "god-of-war-mimir",
@@ -3228,7 +3228,7 @@
     "Asgard",
     "Narrador"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-mimir.webp"
   },
   {
    "id": "god-of-war-odin",
@@ -3252,7 +3252,7 @@
     "Rey",
     "Ragnarök"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-odin.webp"
   },
   {
    "id": "god-of-war-orkos",
@@ -3276,7 +3276,7 @@
     "Ascension",
     "Trágico"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-orkos.webp"
   },
   {
    "id": "god-of-war-pandora",
@@ -3300,7 +3300,7 @@
     "Llama del Olimpo",
     "Trágica"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-pandora.webp"
   },
   {
    "id": "god-of-war-persefone",
@@ -3324,7 +3324,7 @@
     "Campos Elíseos",
     "Atlas"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-persefone.webp"
   },
   {
    "id": "god-of-war-poseidon",
@@ -3348,7 +3348,7 @@
     "Terremotos",
     "Titanes"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-poseidon.webp"
   },
   {
    "id": "god-of-war-ratatoskr",
@@ -3371,7 +3371,7 @@
     "Ardilla",
     "Humor"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-ratatoskr.webp"
   },
   {
    "id": "god-of-war-sif",
@@ -3394,7 +3394,7 @@
     "Cosecha",
     "Superviviente"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-sif.webp"
   },
   {
    "id": "god-of-war-sigrun",
@@ -3418,7 +3418,7 @@
     "Odín",
     "Combate"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-sigrun.webp"
   },
   {
    "id": "god-of-war-sindri",
@@ -3442,7 +3442,7 @@
     "Mjölnir",
     "Trágico"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-sindri.webp"
   },
   {
    "id": "god-of-war-surtr",
@@ -3467,7 +3467,7 @@
     "Profecía",
     "Colosal"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-surtr.webp"
   },
   {
    "id": "god-of-war-thor",
@@ -3491,7 +3491,7 @@
     "Mjölnir",
     "Trágico"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-thor.webp"
   },
   {
    "id": "god-of-war-thrud",
@@ -3514,7 +3514,7 @@
     "Hija de Thor",
     "Superviviente"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-thrud.webp"
   },
   {
    "id": "god-of-war-tisifone",
@@ -3538,7 +3538,7 @@
     "Lisandra",
     "Ascension"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-tisifone.webp"
   },
   {
    "id": "god-of-war-tanatos",
@@ -3561,7 +3561,7 @@
     "Deimos",
     "Ghost of Sparta"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-tanatos.webp"
   },
   {
    "id": "god-of-war-tyr",
@@ -3585,7 +3585,7 @@
     "Prisionero",
     "Pacificador"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-tyr.webp"
   },
   {
    "id": "god-of-war-zeus",
@@ -3609,7 +3609,7 @@
     "Padre de Kratos",
     "Rayo"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-zeus.webp"
   },
   {
    "id": "god-of-war-artemis",
@@ -3632,7 +3632,7 @@
     "Espada de Artemisa",
     "Superviviente"
    ],
-   "imagen": ""
+   "imagen": "imagenes/god-of-war-artemis.webp"
   },
   {
    "id": "harry-potter-alastor-moody",
