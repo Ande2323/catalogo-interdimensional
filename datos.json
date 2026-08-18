@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-18T00:57:48.381Z",
+ "actualizado": "2026-08-18T00:59:26.921Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -2630,30 +2630,6 @@
     "Chains of Olympus"
    ],
    "imagen": "imagenes/god-of-war-caronte.webp"
-  },
-  {
-   "id": "god-of-war-ceryx",
-   "mundo": "god-of-war",
-   "nombre": "Ceryx",
-   "alias": "El mensajero de Hermes",
-   "nombreReal": "Ceryx",
-   "edad": "No especificada",
-   "nacimiento": "No especificada",
-   "especie": "Dios menor",
-   "rol": "Antagonista de Betrayal, heraldo del Olimpo",
-   "afiliacion": "Olimpo",
-   "primeraAparicion": "God of War: Betrayal (2007)",
-   "estado": "Muerto",
-   "descripcion": "Hijo de Hermes y mensajero del Olimpo, enviado por Zeus para detener a Kratos mientras este persigue a un asesino misterioso que ha inculpado al Dios de la Guerra. Se interpone en su camino transmitiendo una orden directa del rey de los dioses, y Kratos lo mata sin apenas escucharlo. Ese crimen es el detonante de la ruptura definitiva entre Kratos y el Olimpo, y lo que enlaza los acontecimientos del primer juego con los del segundo.",
-   "etiquetas": [
-    "Antagonista",
-    "Dios menor",
-    "Olimpo",
-    "Mensajero",
-    "Hermes",
-    "Betrayal"
-   ],
-   "imagen": ""
   },
   {
    "id": "god-of-war-cronos",
