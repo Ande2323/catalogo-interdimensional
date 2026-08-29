@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-18T23:25:39.224Z",
+ "actualizado": "2026-08-29T23:30:45.807Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -4745,7 +4745,7 @@
     "Familia",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-abuela-frump.webp"
   },
   {
    "id": "merlina-agnes-demille",
@@ -4769,7 +4769,7 @@
     "Ayudante",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-agnes-demille.webp"
   },
   {
    "id": "merlina-ajax-petropolus",
@@ -4793,7 +4793,7 @@
     "Petrificación",
     "Despistado"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-ajax-petropolus.webp"
   },
   {
    "id": "merlina-barry-dort",
@@ -4817,7 +4817,7 @@
     "Aislacionismo",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-barry-dort.webp"
   },
   {
    "id": "merlina-bianca-barclay",
@@ -4841,7 +4841,7 @@
     "Rival",
     "Aliada"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-bianca-barclay.webp"
   },
   {
    "id": "merlina-bruno-yuson",
@@ -4864,7 +4864,7 @@
     "Enid",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-bruno-yuson.webp"
   },
   {
    "id": "merlina-dedos",
@@ -4888,7 +4888,7 @@
     "Icónico",
     "Lenguaje de señas"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-dedos.webp"
   },
   {
    "id": "merlina-donovan-galpin",
@@ -4912,7 +4912,7 @@
     "Investigación",
     "Trágico"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-donovan-galpin.webp"
   },
   {
    "id": "merlina-enid-sinclair",
@@ -4936,7 +4936,7 @@
     "Transformación",
     "Colorida"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-enid-sinclair.webp"
   },
   {
    "id": "merlina-eugene-ottinger",
@@ -4960,7 +4960,7 @@
     "Club Zumbido",
     "Lealtad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-eugene-ottinger.webp"
   },
   {
    "id": "merlina-goody-addams",
@@ -4984,7 +4984,7 @@
     "Crackstone",
     "Antepasada"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-goody-addams.webp"
   },
   {
    "id": "merlina-homero-addams",
@@ -5008,7 +5008,7 @@
     "Pasional",
     "Familia"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-homero-addams.webp"
   },
   {
    "id": "merlina-isadora-capri",
@@ -5033,7 +5033,7 @@
     "Música",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-isadora-capri.webp"
   },
   {
    "id": "merlina-joseph-crackstone",
@@ -5057,7 +5057,7 @@
     "Resucitado",
     "Historia"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-joseph-crackstone.webp"
   },
   {
    "id": "merlina-largo",
@@ -5080,7 +5080,7 @@
     "Silencioso",
     "Lealtad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-largo.webp"
   },
   {
    "id": "merlina-larissa-weems",
@@ -5104,7 +5104,7 @@
     "Morticia",
     "Trágica"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-larissa-weems.webp"
   },
   {
    "id": "merlina-marilyn-thornhill",
@@ -5128,7 +5128,7 @@
     "Infiltrada",
     "Hyde"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-marilyn-thornhill.webp"
   },
   {
    "id": "merlina-merlina-addams",
@@ -5153,7 +5153,7 @@
     "Violonchelo",
     "Marginada"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-merlina-addams.webp"
   },
   {
    "id": "merlina-morticia-addams",
@@ -5177,7 +5177,7 @@
     "Elegancia",
     "Matrimonio"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-morticia-addams.webp"
   },
   {
    "id": "merlina-pericles-addams",
@@ -5200,7 +5200,7 @@
     "Nunca Más",
     "Poder emergente"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-pericles-addams.webp"
   },
   {
    "id": "merlina-ritchie-santiago",
@@ -5223,7 +5223,7 @@
     "Investigación",
     "Aliada"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-ritchie-santiago.webp"
   },
   {
    "id": "merlina-rowan-laslow",
@@ -5247,7 +5247,7 @@
     "Víctima",
     "Misterio"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-rowan-laslow.webp"
   },
   {
    "id": "merlina-slurp",
@@ -5271,7 +5271,7 @@
     "Corazón mecánico",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-slurp.webp"
   },
   {
    "id": "merlina-tyler-galpin",
@@ -5295,7 +5295,7 @@
     "Traición",
     "Vínculo"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-tyler-galpin.webp"
   },
   {
    "id": "merlina-tio-lucas",
@@ -5319,7 +5319,7 @@
     "Explosivos",
     "Cómplice"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-tio-lucas.webp"
   },
   {
    "id": "merlina-valerie-kinbott",
@@ -5343,7 +5343,7 @@
     "Víctima",
     "Tyler"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-valerie-kinbott.webp"
   },
   {
    "id": "merlina-xavier-thorpe",
@@ -5367,7 +5367,7 @@
     "Sospechoso",
     "Visiones"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-xavier-thorpe.webp"
   },
   {
    "id": "merlina-yoko-tanaka",
@@ -5390,7 +5390,7 @@
     "Amiga de Enid",
     "Aliada"
    ],
-   "imagen": ""
+   "imagen": "imagenes/merlina-yoko-tanaka.webp"
   },
   {
    "id": "nier-2b",
