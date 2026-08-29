@@ -4554,6 +4554,81 @@
    "imagen": "imagenes/honkai-star-rail-bestia-del-apocalipsis.webp"
   },
   {
+   "id": "honkai-star-rail-bronya-rand",
+   "mundo": "honkai-star-rail",
+   "nombre": "Bronya Rand",
+   "alias": "La comandante de los Guardias Cabellera de Plata",
+   "nombreReal": "Bronya Rand",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Comandante de los Guardias Cabellera de Plata, Guardiana Suprema",
+   "afiliacion": "Belobog, Guardias Cabellera de Plata",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Viva",
+   "descripcion": "Hija adoptiva de Cocolia y heredera de la Guardia de Belobog, criada para mandar y educada en la certeza de que su madre siempre tiene razón. Su arco consiste exactamente en desmontar esa certeza: descubrir que la mujer que la crió es la responsable de la ruina de su ciudad y decidir qué hacer con esa información. Es rígida, correcta hasta lo insoportable y profundamente incapaz de mentir. Su amistad con Seele, que viene del Subsuelo y representa todo lo que Belobog ha despreciado durante siglos, es lo que le permite imaginar una ciudad distinta. Acaba asumiendo el cargo de Guardiana Suprema.",
+   "etiquetas": [
+    "Belobog",
+    "Guardias Cabellera de Plata",
+    "Viento",
+    "Armonía",
+    "Liderazgo",
+    "Cocolia",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-clara",
+   "mundo": "honkai-star-rail",
+   "nombre": "Clara",
+   "alias": "La hija de Svarog",
+   "nombreReal": "Clara",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Habitante del Asentamiento Robótico",
+   "afiliacion": "Asentamiento Robótico, Jarilo-VI",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Viva",
+   "descripcion": "Una niña que perdió a su familia en el Invierno Eterno y fue recogida por Svarog, un autómata de combate que la crió a su manera. Vive en el Asentamiento Robótico, entre máquinas, y ha desarrollado una empatía por ellas que en Belobog nadie comparte: para Clara los robots no son herramientas sino vecinos. Nunca pelea sola; cuando alguien la ataca, es Svarog quien responde. Su bondad, en un arco donde todo el mundo tiene motivos para estar amargado, es deliberadamente desconcertante.",
+   "etiquetas": [
+    "Asentamiento Robótico",
+    "Físico",
+    "Destrucción",
+    "Svarog",
+    "Infancia",
+    "Empatía",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-cocolia-rand",
+   "mundo": "honkai-star-rail",
+   "nombre": "Cocolia Rand",
+   "alias": "La decimoctava Guardiana Suprema",
+   "nombreReal": "Cocolia Rand",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Antagonista principal del arco",
+   "afiliacion": "Belobog",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Fallecida",
+   "descripcion": "Decimoctava Guardiana Suprema de Belobog y madre adoptiva de Bronya. Gobernó la ciudad durante el Invierno Eterno con mano firme y un cariño genuino por su hija, hasta que el Estelarón de Jarilo-VI la corrompió. Convencida de que destruir Belobog era el único camino para crear un mundo nuevo, provocó la ruptura de las barreras y la expansión del Fragmentum sobre su propia ciudad. Muere derrotada por el Pionero, consumida por la energía del Fragmentum. Su tragedia es que nunca deja de creer que está salvando a todos, incluida la hija a la que estuvo a punto de matar.",
+   "etiquetas": [
+    "Antagonista",
+    "Belobog",
+    "Estelarón",
+    "Fragmentum",
+    "Guardiana Suprema",
+    "Bronya",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "honkai-star-rail-dan-heng",
    "mundo": "honkai-star-rail",
    "nombre": "Dan Heng",
@@ -4576,6 +4651,31 @@
     "Estación Herta"
    ],
    "imagen": "imagenes/honkai-star-rail-dan-heng.webp"
+  },
+  {
+   "id": "honkai-star-rail-gepard-landau",
+   "mundo": "honkai-star-rail",
+   "nombre": "Gepard Landau",
+   "alias": "El escudo de Belobog",
+   "nombreReal": "Gepard Landau",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Capitán de los Guardias Cabellera de Plata",
+   "afiliacion": "Belobog, Guardias Cabellera de Plata, Familia Landau",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Vivo",
+   "descripcion": "Capitán de la Guardia y el mayor de los tres hermanos Landau, una familia con siglos de servicio a Belobog. Su forma de entender el deber es literal: obedece las órdenes de Cocolia hasta el último momento posible, incluso cuando ya sospecha que algo va muy mal, porque romper la cadena de mando le parece peor que cualquier alternativa. Cuando por fin se planta, lo hace sin aspavientos. Combate con hielo levantando escudos que aguantan lo que sea, que es también su papel en la historia: el que se queda delante para que los demás pasen.",
+   "etiquetas": [
+    "Belobog",
+    "Guardias Cabellera de Plata",
+    "Hielo",
+    "Preservación",
+    "Familia Landau",
+    "Deber",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
   },
   {
    "id": "honkai-star-rail-herta",
@@ -4626,6 +4726,31 @@
    "imagen": "imagenes/honkai-star-rail-himeko.webp"
   },
   {
+   "id": "honkai-star-rail-hook",
+   "mundo": "honkai-star-rail",
+   "nombre": "Hook",
+   "alias": "La gran jefa de la Banda de los Topos",
+   "nombreReal": "Hook",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Miembro de Wildfire, líder de la Banda de los Topos",
+   "afiliacion": "Wildfire, Subsuelo de Belobog",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Viva",
+   "descripcion": "Una niña del Subsuelo convencida de ser la líder temible de una banda que en realidad son tres críos y un plan que cambia cada cinco minutos. Habla de sí misma en tercera persona, se autoproclama la gran jefa y arrastra un peluche al que consulta las decisiones importantes. Bajo el juego hay una huérfana que Natasha crió y que se toma lo de proteger su barrio completamente en serio. Combate con fuego, y la seriedad con que lo hace desarma bastante.",
+   "etiquetas": [
+    "Wildfire",
+    "Subsuelo",
+    "Fuego",
+    "Destrucción",
+    "Infancia",
+    "Banda de los Topos",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "honkai-star-rail-kafka",
    "mundo": "honkai-star-rail",
    "nombre": "Kafka",
@@ -4650,6 +4775,56 @@
    "imagen": "imagenes/honkai-star-rail-kafka.webp"
   },
   {
+   "id": "honkai-star-rail-luka",
+   "mundo": "honkai-star-rail",
+   "nombre": "Luka",
+   "alias": "El campeón del Subsuelo",
+   "nombreReal": "Luka",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Boxeador, miembro de Wildfire",
+   "afiliacion": "Wildfire, Subsuelo de Belobog",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Vivo",
+   "descripcion": "Boxeador del Subsuelo y miembro de Wildfire, con un brazo mecánico que perdió y recuperó a base de chatarra. Sueña con ganar el torneo del Supramundo y con que la gente de arriba tenga que aplaudir a alguien de abajo. Es fanfarrón, generoso y bastante peor peleando de lo que dice, aunque mejor de lo que aparenta cuando hace falta de verdad. Aprendió a luchar con Oleg. Su optimismo es el contrapeso de un barrio donde casi nadie tiene motivos para tenerlo.",
+   "etiquetas": [
+    "Wildfire",
+    "Subsuelo",
+    "Físico",
+    "Nihilidad",
+    "Boxeo",
+    "Brazo mecánico",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-lynx-landau",
+   "mundo": "honkai-star-rail",
+   "nombre": "Lynx Landau",
+   "alias": "La pequeña de los Landau",
+   "nombreReal": "Lynx Landau",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Exploradora y rescatadora",
+   "afiliacion": "Belobog, Familia Landau",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Viva",
+   "descripcion": "La menor de los Landau, dedicada a explorar el Invierno Eterno y a rescatar a quien se pierda ahí fuera, un trabajo que hace sola y en condiciones que sus hermanos preferirían no imaginar. Es tímida en el trato y completamente imperturbable en el hielo. Se conoce las rutas, las cuevas y los riesgos mejor que nadie de la Guardia, y cura y protege al grupo en combate. Su desparpajo aparece solo cuando habla de mapas.",
+   "etiquetas": [
+    "Belobog",
+    "Cuántico",
+    "Abundancia",
+    "Exploración",
+    "Rescate",
+    "Familia Landau",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "honkai-star-rail-march-7th",
    "mundo": "honkai-star-rail",
    "nombre": "March 7th",
@@ -4672,6 +4847,80 @@
     "Estación Herta"
    ],
    "imagen": "imagenes/honkai-star-rail-march-7th.webp"
+  },
+  {
+   "id": "honkai-star-rail-natasha",
+   "mundo": "honkai-star-rail",
+   "nombre": "Natasha",
+   "alias": "La doctora del Subsuelo",
+   "nombreReal": "Natasha",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Médica del Subsuelo",
+   "afiliacion": "Subsuelo de Belobog, Wildfire",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Viva",
+   "descripcion": "La única médica del Subsuelo, que atiende a todo el mundo con lo poco que tiene y sin preguntar de dónde viene nadie. Vino del Supramundo y se quedó abajo por decisión propia, algo que en Belobog no se hace. Es la figura de referencia para media generación de huérfanos de los túneles, Seele y Hook incluidas, y la voz que media cuando la Guardia y Wildfire están a punto de matarse. Cura con arte médico y trata a los pacientes con una firmeza que no admite discusión.",
+   "etiquetas": [
+    "Subsuelo",
+    "Abundancia",
+    "Física",
+    "Medicina",
+    "Wildfire",
+    "Maternal",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-oleg",
+   "mundo": "honkai-star-rail",
+   "nombre": "Oleg",
+   "alias": "Líder en funciones de Wildfire",
+   "nombreReal": "Oleg",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Líder en funciones de Wildfire",
+   "afiliacion": "Wildfire, Guardias Cabellera de Plata (antes)",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Vivo",
+   "descripcion": "Fue Guardia Cabellera de Plata en el Supramundo antes de bajar al Subsuelo y quedarse allí, y ahora ejerce de líder de Wildfire, aunque solo en funciones: el mando real es uno de los asuntos que la milicia prefiere no aclarar. Es el maestro de Luka y quien le enseñó a pelear. Su recorrido de arriba abajo lo convierte en el personaje que mejor entiende las dos mitades de Belobog, y en el que más difícil lo tiene para defender a ninguna de las dos.",
+   "etiquetas": [
+    "Wildfire",
+    "Subsuelo",
+    "Guardias Cabellera de Plata",
+    "Liderazgo",
+    "Maestro de Luka",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-pela",
+   "mundo": "honkai-star-rail",
+   "nombre": "Pela",
+   "alias": "La oficial de inteligencia",
+   "nombreReal": "Pela",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Oficial de inteligencia de los Guardias Cabellera de Plata",
+   "afiliacion": "Belobog, Guardias Cabellera de Plata",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Viva",
+   "descripcion": "Oficial de inteligencia de la Guardia, encargada del análisis y del papeleo que nadie más quiere tocar. Es metódica, pragmática y bastante más joven que la responsabilidad que carga. Su trabajo consiste en leer informes hasta encontrar la incoherencia, y es por ahí por donde empieza a tirar del hilo de lo que ocurre en Belobog. Combate con hielo y reduciendo las defensas del enemigo, que es básicamente su método también fuera del combate. En privado es una lectora voraz de novelas que jamás admitiría leer.",
+   "etiquetas": [
+    "Belobog",
+    "Guardias Cabellera de Plata",
+    "Hielo",
+    "Nihilidad",
+    "Inteligencia",
+    "Análisis",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
   },
   {
    "id": "honkai-star-rail-pionero",
@@ -4722,6 +4971,81 @@
    "imagen": "imagenes/honkai-star-rail-pom-pom.webp"
   },
   {
+   "id": "honkai-star-rail-sampo-koski",
+   "mundo": "honkai-star-rail",
+   "nombre": "Sampo Koski",
+   "alias": "Don Pies Fríos",
+   "nombreReal": "Sampo Koski",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Comerciante, informador, oportunista",
+   "afiliacion": "Belobog",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Vivo",
+   "descripcion": "Vendedor ambulante, informador y estafador de sonrisa permanente que aparece siempre justo donde hay algo que ganar. Vende información a los dos bandos, ayuda cuando le conviene y desaparece en cuanto la situación se complica. Su conocimiento del Subsuelo y del Fragmentum es demasiado bueno para un simple buhonero, y el juego deja caer a lo largo del arco que su verdadera filiación va bastante más allá de Belobog. Combate con dagas y veneno, y su norma es no quedarse nunca a ver cómo acaban las cosas.",
+   "etiquetas": [
+    "Belobog",
+    "Viento",
+    "Nihilidad",
+    "Comerciante",
+    "Informador",
+    "Oportunista",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-seele",
+   "mundo": "honkai-star-rail",
+   "nombre": "Seele",
+   "alias": "La mariposa del Subsuelo",
+   "nombreReal": "Seele",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Miembro de Wildfire",
+   "afiliacion": "Wildfire, Subsuelo de Belobog",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Viva",
+   "descripcion": "Criada en el Subsuelo, la mitad pobre y olvidada de Belobog, y miembro de Wildfire, la milicia que defiende esos túneles porque la Guardia de arriba no baja nunca. Es directa, agresiva y absolutamente leal a los suyos, con una desconfianza automática hacia cualquiera del Supramundo que le costó tiempo dejar atrás con Bronya. Combate cuerpo a cuerpo con una guadaña y un poder cuántico capaz de encadenar golpes. Su historia es la del arco entero en pequeño: dos mitades de una misma ciudad que llevan generaciones sin hablarse.",
+   "etiquetas": [
+    "Wildfire",
+    "Subsuelo",
+    "Cuántico",
+    "Cacería",
+    "Guadaña",
+    "Bronya",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-serval-landau",
+   "mundo": "honkai-star-rail",
+   "nombre": "Serval Landau",
+   "alias": "La estrella del rock de Belobog",
+   "nombreReal": "Serval Landau",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Mecánica, música",
+   "afiliacion": "Belobog, Familia Landau",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Viva",
+   "descripcion": "La hermana mayor de los Landau, expulsada de la investigación oficial por hacer preguntas que la Guardia prefería no oír sobre la tecnología del Viejo Mundo. En vez de amargarse montó un taller y una banda de rock, y ahora toca en el Subsuelo delante de la gente a la que su ciudad ignora. Repara cualquier cosa que tenga cables y combate con electricidad y una guitarra. Es la primera de Belobog que trata al Expreso Astral como visitantes interesantes en vez de como una amenaza.",
+   "etiquetas": [
+    "Belobog",
+    "Rayo",
+    "Erudición",
+    "Mecánica",
+    "Música",
+    "Familia Landau",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "honkai-star-rail-silver-wolf",
    "mundo": "honkai-star-rail",
    "nombre": "Silver Wolf",
@@ -4744,6 +5068,31 @@
     "Estación Herta"
    ],
    "imagen": "imagenes/honkai-star-rail-silver-wolf.webp"
+  },
+  {
+   "id": "honkai-star-rail-svarog",
+   "mundo": "honkai-star-rail",
+   "nombre": "Svarog",
+   "alias": "El robot del Viejo Mundo",
+   "nombreReal": "Svarog",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Autómata",
+   "rol": "Protector de Clara, líder del Asentamiento Robótico",
+   "afiliacion": "Asentamiento Robótico, Jarilo-VI",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Activo",
+   "descripcion": "Un robot de combate inteligente que sobrevivió al Viejo Mundo, anterior al Invierno Eterno, y que sigue en pie cuando ya no queda nada de la civilización que lo construyó. Encontró a Clara huérfana y decidió cuidarla, algo que hace aplicando una lógica de máquina a un problema humano: protege sus deseos por sus propios métodos, que rara vez coinciden con lo que ella haría. Combate junto a ella y responde a cualquiera que la amenace. Es la pieza que conecta el presente de Belobog con lo que hubo antes del hielo.",
+   "etiquetas": [
+    "Autómata",
+    "Asentamiento Robótico",
+    "Viejo Mundo",
+    "Clara",
+    "Combate",
+    "Protector",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
   },
   {
    "id": "honkai-star-rail-welt-yang",
