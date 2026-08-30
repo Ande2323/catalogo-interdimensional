@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-30T01:58:29.004Z",
+ "actualizado": "2026-08-30T02:21:17.250Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -281,7 +281,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-atalanta.webp"
   },
   {
    "id": "fate-bedivere",
@@ -331,7 +331,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-carmilla.webp"
   },
   {
    "id": "fate-charles-henri-sanson",
@@ -356,7 +356,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-charles-henri-sanson.webp"
   },
   {
    "id": "fate-chevalier-d-eon",
@@ -381,7 +381,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-chevalier-d-eon.webp"
   },
   {
    "id": "fate-cu-chulainn",
@@ -478,7 +478,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-elizabeth-bathory.webp"
   },
   {
    "id": "fate-enkidu",
@@ -553,7 +553,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-fantasma-de-la-opera.webp"
   },
   {
    "id": "fate-gareth",
@@ -628,7 +628,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-georgios.webp"
   },
   {
    "id": "fate-gilgamesh",
@@ -848,7 +848,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-jeanne-d-arc.webp"
   },
   {
    "id": "fate-jeanne-d-arc-alter",
@@ -873,7 +873,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-jeanne-d-arc-alter.webp"
   },
   {
    "id": "fate-kingu",
@@ -923,7 +923,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-kiyohime.webp"
   },
   {
    "id": "fate-lancelot",
@@ -997,7 +997,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-marie-antoinette.webp"
   },
   {
    "id": "fate-martha",
@@ -1022,7 +1022,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-martha.webp"
   },
   {
    "id": "fate-medea",
@@ -1319,7 +1319,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-siegfried.webp"
   },
   {
    "id": "fate-tiamat",
@@ -1419,7 +1419,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-vlad-iii.webp"
   },
   {
    "id": "fate-wolfgang-amadeus-mozart",
@@ -1444,7 +1444,7 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-wolfgang-amadeus-mozart.webp"
   },
   {
    "id": "fnaf-balloon-boy",
