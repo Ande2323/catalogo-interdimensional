@@ -230,6 +230,13 @@ const Admin = (() => {
             <input id="c-${c.clave}" data-campo="${c.clave}" value="${esc(p[c.clave] ?? "")}"></div>`).join("")}
           <div class="campo ancho"><label for="c-descripcion">Descripción</label>
             <textarea id="c-descripcion" data-campo="descripcion" placeholder="Quién es, de dónde sale, qué papel juega…">${esc(p.descripcion)}</textarea></div>
+          <div class="campo"><label for="c-efecto">Efecto de fondo</label>
+            <select id="c-efecto" data-campo="efecto">
+              <option value="">Ninguno</option>
+              ${Efectos.disponibles().map(e =>
+                `<option value="${esc(e.clave)}"${p.efecto === e.clave ? " selected" : ""}>${esc(e.nombre)}</option>`).join("")}
+            </select>
+            <div class="ayuda">Se anima detrás del retrato en la ficha.</div></div>
           <div class="campo ancho"><label for="c-etiquetas">Etiquetas</label>
             <input id="c-etiquetas" data-campo="etiquetas" value="${esc((p.etiquetas || []).join(", "))}" placeholder="Héroe, Mutante, Fundador">
             <div class="ayuda">Separadas por comas.</div></div>
@@ -352,6 +359,7 @@ const Admin = (() => {
     // si le cambias el mundo a un personaje, el filtro le sigue en vez de
     // hacerlo desaparecer de la lista
     if (campo === "mundo" && mundoFiltro) { mundoFiltro = valor; pintarSelectorMundo(); }
+    if (campo === "efecto") pintarDetalle();
     if (el) validar(el);
     pintarLista();
     if (vista === "mundos") pintarMundos();

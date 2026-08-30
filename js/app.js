@@ -225,6 +225,7 @@ function elegirPersonaje(id) {
 function pintarDetalle() {
   const cont = $("#detalle");
   const p = personajePorId(Estado.personajeId);
+  Efectos.parar();          // el de la ficha anterior deja de correr
 
   if (!p) {
     const buscando = Boolean(Estado.busqueda.trim());
@@ -264,6 +265,7 @@ function pintarDetalle() {
     </div>`;
 
   $("#btnFav").onclick = () => Fav.alternar(p.id);
+  if (p.efecto) Efectos.montar(p.efecto, cont.querySelector(".detalle-arte"));
 }
 
 /* ---------- teclado ---------- */

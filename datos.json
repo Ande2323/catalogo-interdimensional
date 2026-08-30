@@ -873,7 +873,8 @@
     "Orleans",
     "Primera Singularidad"
    ],
-   "imagen": "imagenes/fate-jeanne-d-arc-alter.webp"
+   "imagen": "imagenes/fate-jeanne-d-arc-alter.webp",
+   "efecto": "llamas-oscuras"
   },
   {
    "id": "fate-kingu",
