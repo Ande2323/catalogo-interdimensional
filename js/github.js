@@ -103,6 +103,11 @@ const GH = (() => {
     }
 
     alProgresar("Preparando los datos…");
+    // Red de seguridad: el editor ya coloca cada ficha en su sitio al crearla y
+    // al renombrarla, pero lo que se sube se ordena igualmente. Así el archivo
+    // sale ordenado aunque alguien toque los datos por otra vía, y el diff de
+    // cada publicación se queda en lo que de verdad ha cambiado.
+    datos.personajes.sort(compararPersonajes);
     datos.actualizado = new Date().toISOString();
     const blobDatos = await api("/git/blobs", {
       method: "POST",

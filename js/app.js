@@ -82,12 +82,16 @@ function idLibre(base, existentes) {
    ficha se recoloca en cada cambio en vez de quedarse donde nació. La
    comparación es la simple de JavaScript, que es la del resto del archivo: deja
    «EMIYA» antes que «Elizabeth Báthory». */
+function compararPersonajes(a, b) {
+  if (a.mundo !== b.mundo) return a.mundo < b.mundo ? -1 : 1;
+  if (a.nombre !== b.nombre) return a.nombre < b.nombre ? -1 : 1;
+  return 0;
+}
 function colocarEnOrden(p) {
   const lista = Estado.datos.personajes;
   const i = lista.indexOf(p);
   if (i >= 0) lista.splice(i, 1);
-  const antesQue = (a, b) => (a.mundo !== b.mundo ? a.mundo < b.mundo : a.nombre < b.nombre);
-  const pos = lista.findIndex(x => antesQue(p, x));
+  const pos = lista.findIndex(x => compararPersonajes(p, x) < 0);
   lista.splice(pos < 0 ? lista.length : pos, 0, p);
 }
 
