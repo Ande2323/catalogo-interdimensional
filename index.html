@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Russo+One&display=swap" rel="stylesheet">
 <!-- El ?v= obliga al navegador a traerse la versión nueva en vez de la que
      tenga guardada. Súbelo cuando cambies css o js. -->
-<link rel="stylesheet" href="css/estilos.css?v=11">
+<link rel="stylesheet" href="css/estilos.css?v=12">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23FFE14D'/><path d='M9 25.5A2.5 2.5 0 0 1 11.5 23H24M11.5 7H24v18H11.5A2.5 2.5 0 0 1 9 22.5v-13A2.5 2.5 0 0 1 11.5 7z' fill='none' stroke='%230B0B10' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/></svg>">
 </head>
 <body>
@@ -32,6 +32,8 @@
   <symbol id="i-nube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 17.6A4.5 4.5 0 0 0 17.5 9h-1.3A7 7 0 1 0 5 16.3"/><path d="M12 12v9M8.5 15.5 12 12l3.5 3.5"/></symbol>
   <symbol id="i-rueda" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.2-8.5"/></symbol>
   <symbol id="i-salir" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/></symbol>
+  <symbol id="i-corazon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21.2l7.8-7.7 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+  <symbol id="i-usuario" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
   <symbol id="i-flecha" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
 </svg>
 
@@ -80,8 +82,13 @@
         <button id="limpiarBuscarMundo" aria-label="Limpiar búsqueda de mundos"><svg><use href="#i-x"/></svg></button>
       </div>
     </div>
+    <button class="favoritos-nav oculto" id="btnFavoritos">
+      <svg><use href="#i-corazon"/></svg>
+      <span class="nm">Mis favoritos</span><span class="ct" id="cuentaFavoritos">0</span>
+    </button>
     <nav class="mundos" id="listaMundos"><div class="label">Universos</div></nav>
     <div class="lateral-pie">
+      <button id="btnCuenta"><svg><use href="#i-usuario"/></svg> <span>Iniciar sesión</span></button>
       <button data-abrir-sesion id="btnEditar"><svg><use href="#i-candado"/></svg> <span>Modo editor</span></button>
     </div>
   </aside>
@@ -178,6 +185,32 @@
   </div>
 </div>
 
+<!-- ============ MODAL: CUENTA ============ -->
+<div class="velo" id="modalCuenta">
+  <div class="modal">
+    <div class="icono"><svg><use href="#i-corazon"/></svg></div>
+    <h3 id="tituloCuenta">Entrar en tu cuenta</h3>
+    <p id="textoCuenta">Tus favoritos se guardan en tu cuenta, así los tienes en cualquier dispositivo. Los que ya hayas marcado sin sesión se suben solos.</p>
+    <div class="campo">
+      <label for="correo">Correo</label>
+      <input id="correo" type="email" autocomplete="email" placeholder="tu@correo.com">
+    </div>
+    <div class="campo">
+      <label for="clave">Contraseña</label>
+      <input id="clave" type="password" autocomplete="current-password" placeholder="mínimo 6 caracteres">
+      <div class="error oculto" id="errorCuenta"><svg><use href="#i-alerta"/></svg> <span></span></div>
+    </div>
+    <div class="modal-acciones">
+      <button class="btn btn-fantasma" data-cerrar-modal>Cancelar</button>
+      <button class="btn btn-primario" id="btnEntrarCuenta">Entrar</button>
+    </div>
+    <p class="cambiar-modo">
+      <span id="textoCambiar">¿No tienes cuenta?</span>
+      <button id="btnCambiarModo">Regístrate</button>
+    </p>
+  </div>
+</div>
+
 <!-- ============ MODAL: PUBLICAR ============ -->
 <div class="velo" id="modalPublicar">
   <div class="modal">
@@ -211,10 +244,12 @@
 
 <div class="avisos" id="avisos"></div>
 
-<script src="js/config.js?v=11"></script>
-<script src="js/imagen.js?v=11"></script>
-<script src="js/github.js?v=11"></script>
-<script src="js/app.js?v=11"></script>
-<script src="js/admin.js?v=11"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/config.js?v=12"></script>
+<script src="js/imagen.js?v=12"></script>
+<script src="js/github.js?v=12"></script>
+<script src="js/favoritos.js?v=12"></script>
+<script src="js/app.js?v=12"></script>
+<script src="js/admin.js?v=12"></script>
 </body>
 </html>

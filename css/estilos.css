@@ -368,3 +368,34 @@ a{color:var(--accent)}
 ::-webkit-scrollbar-thumb{background:var(--bg-600);border-radius:9px;border:2px solid var(--bg-850)}
 ::-webkit-scrollbar-thumb:hover{background:#3A3A4A}
 @media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* ---------- cuentas y favoritos ---------- */
+.favoritos-nav{width:calc(100% - var(--s4));margin:var(--s3) var(--s2) 0;display:flex;align-items:center;
+  gap:11px;padding:10px 12px;border-radius:var(--r-card);text-align:left;color:var(--fg-dim);
+  border:1px solid var(--line);transition:background .16s,color .16s,border-color .16s}
+.favoritos-nav svg{width:15px;height:15px;flex:none;fill:none}
+.favoritos-nav .nm{flex:1;font-size:13.5px;font-weight:500}
+.favoritos-nav .ct{font-size:11px;color:var(--fg-faint);font-variant-numeric:tabular-nums}
+.favoritos-nav:hover{background:var(--bg-700);color:var(--fg);border-color:var(--line-strong)}
+.favoritos-nav.activo{background:rgba(244,63,94,.14);border-color:transparent;color:#F43F5E;font-weight:600}
+.favoritos-nav.activo svg{fill:#F43F5E}
+.favoritos-nav.activo .ct{color:#F43F5E}
+
+/* corazón grande, en la ficha */
+.btn-corazon{display:flex;align-items:center;justify-content:center;width:38px;height:38px;flex:none;
+  border-radius:50%;border:1px solid var(--line-strong);color:var(--fg-dim);background:var(--bg-700);
+  transition:transform .18s var(--ease),color .18s,border-color .18s,background .18s}
+.btn-corazon svg{width:18px;height:18px;fill:none}
+.btn-corazon:hover{color:#F43F5E;border-color:#F43F5E;transform:scale(1.08)}
+.btn-corazon.marcado{color:#F43F5E;border-color:transparent;background:rgba(244,63,94,.16)}
+.btn-corazon.marcado svg{fill:#F43F5E}
+.btn-corazon:active{transform:scale(.92)}
+
+/* marca discreta en la tarjeta del carrusel */
+.ficha-card .marca-fav{position:absolute;top:8px;left:8px;width:15px;height:15px;color:#F43F5E;
+  filter:drop-shadow(0 1px 3px rgba(0,0,0,.7))}
+.ficha-card .marca-fav svg{width:15px;height:15px;fill:#F43F5E}
+
+#btnCuenta.con-cuenta{color:#F43F5E}
+.cambiar-modo{margin-top:var(--s4);text-align:center;font-size:12.5px;color:var(--fg-faint)}
+.cambiar-modo button{color:var(--accent);font-weight:600;text-decoration:underline;font-size:12.5px}

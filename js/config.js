@@ -36,3 +36,12 @@ const CAMPOS_FICHA = [
   { clave: "primeraAparicion", etiqueta: "Primera aparición" },
   { clave: "estado",           etiqueta: "Estado" },
 ];
+
+/* Supabase: cuentas y favoritos.
+   La clave publicable va a la vista a propósito: es pública por diseño. Lo que
+   protege los datos son las políticas de seguridad por fila de la tabla
+   «favoritos», que impiden leer o tocar lo de otro usuario. */
+const SUPABASE = {
+  url: "https://bhtcmbfpgsoqhlzmgzwm.supabase.co",
+  clave: "sb_publishable_stbMuUvirL2k-1NGJX8SHQ_kP-cSs7n",
+};

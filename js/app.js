@@ -10,6 +10,7 @@ const Estado = {
   personajeId: null,
   busqueda: "",
   busquedaMundo: "",
+  vistaFavoritos: false,
   sucio: false,            // hay cambios sin publicar
   imagenesNuevas: [],      // [{ruta, base64}]
   rutasABorrar: [],
@@ -107,6 +108,13 @@ const mundosOrdenados = () =>
   [...Estado.datos.mundos].sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
 
 function pintarMundos() {
+  const bf = $("#btnFavoritos");
+  if (bf) {
+    const n = Fav.cuantos();
+    bf.classList.toggle("oculto", n === 0 && !Estado.vistaFavoritos);
+    bf.classList.toggle("activo", Estado.vistaFavoritos);
+    $("#cuentaFavoritos").textContent = n;
+  }
   const nav = $("#listaMundos");
   nav.innerHTML = '<div class="label">Universos</div>';
   const q = Estado.busquedaMundo.trim().toLowerCase();
@@ -120,7 +128,7 @@ function pintarMundos() {
 
   for (const m of ordenados) {
     const b = document.createElement("button");
-    b.className = "mundo" + (m.id === Estado.mundoId ? " activo" : "");
+    b.className = "mundo" + (m.id === Estado.mundoId && !Estado.vistaFavoritos ? " activo" : "");
     const n = personajesDe(m.id).length;
     b.innerHTML = `<span class="punto" style="background:${esc(m.acento)}"></span>
       <span class="nm">${esc(m.nombre)}</span><span class="ct">${n || "—"}</span>`;
@@ -130,6 +138,7 @@ function pintarMundos() {
 }
 
 function elegirMundo(id) {
+  Estado.vistaFavoritos = false;
   Estado.mundoId = id;
   Estado.personajeId = null;
   aplicarAcento(mundoPorId(id));
@@ -148,7 +157,9 @@ function elegirMundo(id) {
    confundía más que ayudaba. */
 function listaVisible() {
   const q = Estado.busqueda.trim().toLowerCase();
-  const delMundo = personajesDe(Estado.mundoId);
+  const delMundo = Estado.vistaFavoritos
+    ? Estado.datos.personajes.filter(p => Fav.es(p.id))
+    : personajesDe(Estado.mundoId);
   if (!q) return delMundo;
   return delMundo.filter(p =>
     p.nombre.toLowerCase().includes(q) ||
@@ -162,8 +173,8 @@ function pintarRiel() {
   const buscando = Boolean(Estado.busqueda.trim());
   const mundo = mundoPorId(Estado.mundoId);
 
-  $("#tituloMundo").textContent = mundo?.nombre ?? "—";
-  const total = personajesDe(Estado.mundoId).length;
+  $("#tituloMundo").textContent = Estado.vistaFavoritos ? "Mis favoritos" : (mundo?.nombre ?? "—");
+  const total = Estado.vistaFavoritos ? Fav.cuantos() : personajesDe(Estado.mundoId).length;
   $("#cuentaMundo").textContent = !lista.length
     ? (buscando ? "— nada coincide" : "— sin personajes todavía")
     : buscando ? `— ${lista.length} de ${total}`
@@ -178,14 +189,16 @@ function pintarRiel() {
     const arte = src
       ? `<img src="${esc(src)}" alt="${esc(p.nombre)}" loading="lazy">`
       : `<svg><use href="#i-persona"/></svg>`;
+    const sub = Estado.vistaFavoritos ? (mundoPorId(p.mundo)?.nombre ?? "") : (p.alias || "—");
     b.innerHTML = `${estaCompleto(p) ? "" : '<span class="marca-inc" title="Ficha sin completar"></span>'}
+      ${Fav.es(p.id) ? `<span class="marca-fav" title="En tus favoritos">${icono("i-corazon")}</span>` : ""}
       <span class="arte">${arte}</span>
-      <span class="placa"><span class="n">${esc(p.nombre)}</span><span class="r">${esc(p.alias || "—")}</span></span>`;
+      <span class="placa"><span class="n">${esc(p.nombre)}</span><span class="r">${esc(sub)}</span></span>`;
     b.onclick = () => elegirPersonaje(p.id);
     riel.appendChild(b);
   }
 
-  if (!buscando && GH.hayToken()) {
+  if (!buscando && !Estado.vistaFavoritos && GH.hayToken()) {
     const add = document.createElement("button");
     add.className = "ficha-card nueva";
     add.innerHTML = `${icono("i-mas")}<span>Añadir</span>`;
@@ -234,6 +247,9 @@ function pintarDetalle() {
       <div class="detalle-titulo">
         <h2>${esc(p.nombre)}</h2>
         ${p.alias ? `<span class="alias">${esc(p.alias)}</span>` : ""}
+        <button class="btn-corazon${Fav.es(p.id) ? " marcado" : ""}" id="btnFav"
+                title="${Fav.es(p.id) ? "Quitar de favoritos" : "Guardar en favoritos"}"
+                aria-pressed="${Fav.es(p.id)}">${icono("i-corazon")}</button>
       </div>
       <div class="origen">${esc(origen || mundo?.nombre || "")}</div>
       ${campos.length ? `<div class="campos">${campos.map(c =>
@@ -245,6 +261,8 @@ function pintarDetalle() {
       ${p.etiquetas?.length ? `<div class="seccion-k">Etiquetas</div>
         <div class="etiquetas">${p.etiquetas.map(t => `<span class="etiqueta">${esc(t)}</span>`).join("")}</div>` : ""}
     </div>`;
+
+  $("#btnFav").onclick = () => Fav.alternar(p.id);
 }
 
 /* ---------- teclado ---------- */
@@ -290,6 +308,63 @@ document.addEventListener("keydown", e => {
   if (e.key === "Escape") $$(".velo.abierto").forEach(v => v.classList.remove("abierto"));
 });
 
+
+/* ---------- favoritos y cuenta ---------- */
+$("#btnFavoritos").onclick = () => {
+  Estado.vistaFavoritos = !Estado.vistaFavoritos;
+  Estado.personajeId = null;
+  if (!Estado.vistaFavoritos && !Estado.mundoId) Estado.mundoId = mundosOrdenados()[0]?.id;
+  aplicarAcento(Estado.vistaFavoritos ? null : mundoPorId(Estado.mundoId));
+  $("#miga").textContent = Estado.vistaFavoritos ? "Explorador · Mis favoritos"
+    : `Explorador · ${mundoPorId(Estado.mundoId)?.nombre ?? ""}`;
+  pintarMundos(); pintarRiel();
+};
+
+/* El modal hace de registro y de acceso; cambia de modo sin recargar nada. */
+let modoRegistro = false;
+function abrirCuenta() {
+  if (Fav.hayCuenta()) {
+    if (confirm(`Sesión de ${Fav.quien().email}. ¿Cerrarla?`)) {
+      Fav.salir().then(() => Aviso.ok("Sesión cerrada", "Tus favoritos vuelven a guardarse solo en este navegador."));
+    }
+    return;
+  }
+  modoRegistro = false; pintarModoCuenta();
+  $("#errorCuenta").classList.add("oculto");
+  $("#modalCuenta").classList.add("abierto");
+  setTimeout(() => $("#correo").focus(), 60);
+}
+function pintarModoCuenta() {
+  $("#tituloCuenta").textContent = modoRegistro ? "Crear una cuenta" : "Entrar en tu cuenta";
+  $("#btnEntrarCuenta").textContent = modoRegistro ? "Registrarme" : "Entrar";
+  $("#textoCambiar").textContent = modoRegistro ? "¿Ya tienes cuenta?" : "¿No tienes cuenta?";
+  $("#btnCambiarModo").textContent = modoRegistro ? "Entra" : "Regístrate";
+  $("#clave").autocomplete = modoRegistro ? "new-password" : "current-password";
+}
+$("#btnCuenta").onclick = abrirCuenta;
+$("#btnCambiarModo").onclick = () => { modoRegistro = !modoRegistro; pintarModoCuenta(); };
+
+$("#btnEntrarCuenta").onclick = async () => {
+  const correo = $("#correo").value.trim(), clave = $("#clave").value;
+  const err = $("#errorCuenta"), btn = $("#btnEntrarCuenta");
+  const fallar = t => { err.querySelector("span").textContent = t; err.classList.remove("oculto"); };
+  if (!correo || !clave) return fallar("Rellena el correo y la contraseña.");
+
+  btn.disabled = true; const antes = btn.textContent; btn.textContent = "Un momento…";
+  try {
+    const u = modoRegistro ? await Fav.registrar(correo, clave) : await Fav.entrar(correo, clave);
+    $("#modalCuenta").classList.remove("abierto");
+    $("#correo").value = ""; $("#clave").value = ""; err.classList.add("oculto");
+    Aviso.ok(`Hola, ${u.email.split("@")[0]}`,
+      Fav.cuantos() ? `Tienes ${Fav.cuantos()} favoritos guardados.` : "Marca personajes con el corazón.");
+  } catch (e) {
+    fallar(e.message);
+  } finally {
+    btn.disabled = false; btn.textContent = antes;
+  }
+};
+$("#clave").addEventListener("keydown", e => { if (e.key === "Enter") $("#btnEntrarCuenta").click(); });
+
 /* ---------- arranque ---------- */
 async function arrancar() {
   try {
@@ -314,6 +389,8 @@ async function arrancar() {
   if (primero) elegirMundo(primero.id); else { pintarMundos(); pintarRiel(); }
 
   // admin.js declara Admin con const, así que no está en window: se comprueba por nombre.
+  await Fav.iniciar();
+
   const u = await GH.reanudar();
   if (u && typeof Admin !== "undefined") Admin.marcarSesion(u);
 }
