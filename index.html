@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Russo+One&display=swap" rel="stylesheet">
 <!-- El ?v= obliga al navegador a traerse la versión nueva en vez de la que
      tenga guardada. Súbelo cuando cambies css o js. -->
-<link rel="stylesheet" href="css/estilos.css?v=12">
+<link rel="stylesheet" href="css/estilos.css?v=13">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23FFE14D'/><path d='M9 25.5A2.5 2.5 0 0 1 11.5 23H24M11.5 7H24v18H11.5A2.5 2.5 0 0 1 9 22.5v-13A2.5 2.5 0 0 1 11.5 7z' fill='none' stroke='%230B0B10' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/></svg>">
 </head>
 <body>
@@ -32,6 +32,7 @@
   <symbol id="i-nube" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 17.6A4.5 4.5 0 0 0 17.5 9h-1.3A7 7 0 1 0 5 16.3"/><path d="M12 12v9M8.5 15.5 12 12l3.5 3.5"/></symbol>
   <symbol id="i-rueda" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-6.2-8.5"/></symbol>
   <symbol id="i-salir" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9"/></symbol>
+  <symbol id="i-plegar" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></symbol>
   <symbol id="i-corazon" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21.2l7.8-7.7 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></symbol>
   <symbol id="i-usuario" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
   <symbol id="i-flecha" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
@@ -76,6 +77,9 @@
 <section class="pantalla" id="explorador">
   <aside class="lateral">
     <div class="lateral-cabeza">
+      <button class="plegar" id="btnPlegar" title="Ocultar los mundos" aria-label="Ocultar el panel de mundos">
+        <svg><use href="#i-plegar"/></svg>
+      </button>
       <div class="buscador" id="cajaBuscarMundo">
         <svg><use href="#i-lupa"/></svg>
         <input id="buscarMundo" placeholder="Buscar mundo…" aria-label="Buscar mundo">
@@ -245,11 +249,11 @@
 <div class="avisos" id="avisos"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/config.js?v=12"></script>
-<script src="js/imagen.js?v=12"></script>
-<script src="js/github.js?v=12"></script>
-<script src="js/favoritos.js?v=12"></script>
-<script src="js/app.js?v=12"></script>
-<script src="js/admin.js?v=12"></script>
+<script src="js/config.js?v=13"></script>
+<script src="js/imagen.js?v=13"></script>
+<script src="js/github.js?v=13"></script>
+<script src="js/favoritos.js?v=13"></script>
+<script src="js/app.js?v=13"></script>
+<script src="js/admin.js?v=13"></script>
 </body>
 </html>

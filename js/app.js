@@ -130,6 +130,7 @@ function pintarMundos() {
     const b = document.createElement("button");
     b.className = "mundo" + (m.id === Estado.mundoId && !Estado.vistaFavoritos ? " activo" : "");
     const n = personajesDe(m.id).length;
+    b.title = `${m.nombre} — ${n} ${n === 1 ? "personaje" : "personajes"}`;
     b.innerHTML = `<span class="punto" style="background:${esc(m.acento)}"></span>
       <span class="nm">${esc(m.nombre)}</span><span class="ct">${n || "—"}</span>`;
     b.onclick = () => elegirMundo(m.id);
@@ -308,6 +309,29 @@ document.addEventListener("keydown", e => {
   if (e.key === "Escape") $$(".velo.abierto").forEach(v => v.classList.remove("abierto"));
 });
 
+
+
+/* El lateral se pliega a una franja de iconos. Se recuerda la elección, que
+   quien lo pliega suele quererlo plegado siempre. */
+const LATERAL_PLEGADO = "catalogo:lateralPlegado";
+function pintarPlegado(plegado) {
+  $(".lateral").classList.toggle("plegado", plegado);
+  const b = $("#btnPlegar");
+  b.title = plegado ? "Mostrar los mundos" : "Ocultar los mundos";
+  b.setAttribute("aria-label", b.title);
+  b.setAttribute("aria-expanded", String(!plegado));
+  try { localStorage.setItem(LATERAL_PLEGADO, plegado ? "1" : "0"); } catch { /* modo privado */ }
+}
+$("#btnPlegar").onclick = () => {
+  const plegado = !$(".lateral").classList.contains("plegado");
+  pintarPlegado(plegado);
+  if (plegado) {                       // al plegar se limpia el buscador, que deja de verse
+    $("#buscarMundo").value = ""; Estado.busquedaMundo = "";
+    $("#cajaBuscarMundo").classList.remove("con-texto");
+    pintarMundos();
+  }
+};
+try { if (localStorage.getItem(LATERAL_PLEGADO) === "1") pintarPlegado(true); } catch { /* modo privado */ }
 
 /* ---------- favoritos y cuenta ---------- */
 $("#btnFavoritos").onclick = () => {

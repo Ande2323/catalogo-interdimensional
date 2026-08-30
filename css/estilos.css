@@ -399,3 +399,31 @@ a{color:var(--accent)}
 #btnCuenta.con-cuenta{color:#F43F5E}
 .cambiar-modo{margin-top:var(--s4);text-align:center;font-size:12.5px;color:var(--fg-faint)}
 .cambiar-modo button{color:var(--accent);font-weight:600;text-decoration:underline;font-size:12.5px}
+
+/* ---------- lateral plegable ---------- */
+.lateral{transition:width .24s var(--ease)}
+.lateral-cabeza{display:flex;align-items:center;gap:var(--s2)}
+.lateral-cabeza .buscador{flex:1;min-width:0}
+.plegar{flex:none;width:32px;height:32px;display:grid;place-items:center;border-radius:var(--r-card);
+  border:1px solid var(--line);color:var(--fg-faint);background:var(--bg-700);
+  transition:color .16s,border-color .16s,transform .24s var(--ease)}
+.plegar svg{width:15px;height:15px}
+.plegar:hover{color:var(--fg);border-color:var(--line-strong)}
+
+.lateral.plegado{width:58px}
+.lateral.plegado .plegar{transform:rotate(180deg)}
+.lateral.plegado .lateral-cabeza{justify-content:center;padding-left:0;padding-right:0}
+.lateral.plegado .buscador,
+.lateral.plegado .mundos .label,
+.lateral.plegado .mundo .nm,
+.lateral.plegado .mundo .ct,
+.lateral.plegado .favoritos-nav .nm,
+.lateral.plegado .favoritos-nav .ct,
+.lateral.plegado .lateral-pie span{display:none}
+.lateral.plegado .mundo,
+.lateral.plegado .favoritos-nav,
+.lateral.plegado .lateral-pie button{justify-content:center;padding-left:0;padding-right:0}
+.lateral.plegado .favoritos-nav{width:calc(100% - var(--s3));margin-left:6px;margin-right:6px}
+.lateral.plegado .mundo .punto{width:12px;height:12px;border-radius:4px}
+.lateral.plegado .mundo.activo::before{height:26px}
+.lateral.plegado .mundos{padding-left:6px;padding-right:6px}
