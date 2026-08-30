@@ -137,7 +137,16 @@ a{color:var(--accent)}
 .carrusel-cabeza{display:flex;align-items:baseline;gap:var(--s3);padding:0 var(--s6) var(--s4);flex-wrap:wrap}
 .carrusel-cabeza h2{font-size:19px;letter-spacing:.08em;text-transform:uppercase}
 .carrusel-cabeza .cuenta{font-size:12px;color:var(--fg-faint);letter-spacing:.08em}
-.carrusel-cabeza .pista{margin-left:auto;font-size:11px;color:var(--fg-faint);display:flex;align-items:center;gap:7px}
+/* La búsqueda de personajes vive aquí, junto a las fichas, y la del lateral
+   pasó a filtrar mundos: con una decena de universos, buscar en la lista de
+   la izquierda ya era lo natural. */
+.buscador-personaje{margin-left:auto;width:min(260px,32vw);padding:7px 11px;flex:none}
+.buscador-personaje input{font-size:13px}
+.carrusel-cabeza .pista{font-size:11px;color:var(--fg-faint);display:flex;align-items:center;gap:7px}
+@media (max-width:1080px){
+  .buscador-personaje{width:190px}
+  .carrusel-cabeza .pista{display:none}
+}
 .tecla{border:1px solid var(--line-strong);border-radius:var(--r-chip);padding:1px 6px;font-size:10.5px;color:var(--fg-dim)}
 /* Sin `scrollbar-width`: en cuanto se declara, Chromium dibuja la barra del
    sistema e ignora las reglas ::-webkit-scrollbar de más abajo, y esta barra

@@ -121,7 +121,7 @@ const Admin = (() => {
     if (vista !== "personajes") return;
 
     const sel = $("#selectorMundo");
-    const mundos = [...Estado.datos.mundos].sort((a, b) => (a.orden ?? 0) - (b.orden ?? 0));
+    const mundos = mundosOrdenados();
     sel.innerHTML =
       `<option value="">Todos los mundos (${Estado.datos.personajes.length})</option>` +
       mundos.map(m =>
@@ -148,8 +148,7 @@ const Admin = (() => {
     cont.innerHTML = "";
     const items = vista === "personajes"
       ? personajesFiltrados().sort((a, b) => a.nombre.localeCompare(b.nombre, "es"))
-      : [...Estado.datos.mundos].filter(m => !filtro || m.nombre.toLowerCase().includes(filtro))
-          .sort((a, b) => (a.orden ?? 0) - (b.orden ?? 0));
+      : mundosOrdenados().filter(m => !filtro || m.nombre.toLowerCase().includes(filtro));
 
     if (!items.length) {
       const mundo = mundoFiltro ? mundoPorId(mundoFiltro)?.nombre : null;
@@ -269,8 +268,6 @@ const Admin = (() => {
           </select></div>
         <div class="campo ancho"><label for="c-descripcion">Descripción</label>
           <textarea id="c-descripcion" data-campo="descripcion" style="min-height:96px">${esc(m.descripcion ?? "")}</textarea></div>
-        <div class="campo"><label for="c-orden">Orden en la lista</label>
-          <input id="c-orden" data-campo="orden" type="number" value="${m.orden ?? 0}"></div>
       </div>
       <div class="barra-guardar">
         <button class="btn btn-peligro btn-sm" id="btnBorrar">${icono("i-basura")} Borrar mundo</button>

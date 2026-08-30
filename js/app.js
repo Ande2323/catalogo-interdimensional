@@ -9,6 +9,7 @@ const Estado = {
   mundoId: null,
   personajeId: null,
   busqueda: "",
+  busquedaMundo: "",
   sucio: false,            // hay cambios sin publicar
   imagenesNuevas: [],      // [{ruta, base64}]
   rutasABorrar: [],
@@ -100,10 +101,23 @@ function irA(id) {
 }
 
 /* ---------- render: mundos ---------- */
+/* Los mundos van alfabéticos: con una decena en la lista, buscar por orden de
+   creación no lo encuentra nadie. */
+const mundosOrdenados = () =>
+  [...Estado.datos.mundos].sort((a, b) => a.nombre.localeCompare(b.nombre, "es"));
+
 function pintarMundos() {
   const nav = $("#listaMundos");
   nav.innerHTML = '<div class="label">Universos</div>';
-  const ordenados = [...Estado.datos.mundos].sort((a, b) => (a.orden ?? 0) - (b.orden ?? 0));
+  const q = Estado.busquedaMundo.trim().toLowerCase();
+  const ordenados = mundosOrdenados().filter(m => !q || m.nombre.toLowerCase().includes(q));
+
+  if (!ordenados.length) {
+    nav.insertAdjacentHTML("beforeend",
+      `<p style="padding:var(--s4) var(--s3);font-size:12.5px;color:var(--fg-faint)">Ningún mundo se llama así.</p>`);
+    return;
+  }
+
   for (const m of ordenados) {
     const b = document.createElement("button");
     b.className = "mundo" + (m.id === Estado.mundoId ? " activo" : "");
@@ -248,6 +262,17 @@ $("#buscar").addEventListener("input", e => {
   Estado.personajeId = null;
   pintarRiel();
 });
+$("#buscarMundo").addEventListener("input", e => {
+  Estado.busquedaMundo = e.target.value;
+  $("#cajaBuscarMundo").classList.toggle("con-texto", Boolean(Estado.busquedaMundo));
+  pintarMundos();
+});
+$("#limpiarBuscarMundo").onclick = () => {
+  $("#buscarMundo").value = ""; Estado.busquedaMundo = "";
+  $("#cajaBuscarMundo").classList.remove("con-texto");
+  pintarMundos(); $("#buscarMundo").focus();
+};
+
 $("#limpiarBuscar").onclick = () => {
   $("#buscar").value = ""; Estado.busqueda = "";
   $("#cajaBuscar").classList.remove("con-texto");
@@ -278,7 +303,10 @@ async function arrancar() {
   $("#estadoCarga").textContent = "Archivo cargado";
   $("#btnEntrar").disabled = false;
 
-  const primero = [...Estado.datos.mundos].sort((a, b) => (a.orden ?? 0) - (b.orden ?? 0))[0];
+  // La lista va alfabética, pero se entra por el mundo con más contenido: abrir
+  // en uno de dos personajes por empezar por D es una mala carta de presentación.
+  const primero = [...Estado.datos.mundos]
+    .sort((a, b) => personajesDe(b.id).length - personajesDe(a.id).length)[0];
   if (primero) elegirMundo(primero.id); else { pintarMundos(); pintarRiel(); }
 
   // admin.js declara Admin con const, así que no está en window: se comprueba por nombre.

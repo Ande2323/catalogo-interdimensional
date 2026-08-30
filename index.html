@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Russo+One&display=swap" rel="stylesheet">
 <!-- El ?v= obliga al navegador a traerse la versión nueva en vez de la que
      tenga guardada. Súbelo cuando cambies css o js. -->
-<link rel="stylesheet" href="css/estilos.css?v=8">
+<link rel="stylesheet" href="css/estilos.css?v=10">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23FFE14D'/><path d='M9 25.5A2.5 2.5 0 0 1 11.5 23H24M11.5 7H24v18H11.5A2.5 2.5 0 0 1 9 22.5v-13A2.5 2.5 0 0 1 11.5 7z' fill='none' stroke='%230B0B10' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/></svg>">
 </head>
 <body>
@@ -74,10 +74,10 @@
 <section class="pantalla" id="explorador">
   <aside class="lateral">
     <div class="lateral-cabeza">
-      <div class="buscador" id="cajaBuscar">
+      <div class="buscador" id="cajaBuscarMundo">
         <svg><use href="#i-lupa"/></svg>
-        <input id="buscar" placeholder="Buscar personaje…" aria-label="Buscar personaje">
-        <button id="limpiarBuscar" aria-label="Limpiar búsqueda"><svg><use href="#i-x"/></svg></button>
+        <input id="buscarMundo" placeholder="Buscar mundo…" aria-label="Buscar mundo">
+        <button id="limpiarBuscarMundo" aria-label="Limpiar búsqueda de mundos"><svg><use href="#i-x"/></svg></button>
       </div>
     </div>
     <nav class="mundos" id="listaMundos"><div class="label">Universos</div></nav>
@@ -91,6 +91,11 @@
       <div class="carrusel-cabeza">
         <h2 id="tituloMundo">—</h2>
         <span class="cuenta" id="cuentaMundo"></span>
+        <div class="buscador buscador-personaje" id="cajaBuscar">
+          <svg><use href="#i-lupa"/></svg>
+          <input id="buscar" placeholder="Buscar personaje…" aria-label="Buscar personaje">
+          <button id="limpiarBuscar" aria-label="Limpiar búsqueda"><svg><use href="#i-x"/></svg></button>
+        </div>
         <span class="pista"><span class="tecla">←</span><span class="tecla">→</span> navegar</span>
       </div>
       <div class="riel" id="riel"></div>
@@ -206,10 +211,10 @@
 
 <div class="avisos" id="avisos"></div>
 
-<script src="js/config.js?v=8"></script>
-<script src="js/imagen.js?v=8"></script>
-<script src="js/github.js?v=8"></script>
-<script src="js/app.js?v=8"></script>
-<script src="js/admin.js?v=8"></script>
+<script src="js/config.js?v=10"></script>
+<script src="js/imagen.js?v=10"></script>
+<script src="js/github.js?v=10"></script>
+<script src="js/app.js?v=10"></script>
+<script src="js/admin.js?v=10"></script>
 </body>
 </html>
