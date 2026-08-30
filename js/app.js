@@ -46,6 +46,24 @@ const personajePorId = id => Estado.datos.personajes.find(p => p.id === id);
 const personajesDe = id => Estado.datos.personajes.filter(p => p.mundo === id);
 const estaCompleto = p => Boolean(p.descripcion && p.descripcion.trim());
 
+/* Qué le falta a una ficha para estar entera. Sirve para el filtro de
+   incompletos del panel y para explicar en el aviso qué hay que rellenar. */
+const CAMPOS_REVISABLES = [
+  { clave: "imagen", etiqueta: "retrato" },
+  { clave: "descripcion", etiqueta: "descripción" },
+  { clave: "etiquetas", etiqueta: "etiquetas" },
+  { clave: "alias", etiqueta: "alias" },
+  ...CAMPOS_FICHA.map(c => ({ clave: c.clave, etiqueta: c.etiqueta.toLowerCase() })),
+];
+function camposQueFaltan(p) {
+  return CAMPOS_REVISABLES
+    .filter(c => {
+      const v = p[c.clave];
+      return Array.isArray(v) ? v.length === 0 : !String(v ?? "").trim();
+    })
+    .map(c => c.etiqueta);
+}
+
 /* El id acaba siendo el nombre del archivo de la imagen, así que conviene que
    se lea: «marvel-iron-man.webp» y no «nuevo-1786920255771.webp». */
 function idLibre(base, existentes) {

@@ -5,6 +5,7 @@ const Admin = (() => {
   let seleccion = null;
   let filtro = "";
   let mundoFiltro = null;   // null = todos los mundos
+  let soloIncompletos = false;
 
   /* ---------- sesión ---------- */
   function marcarSesion(u) {
@@ -74,6 +75,18 @@ const Admin = (() => {
   });
 
   $("#filtroAdmin").addEventListener("input", e => { filtro = e.target.value.toLowerCase(); pintarLista(); });
+
+  $("#selectorMundo").addEventListener("change", e => {
+    mundoFiltro = e.target.value || null;
+    seleccion = null;
+    pintarPanel();
+  });
+
+  $("#btnIncompletos").onclick = () => {
+    soloIncompletos = !soloIncompletos;
+    seleccion = null;
+    pintarPanel();
+  };
   $("#btnNuevo").onclick = () => (vista === "personajes" ? nuevoPersonaje(Estado.mundoId) : nuevoMundo());
 
   function pintarPanel() {
@@ -83,37 +96,39 @@ const Admin = (() => {
     const inc = personajesFiltrados({ soloMundo: true }).filter(p => !estaCompleto(p)).length;
     av.classList.toggle("oculto", vista !== "personajes" || inc === 0);
     if (inc) av.querySelector("span").textContent = `${inc} sin descripción`;
-    pintarChips();
+    pintarSelectorMundo();
     pintarLista();
     pintarFormulario();
   }
 
   /* La lista del editor se parte por mundos: con cien personajes de un solo
-     universo, verlos todos juntos no hay quien lo maneje. */
-  function pintarChips() {
-    const caja = $("#chipsMundo");
+     universo, verlos todos juntos no hay quien lo maneje. Va en desplegable y
+     no en fila de fichas, porque con muchos mundos aquello no cabía. */
+  function pintarSelectorMundo() {
+    const caja = $("#filaFiltros");
     caja.classList.toggle("oculto", vista !== "personajes");
     if (vista !== "personajes") return;
-    caja.innerHTML = "";
 
-    const hacer = (id, nombre, color, n) => {
-      const b = document.createElement("button");
-      b.className = "chip-mundo" + (mundoFiltro === id ? " activo" : "");
-      b.innerHTML = `${color ? `<span class="p" style="background:${esc(color)}"></span>` : ""}
-        <span class="t">${esc(nombre)}</span><span class="c">${n}</span>`;
-      b.onclick = () => { mundoFiltro = id; seleccion = null; pintarPanel(); };
-      caja.appendChild(b);
-    };
+    const sel = $("#selectorMundo");
+    const mundos = [...Estado.datos.mundos].sort((a, b) => (a.orden ?? 0) - (b.orden ?? 0));
+    sel.innerHTML =
+      `<option value="">Todos los mundos (${Estado.datos.personajes.length})</option>` +
+      mundos.map(m =>
+        `<option value="${esc(m.id)}"${m.id === mundoFiltro ? " selected" : ""}>${esc(m.nombre)} (${personajesDe(m.id).length})</option>`
+      ).join("");
 
-    hacer(null, "Todos", null, Estado.datos.personajes.length);
-    [...Estado.datos.mundos]
-      .sort((a, b) => (a.orden ?? 0) - (b.orden ?? 0))
-      .forEach(m => hacer(m.id, m.nombre, m.acento, personajesDe(m.id).length));
+    const inc = personajesFiltrados({ soloMundo: true, ignorarIncompletos: true })
+      .filter(p => camposQueFaltan(p).length).length;
+    const btn = $("#btnIncompletos");
+    btn.setAttribute("aria-pressed", String(soloIncompletos));
+    btn.querySelector("span").innerHTML = `Incompletas <span class="n">${inc}</span>`;
+    btn.disabled = inc === 0 && !soloIncompletos;
   }
 
-  function personajesFiltrados({ soloMundo = false } = {}) {
+  function personajesFiltrados({ soloMundo = false, ignorarIncompletos = false } = {}) {
     return Estado.datos.personajes
       .filter(p => !mundoFiltro || p.mundo === mundoFiltro)
+      .filter(p => ignorarIncompletos || !soloIncompletos || camposQueFaltan(p).length)
       .filter(p => soloMundo || !filtro || p.nombre.toLowerCase().includes(filtro));
   }
 
@@ -127,9 +142,13 @@ const Admin = (() => {
 
     if (!items.length) {
       const mundo = mundoFiltro ? mundoPorId(mundoFiltro)?.nombre : null;
+      const texto = filtro ? "Nada coincide con el filtro."
+        : soloIncompletos ? (mundo ? `Todas las fichas de «${esc(mundo)}» están completas.`
+                                   : "No queda ninguna ficha incompleta.")
+        : mundo ? `«${esc(mundo)}» todavía no tiene personajes.`
+        : "Todavía no hay nada aquí.";
       cont.innerHTML = `<div class="vacio" style="padding:var(--s6) var(--s4)">
-        ${icono("i-lupa")}<p>${filtro ? "Nada coincide con el filtro."
-          : mundo ? `«${esc(mundo)}» todavía no tiene personajes.` : "Todavía no hay nada aquí."}</p></div>`;
+        ${icono(soloIncompletos && !filtro ? "i-check" : "i-lupa")}<p>${texto}</p></div>`;
       return;
     }
 
@@ -141,7 +160,8 @@ const Admin = (() => {
         b.innerHTML = `<span class="mini">${src ? `<img src="${esc(src)}" alt="" loading="lazy">` : icono("i-persona")}</span>
           <span class="t"><span class="n">${esc(it.nombre)}</span>
           <span class="s">${esc(mundoPorId(it.mundo)?.nombre ?? "sin mundo")}</span></span>
-          ${estaCompleto(it) ? "" : '<span class="falta" title="Sin descripción"></span>'}`;
+          ${(() => { const f = camposQueFaltan(it);
+             return f.length ? `<span class="falta" title="Falta: ${esc(f.join(", "))}"></span>` : ""; })()}`;
       } else {
         const n = personajesDe(it.id).length;
         b.innerHTML = `<span class="mini" style="background:${esc(it.acento)};border-radius:5px"></span>
@@ -323,7 +343,7 @@ const Admin = (() => {
     }
     // si le cambias el mundo a un personaje, el filtro le sigue en vez de
     // hacerlo desaparecer de la lista
-    if (campo === "mundo" && mundoFiltro) { mundoFiltro = valor; pintarChips(); }
+    if (campo === "mundo" && mundoFiltro) { mundoFiltro = valor; pintarSelectorMundo(); }
     if (el) validar(el);
     pintarLista();
     if (vista === "mundos") pintarMundos();
@@ -466,7 +486,10 @@ const Admin = (() => {
   }
 
   /* ---------- publicar ---------- */
-  $("#btnPublicar").onclick = async () => {
+  /* Antes de subir se pide una descripción de lo hecho: es lo que queda como
+     mensaje del commit, y sin ella el historial es una fila de «Actualizar
+     catálogo» imposible de recorrer. */
+  $("#btnPublicar").onclick = () => {
     if (!Estado.sucio) return Aviso.ok("No hay nada que publicar", "Todo está ya en GitHub.");
 
     const sinNombre = [...Estado.datos.personajes, ...Estado.datos.mundos].filter(x => !x.nombre?.trim());
@@ -474,6 +497,26 @@ const Admin = (() => {
       return Aviso.error("Hay fichas sin nombre", `${sinNombre.length} sin rellenar. Complétalas antes de publicar.`);
     }
 
+    $("#resumenAuto").textContent = `Se añadirá automáticamente: ${resumirCambios()}`;
+    $("#mensajePublicar").value = "";
+    $("#modalPublicar").classList.add("abierto");
+    setTimeout(() => $("#mensajePublicar").focus(), 60);
+  };
+
+  $("#mensajePublicar").addEventListener("keydown", e => {
+    if (e.key === "Enter") $("#btnConfirmarPublicar").click();
+  });
+
+  $("#btnConfirmarPublicar").onclick = async () => {
+    const titulo = $("#mensajePublicar").value.trim();
+    if (!titulo) {
+      return Aviso.error("Falta la descripción", "Escribe en una línea qué has cambiado.");
+    }
+    $("#modalPublicar").classList.remove("abierto");
+    await publicar(titulo);
+  };
+
+  async function publicar(titulo) {
     const t = Aviso.trabajando("Publicando…", "Preparando");
     $("#btnPublicar").disabled = true;
     try {
@@ -481,7 +524,7 @@ const Admin = (() => {
         datos: Estado.datos,
         imagenesNuevas: Estado.imagenesNuevas,
         rutasABorrar: Estado.rutasABorrar,
-        mensaje: resumirCambios(),
+        mensaje: `${titulo}\n\n${resumirCambios()}`,
         alProgresar: p => t.actualizar(p),
       });
       Estado.sucio = false;
@@ -498,16 +541,17 @@ const Admin = (() => {
     } finally {
       $("#btnPublicar").disabled = false;
     }
-  };
+  }
 
   const resumirCambios = () => {
     const partes = [];
     if (Estado.imagenesNuevas.length) partes.push(`${Estado.imagenesNuevas.length} imagen(es)`);
     if (Estado.rutasABorrar.length) partes.push(`${Estado.rutasABorrar.length} borrada(s)`);
     const quien = GH.quienEdita()?.login ?? "editor";
-    return `Actualizar catálogo (${Estado.datos.personajes.length} personajes, ${Estado.datos.mundos.length} mundos)`
-      + (partes.length ? ` · ${partes.join(", ")}` : "")
-      + `\n\nPublicado desde el panel web por ${quien}.`;
+    // Va como cuerpo del commit, debajo de la descripción que escribe el editor.
+    return `Catálogo con ${Estado.datos.personajes.length} personajes en ${Estado.datos.mundos.length} mundos`
+      + (partes.length ? `. ${partes.join(", ")}` : "")
+      + `. Publicado desde el panel web por ${quien}.`;
   };
 
   window.addEventListener("beforeunload", e => {

@@ -217,15 +217,25 @@ a{color:var(--accent)}
 .admin-cols{flex:1;min-height:0;display:flex}
 .admin-lista{width:330px;flex:none;border-right:1px solid var(--line);overflow-y:auto;padding:var(--s3);display:flex;flex-direction:column;gap:1px}
 .admin-lista-filtro{padding:0 var(--s2) var(--s3);position:sticky;top:calc(var(--s3) * -1);background:var(--bg-850);z-index:2}
-.chips-mundo{display:flex;flex-wrap:wrap;gap:6px;padding-top:var(--s3)}
-.chip-mundo{display:flex;align-items:center;gap:6px;font-size:11px;letter-spacing:.03em;padding:5px 10px;
-  border-radius:var(--r-pill);background:var(--bg-700);border:1px solid var(--line);color:var(--fg-dim);
-  transition:background .16s,color .16s,border-color .16s;max-width:100%}
-.chip-mundo:hover{color:var(--fg);border-color:var(--line-strong)}
-.chip-mundo.activo{background:var(--accent-soft);border-color:transparent;color:var(--accent);font-weight:600}
-.chip-mundo .p{width:7px;height:7px;border-radius:2px;flex:none}
-.chip-mundo .t{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.chip-mundo .c{opacity:.65;font-variant-numeric:tabular-nums;flex:none}
+/* Desplegable en vez de una fila de fichas: con muchos mundos, aquello crecía
+   hasta empujar la lista fuera de la pantalla. */
+.fila-filtros{display:flex;gap:6px;padding-top:var(--s3)}
+.fila-filtros select{flex:1;min-width:0;background:var(--bg-700);border:1px solid var(--line);
+  border-radius:var(--r-card);padding:8px 10px;color:var(--fg);font:inherit;font-size:12.5px;
+  outline:none;cursor:pointer;transition:border-color .16s,background .16s}
+.fila-filtros select:focus{border-color:var(--accent);background:var(--bg-600)}
+.fila-filtros button{display:flex;align-items:center;gap:6px;flex:none;padding:8px 11px;
+  border-radius:var(--r-card);background:var(--bg-700);border:1px solid var(--line);color:var(--fg-dim);
+  font-size:11.5px;transition:background .16s,color .16s,border-color .16s}
+.fila-filtros button svg{width:13px;height:13px;flex:none}
+.fila-filtros button:hover{color:var(--fg);border-color:var(--line-strong)}
+.fila-filtros button[aria-pressed="true"]{background:rgba(245,158,11,.14);border-color:transparent;
+  color:var(--warn);font-weight:600}
+.fila-filtros button .n{font-variant-numeric:tabular-nums;opacity:.75}
+@media (max-width:1080px){
+  .fila-filtros{flex-wrap:wrap}
+  .fila-filtros button span:not(.n){display:none}
+}
 .fila{display:flex;align-items:center;gap:11px;padding:9px 11px;border-radius:var(--r-card);transition:background .15s;cursor:pointer;text-align:left;width:100%}
 .fila:hover{background:var(--bg-700)}
 .fila.activa{background:var(--bg-700);box-shadow:inset 2px 0 0 var(--accent)}
