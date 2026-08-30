@@ -143,15 +143,17 @@ function elegirMundo(id) {
 }
 
 /* ---------- render: carrusel ---------- */
+/* La búsqueda se queda dentro del mundo que se está mirando: el lateral ya
+   sirve para cambiar de universo, así que sacar resultados de otros aquí
+   confundía más que ayudaba. */
 function listaVisible() {
   const q = Estado.busqueda.trim().toLowerCase();
-  if (q) {
-    return Estado.datos.personajes.filter(p =>
-      p.nombre.toLowerCase().includes(q) ||
-      (p.alias || "").toLowerCase().includes(q) ||
-      (p.nombreReal || "").toLowerCase().includes(q));
-  }
-  return personajesDe(Estado.mundoId);
+  const delMundo = personajesDe(Estado.mundoId);
+  if (!q) return delMundo;
+  return delMundo.filter(p =>
+    p.nombre.toLowerCase().includes(q) ||
+    (p.alias || "").toLowerCase().includes(q) ||
+    (p.nombreReal || "").toLowerCase().includes(q));
 }
 
 function pintarRiel() {
@@ -160,10 +162,12 @@ function pintarRiel() {
   const buscando = Boolean(Estado.busqueda.trim());
   const mundo = mundoPorId(Estado.mundoId);
 
-  $("#tituloMundo").textContent = buscando ? "Resultados" : (mundo?.nombre ?? "—");
-  $("#cuentaMundo").textContent = lista.length
-    ? `— ${lista.length} ${lista.length === 1 ? "personaje" : "personajes"}`
-    : (buscando ? "— nada encontrado" : "— sin personajes todavía");
+  $("#tituloMundo").textContent = mundo?.nombre ?? "—";
+  const total = personajesDe(Estado.mundoId).length;
+  $("#cuentaMundo").textContent = !lista.length
+    ? (buscando ? "— nada coincide" : "— sin personajes todavía")
+    : buscando ? `— ${lista.length} de ${total}`
+    : `— ${lista.length} ${lista.length === 1 ? "personaje" : "personajes"}`;
 
   riel.innerHTML = "";
   for (const p of lista) {
@@ -176,7 +180,7 @@ function pintarRiel() {
       : `<svg><use href="#i-persona"/></svg>`;
     b.innerHTML = `${estaCompleto(p) ? "" : '<span class="marca-inc" title="Ficha sin completar"></span>'}
       <span class="arte">${arte}</span>
-      <span class="placa"><span class="n">${esc(p.nombre)}</span><span class="r">${esc(p.alias || (buscando ? mundoPorId(p.mundo)?.nombre : "") || "—")}</span></span>`;
+      <span class="placa"><span class="n">${esc(p.nombre)}</span><span class="r">${esc(p.alias || "—")}</span></span>`;
     b.onclick = () => elegirPersonaje(p.id);
     riel.appendChild(b);
   }
@@ -212,8 +216,8 @@ function pintarDetalle() {
     const buscando = Boolean(Estado.busqueda.trim());
     cont.innerHTML = `<div class="vacio">
       ${icono(buscando ? "i-lupa" : "i-personas")}
-      <h3>${buscando ? "Nada coincide con esa búsqueda" : "Este mundo todavía está vacío"}</h3>
-      <p>${buscando ? "Prueba con otro nombre." : "Entra en modo editor para añadir el primer personaje."}</p>
+      <h3>${buscando ? "Nada coincide en este mundo" : "Este mundo todavía está vacío"}</h3>
+      <p>${buscando ? "Prueba con otro nombre, o cambia de mundo en el lateral." : "Entra en modo editor para añadir el primer personaje."}</p>
     </div>`;
     return;
   }

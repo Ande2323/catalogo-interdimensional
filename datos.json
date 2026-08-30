@@ -98,24 +98,40 @@
    "primeraAparicion": "More fun comics #73 ( 1941)",
    "estado": "Vivo",
    "descripcion": "Hijo de un faro y una atlante exiliada, Arthur Curry creció dividido entre dos mundos que rara vez lo reclaman por completo: la superficie lo ve como un extraño con branquias, y Atlantis lo ve como un mestizo sin derecho pleno al trono. Su fuerza, resistencia y capacidad para comunicarse con la vida marina lo convirtieron en un pilar físico de la Liga de la Justicia, pero su verdadero conflicto ha sido siempre político: gobernar un reino que desconfía de la superficie mientras intenta convencer a los humanos de que el océano no es un vertedero infinito. Ha perdido tronos, esposas e hijos en distintas versiones de su historia, y aun así vuelve una y otra vez a reclamar su lugar. Aquaman representa la idea de que liderar no es solo tener poder, sino sostener la paz entre dos pueblos que preferirían ignorarse.",
-   "etiquetas": [],
+   "etiquetas": [
+    "Atlante",
+    "Liga de la Justicia",
+    "Atlantis",
+    "Rey",
+    "Tridente",
+    "Vida marina",
+    "Fundador"
+   ],
    "imagen": "imagenes/dc-aquaman.webp"
   },
   {
    "id": "dc-superman",
    "mundo": "dc",
    "nombre": "Superman",
-   "alias": "",
-   "nombreReal": "",
-   "edad": "",
-   "nacimiento": "",
-   "especie": "",
-   "rol": "",
-   "afiliacion": "",
-   "primeraAparicion": "",
-   "estado": "",
-   "descripcion": "",
-   "etiquetas": [],
+   "alias": "El Hombre de Acero",
+   "nombreReal": "Kal-El / Clark Kent",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Kryptoniano",
+   "rol": "Miembro fundador de la Liga de la Justicia",
+   "afiliacion": "Liga de la Justicia, Daily Planet, Krypton",
+   "primeraAparicion": "Action Comics #1 (1938)",
+   "estado": "Vivo",
+   "descripcion": "Último hijo de Krypton, enviado al espacio en una nave por sus padres justo antes de que su planeta se destruyera, y criado por un matrimonio de granjeros de Kansas que decidieron educar a un alienígena capaz de mover montañas como si fuera un chico corriente. Esa contradicción lo define entero: bajo el sol amarillo su fuerza, su vuelo y su visión no tienen prácticamente límite, y aun así lo que gobierna cada decisión que toma es una decencia aprendida en un pueblo pequeño. Vive dividido en tres nombres: Kal-El para los kryptonianos que ya no existen, Clark Kent para el mundo, Superman para todos los demás. Su verdadero conflicto nunca ha sido encontrar un rival a su altura, sino decidir cuánto puede intervenir sin acabar gobernando: cada vez que alguien le pregunta por qué no arregla el planeta de una vez, la respuesta es que hacerlo lo convertiría exactamente en lo que combate. Es el primer superhéroe de la historia y sigue siendo la vara con la que se miden todos los demás.",
+   "etiquetas": [
+    "Kryptoniano",
+    "Liga de la Justicia",
+    "Vuelo",
+    "Superfuerza",
+    "Krypton",
+    "Daily Planet",
+    "Icónico"
+   ],
    "imagen": "imagenes/dc-superman.webp"
   },
   {
@@ -5764,6 +5780,30 @@
     "Xianzhou Luofu"
    ],
    "imagen": "imagenes/honkai-star-rail-qingque.webp"
+  },
+  {
+   "id": "honkai-star-rail-ruan-mei",
+   "mundo": "honkai-star-rail",
+   "nombre": "Ruan Mei",
+   "alias": "Miembro n.º 81 de la Sociedad de Genios",
+   "nombreReal": "Ruan Mei",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Investigadora de la Sociedad de Genios",
+   "afiliacion": "Estación Espacial Herta, Sociedad de Genios",
+   "primeraAparicion": "Honkai: Star Rail — Estación Espacial Herta (2023)",
+   "estado": "Viva",
+   "descripcion": "Miembro número 81 de la Sociedad de Genios y una de las mentes más brillantes del cosmos en todo lo que tenga que ver con la vida: la crea, la modifica y la observa con la misma curiosidad con la que otros miran un experimento. Trabaja desde la Estación Espacial Herta, aunque su planeta de origen no consta en ningún registro. Su trato es amable hasta lo desconcertante, con una voz suave y una cortesía impecable que no terminan de tapar lo que hay debajo: para ella los seres vivos son ante todo objetos de estudio, y la frontera entre cuidar algo y diseccionarlo se le difumina con facilidad. Su especialidad es la simulación de la vida y el bordado biológico, y buena parte de lo que sostiene el Universo Simulado lleva su firma.",
+   "etiquetas": [
+    "Sociedad de Genios",
+    "Estación Herta",
+    "Hielo",
+    "Armonía",
+    "Bioingeniería",
+    "Investigación"
+   ],
+   "imagen": ""
   },
   {
    "id": "honkai-star-rail-sampo-koski",
