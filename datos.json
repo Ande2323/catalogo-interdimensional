@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-29T23:52:52.224Z",
+ "actualizado": "2026-08-30T00:04:28.339Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -4576,7 +4576,7 @@
     "Cocolia",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-bronya-rand.webp"
   },
   {
    "id": "honkai-star-rail-clara",
@@ -4601,7 +4601,7 @@
     "Empatía",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-clara.webp"
   },
   {
    "id": "honkai-star-rail-cocolia-rand",
@@ -4626,7 +4626,7 @@
     "Bronya",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-cocolia-rand.webp"
   },
   {
    "id": "honkai-star-rail-dan-heng",
@@ -4675,7 +4675,7 @@
     "Deber",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-gepard-landau.webp"
   },
   {
    "id": "honkai-star-rail-herta",
@@ -4748,7 +4748,7 @@
     "Banda de los Topos",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-hook.webp"
   },
   {
    "id": "honkai-star-rail-kafka",
@@ -4797,7 +4797,7 @@
     "Brazo mecánico",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-luka.webp"
   },
   {
    "id": "honkai-star-rail-lynx-landau",
@@ -4822,7 +4822,7 @@
     "Familia Landau",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-lynx-landau.webp"
   },
   {
    "id": "honkai-star-rail-march-7th",
@@ -4871,7 +4871,7 @@
     "Maternal",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-natasha.webp"
   },
   {
    "id": "honkai-star-rail-oleg",
@@ -4895,7 +4895,7 @@
     "Maestro de Luka",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-oleg.webp"
   },
   {
    "id": "honkai-star-rail-pela",
@@ -4920,7 +4920,7 @@
     "Análisis",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-pela.webp"
   },
   {
    "id": "honkai-star-rail-pionero",
@@ -4993,7 +4993,7 @@
     "Oportunista",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-sampo-koski.webp"
   },
   {
    "id": "honkai-star-rail-seele",
@@ -5018,7 +5018,7 @@
     "Bronya",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-seele.webp"
   },
   {
    "id": "honkai-star-rail-serval-landau",
@@ -5043,7 +5043,7 @@
     "Familia Landau",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-serval-landau.webp"
   },
   {
    "id": "honkai-star-rail-silver-wolf",
@@ -5092,7 +5092,7 @@
     "Protector",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-svarog.webp"
   },
   {
    "id": "honkai-star-rail-welt-yang",
