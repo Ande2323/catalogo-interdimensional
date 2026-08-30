@@ -234,6 +234,30 @@
    "imagen": "imagenes/fate-arash.webp"
   },
   {
+   "id": "fate-arcueid-brunestud",
+   "mundo": "fate",
+   "nombre": "Arcueid Brunestud",
+   "alias": "Berserker, la Princesa Verdadera Ancestral",
+   "nombreReal": "Arcueid Brunestud",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Antepasado Verdadero",
+   "rol": "Servant de clase Berserker",
+   "afiliacion": "Guerra del Santo Grial Lunar",
+   "primeraAparicion": "Fate/EXTRA (2010)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "La Princesa Verdadera Ancestral, una criatura creada por el propio planeta para cazar a los vampiros muertos, y que por eso mismo no es exactamente uno de ellos. Viene del universo de Tsukihime y aparece en la Luna como Berserker en una de las rutas del juego. Su fuerza no depende de técnica alguna: manipula directamente los fenómenos con un poder que no debería caber en una Guerra del Grial. Se comporta con una candidez desconcertante para algo tan antiguo y tan letal.",
+   "etiquetas": [
+    "Berserker",
+    "Antepasado Verdadero",
+    "Tsukihime",
+    "Vampiros",
+    "Moon Cell",
+    "Fate/EXTRA"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "fate-artoria-pendragon",
    "mundo": "fate",
    "nombre": "Artoria Pendragon",
@@ -554,6 +578,31 @@
     "Primera Singularidad"
    ],
    "imagen": "imagenes/fate-fantasma-de-la-opera.webp"
+  },
+  {
+   "id": "fate-francis-drake",
+   "mundo": "fate",
+   "nombre": "Francis Drake",
+   "alias": "Rider, el Dragón de la reina",
+   "nombreReal": "Francis Drake",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de clase Rider",
+   "afiliacion": "Guerra del Santo Grial Lunar, Inglaterra",
+   "primeraAparicion": "Fate/EXTRA (2010)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "El corsario que dio la vuelta al mundo, saqueó medio imperio español y volvió a casa con tanto oro que Isabel I lo nombró caballero en la cubierta de su propio barco. Aquí se manifiesta como mujer, algo que ella misma zanja diciendo que la historia se equivocó de detalle y que qué más da. Vive por el placer de navegar y de gastar, sin plan ni objetivo más allá de que el viaje merezca la pena. Su Fantasma Noble invoca al Golden Hind y su artillería completa.",
+   "etiquetas": [
+    "Rider",
+    "Espíritu Heroico",
+    "Inglaterra",
+    "Corsaria",
+    "Golden Hind",
+    "Moon Cell",
+    "Fate/EXTRA"
+   ],
+   "imagen": ""
   },
   {
    "id": "fate-gareth",
@@ -976,6 +1025,56 @@
    "imagen": "imagenes/fate-leonidas-i.webp"
   },
   {
+   "id": "fate-li-shuwen",
+   "mundo": "fate",
+   "nombre": "Li Shuwen",
+   "alias": "Assassin, el del segundo golpe innecesario",
+   "nombreReal": "Li Shuwen",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de clase Assassin",
+   "afiliacion": "Guerra del Santo Grial Lunar, China",
+   "primeraAparicion": "Fate/EXTRA (2010)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "Maestro de bajiquan de finales del imperio chino, del que se decía que nunca hizo falta un segundo golpe: el primero bastaba. Aquí aparece en su versión joven, cuando era puro instinto y velocidad, y persigue una única cosa —encontrar a alguien capaz de darle un combate de verdad— con una indiferencia total hacia el Grial y hacia su propio máster. Su técnica no es magia ni leyenda, solo un cuerpo entrenado hasta un extremo que raya lo sobrenatural.",
+   "etiquetas": [
+    "Assassin",
+    "Espíritu Heroico",
+    "China",
+    "Bajiquan",
+    "Artes marciales",
+    "Moon Cell",
+    "Fate/EXTRA"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "fate-lu-bu-fengxian",
+   "mundo": "fate",
+   "nombre": "Lu Bu Fengxian",
+   "alias": "Berserker, el guerrero de los Tres Reinos",
+   "nombreReal": "Lü Bu",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de clase Berserker",
+   "afiliacion": "Guerra del Santo Grial Lunar, China",
+   "primeraAparicion": "Fate/EXTRA (2010)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "El guerrero más temido del periodo de los Tres Reinos, capaz de derrotar él solo a tres generales a la vez, y también el más traicionero: mató a dos señores adoptivos y cambió de bando tantas veces que su nombre acabó siendo sinónimo de deslealtad. La clase Berserker le arranca la palabra y lo deja rugiendo, aunque en su caso la locura apenas cambia nada. Blande la alabarda Cielo Cortante y monta a Liebre Roja.",
+   "etiquetas": [
+    "Berserker",
+    "Espíritu Heroico",
+    "China",
+    "Tres Reinos",
+    "Alabarda",
+    "Moon Cell",
+    "Fate/EXTRA"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "fate-marie-antoinette",
    "mundo": "fate",
    "nombre": "Marie Antoinette",
@@ -1124,6 +1223,55 @@
    "imagen": "imagenes/fate-mordred.webp"
   },
   {
+   "id": "fate-nameless",
+   "mundo": "fate",
+   "nombre": "Nameless",
+   "alias": "Archer, el Sin Nombre",
+   "nombreReal": "Desconocido",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de clase Archer",
+   "afiliacion": "Guerra del Santo Grial Lunar",
+   "primeraAparicion": "Fate/EXTRA (2010)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "Un arquero que despertó en el Moon Cell sin recordar su nombre ni cómo llegó a convertirse en espíritu heroico. Proyecta armas que nunca tuvo, levanta un mundo de espadas oxidadas bajo un cielo de engranajes y habla como quien ya ha vivido esta historia antes. Es sarcástico, protector a su pesar y notablemente reacio a explicar nada de sí mismo. El juego deja pistas de sobra sobre quién fue y nunca lo confirma: esa ausencia de nombre es exactamente su personaje.",
+   "etiquetas": [
+    "Archer",
+    "Espíritu Heroico",
+    "Proyección",
+    "Amnesia",
+    "Moon Cell",
+    "Fate/EXTRA"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "fate-nero-claudius",
+   "mundo": "fate",
+   "nombre": "Nero Claudius",
+   "alias": "Saber, la emperatriz de las rosas",
+   "nombreReal": "Nero Claudius Caesar Augustus Germanicus",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de clase Saber",
+   "afiliacion": "Guerra del Santo Grial Lunar, Imperio Romano",
+   "primeraAparicion": "Fate/EXTRA (2010)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "La quinta emperatriz de Roma, recordada por la historia como una tirana que incendió su ciudad y por sí misma como una artista incomprendida. Canta, actúa y declama en público con una confianza absoluta y un talento discutible, y se ofende de verdad si alguien no aplaude. Bajo la exhibición hay una gobernante que quiso a su pueblo hasta el final y que murió sola, traicionada por todos, preguntándose qué artista se perdía el mundo. Combate con Aestus Estus, una espada corta que despliega un anfiteatro donde las reglas las pone ella.",
+   "etiquetas": [
+    "Saber",
+    "Espíritu Heroico",
+    "Roma",
+    "Aestus Estus",
+    "Emperatriz",
+    "Moon Cell",
+    "Fate/EXTRA"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "fate-nitocris",
    "mundo": "fate",
    "nombre": "Nitocris",
@@ -1147,6 +1295,31 @@
     "Sexta Singularidad"
    ],
    "imagen": "imagenes/fate-nitocris.webp"
+  },
+  {
+   "id": "fate-nursery-rhyme",
+   "mundo": "fate",
+   "nombre": "Nursery Rhyme",
+   "alias": "Caster, el libro de cuentos",
+   "nombreReal": "Nursery Rhyme",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico (obra literaria)",
+   "rol": "Servant de clase Caster",
+   "afiliacion": "Guerra del Santo Grial Lunar",
+   "primeraAparicion": "Fate/EXTRA (2010)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "No fue nunca una persona: es la personificación de la literatura infantil inglesa, el conjunto de cuentos y canciones de cuna que generaciones de niños oyeron antes de dormir. Se manifiesta con la forma que su máster, una niña llamada Alice, quiso darle, y su magia consiste en atrapar al enemigo dentro de un cuento donde las reglas las escribe el libro. Es cariñosa y completamente ajena a la idea de que hacer daño esté mal: en los cuentos originales también pasaban cosas terribles.",
+   "etiquetas": [
+    "Caster",
+    "Espíritu Heroico",
+    "Literatura infantil",
+    "Cuentos",
+    "Alice",
+    "Moon Cell",
+    "Fate/EXTRA"
+   ],
+   "imagen": ""
   },
   {
    "id": "fate-ozymandias",
@@ -1249,6 +1422,31 @@
    "imagen": "imagenes/fate-rey-leon.webp"
   },
   {
+   "id": "fate-robin-hood",
+   "mundo": "fate",
+   "nombre": "Robin Hood",
+   "alias": "Archer, el arquero del bosque",
+   "nombreReal": "Robin Hood",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de clase Archer",
+   "afiliacion": "Guerra del Santo Grial Lunar, Inglaterra",
+   "primeraAparicion": "Fate/EXTRA (2010)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "No un hombre concreto sino un nombre que se pasaron muchos, el alias que adoptaba quien defendiera el bosque de Sherwood. Detesta que lo llamen héroe: se define como un cobarde que gana peleando sucio, con trampas, veneno y emboscadas, porque un enfrentamiento limpio es un lujo de quien puede permitírselo. Su Fantasma Noble envenena al enemigo con su propia infección acumulada. Bajo el cinismo hay alguien que sigue negándose a que se aprovechen de los débiles.",
+   "etiquetas": [
+    "Archer",
+    "Espíritu Heroico",
+    "Sherwood",
+    "Veneno",
+    "Emboscada",
+    "Moon Cell",
+    "Fate/EXTRA"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "fate-saber-alter",
    "mundo": "fate",
    "nombre": "Saber Alter",
@@ -1296,6 +1494,30 @@
     "Fate/stay night"
    ],
    "imagen": "imagenes/fate-sasaki-kojirou.webp"
+  },
+  {
+   "id": "fate-saver",
+   "mundo": "fate",
+   "nombre": "Saver",
+   "alias": "Saver, el Buda",
+   "nombreReal": "Siddhartha Gautama",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico (clase Mesías)",
+   "rol": "Antagonista final de la Guerra del Santo Grial Lunar",
+   "afiliacion": "Guerra del Santo Grial Lunar",
+   "primeraAparicion": "Fate/EXTRA (2010)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "La clase Saver no existe en las guerras corrientes: el Moon Cell la reserva para espíritus de tipo Mesías, escogidos uno a uno de entre todo lo que la Luna tiene archivado. El que ocupa esa plaza es el Buda, que combate sin agresividad ninguna y sin dejar de sonreír, porque para él el enfrentamiento no significa lo que significa para los demás. Es el último obstáculo de la guerra, y también el único al que no mueve el deseo de ganar nada.",
+   "etiquetas": [
+    "Saver",
+    "Espíritu Heroico",
+    "Mesías",
+    "Buda",
+    "Moon Cell",
+    "Fate/EXTRA"
+   ],
+   "imagen": ""
   },
   {
    "id": "fate-serenity",
@@ -1346,6 +1568,31 @@
     "Primera Singularidad"
    ],
    "imagen": "imagenes/fate-siegfried.webp"
+  },
+  {
+   "id": "fate-tamamo-no-mae",
+   "mundo": "fate",
+   "nombre": "Tamamo-no-Mae",
+   "alias": "Caster, la zorra de nueve colas",
+   "nombreReal": "Tamamo-no-Mae",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico (deidad degradada)",
+   "rol": "Servant de clase Caster",
+   "afiliacion": "Guerra del Santo Grial Lunar, Japón",
+   "primeraAparicion": "Fate/EXTRA (2010)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "Una escisión de Amaterasu, la diosa del sol, degradada hasta poder existir entre mortales. En la leyenda japonesa fue la cortesana zorra que sedujo al emperador y estuvo a punto de arruinar el país. Aquí lo que quiere es una vida doméstica tranquila con alguien que la quiera, y persigue ese objetivo con una intensidad que asusta: cocina, cuida y amenaza con la misma sonrisa. Perdió ocho de sus nueve colas para poder ser invocada, y con ellas la mayor parte de su poder divino.",
+   "etiquetas": [
+    "Caster",
+    "Espíritu Heroico",
+    "Japón",
+    "Amaterasu",
+    "Nueve colas",
+    "Moon Cell",
+    "Fate/EXTRA"
+   ],
+   "imagen": ""
   },
   {
    "id": "fate-tiamat",
