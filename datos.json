@@ -702,7 +702,8 @@
     "Fate/Zero",
     "Fate/stay night"
    ],
-   "imagen": "imagenes/fate-gilgamesh.webp"
+   "imagen": "imagenes/fate-gilgamesh.webp",
+   "efecto": "puerta-dorada"
   },
   {
    "id": "fate-gilles-de-rais",
