@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-30T02:21:17.250Z",
+ "actualizado": "2026-08-30T13:32:10.147Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -255,7 +255,7 @@
     "Moon Cell",
     "Fate/EXTRA"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-arcueid-brunestud.webp"
   },
   {
    "id": "fate-artoria-pendragon",
@@ -602,7 +602,7 @@
     "Moon Cell",
     "Fate/EXTRA"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-francis-drake.webp"
   },
   {
    "id": "fate-gareth",
@@ -1047,7 +1047,7 @@
     "Moon Cell",
     "Fate/EXTRA"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-li-shuwen.webp"
   },
   {
    "id": "fate-lu-bu-fengxian",
@@ -1072,7 +1072,7 @@
     "Moon Cell",
     "Fate/EXTRA"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-lu-bu-fengxian.webp"
   },
   {
    "id": "fate-marie-antoinette",
@@ -1244,7 +1244,7 @@
     "Moon Cell",
     "Fate/EXTRA"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-nameless.webp"
   },
   {
    "id": "fate-nero-claudius",
@@ -1269,7 +1269,7 @@
     "Moon Cell",
     "Fate/EXTRA"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-nero-claudius.webp"
   },
   {
    "id": "fate-nitocris",
@@ -1319,7 +1319,7 @@
     "Moon Cell",
     "Fate/EXTRA"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-nursery-rhyme.webp"
   },
   {
    "id": "fate-ozymandias",
@@ -1444,7 +1444,7 @@
     "Moon Cell",
     "Fate/EXTRA"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-robin-hood.webp"
   },
   {
    "id": "fate-saber-alter",
@@ -1469,7 +1469,7 @@
     "Fuyuki",
     "Singularidad F"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-saber-alter.webp"
   },
   {
    "id": "fate-sasaki-kojirou",
@@ -1517,7 +1517,7 @@
     "Moon Cell",
     "Fate/EXTRA"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-saver.webp"
   },
   {
    "id": "fate-serenity",
@@ -1592,7 +1592,7 @@
     "Moon Cell",
     "Fate/EXTRA"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-tamamo-no-mae.webp"
   },
   {
    "id": "fate-tiamat",
