@@ -5261,6 +5261,27 @@
    "imagen": "imagenes/god-of-war-artemis.webp"
   },
   {
+   "id": "gravity-falls-abuelita",
+   "mundo": "gravity-falls",
+   "nombre": "Abuelita",
+   "alias": "La abuela de Soos",
+   "nombreReal": "Abuelita",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Abuela de Soos",
+   "afiliacion": "Gravity Falls",
+   "primeraAparicion": "Temporada 1 (2012)",
+   "estado": "Viva",
+   "descripcion": "La abuela que crió a Soos cuando su padre desapareció y que lo sigue tratando como a un niño de doce años, para alegría de él. Aparece poco y siempre para lo mismo: dejar claro que la persona más buena del pueblo salió de alguna parte.",
+   "etiquetas": [
+    "Familia de Soos",
+    "Pueblo",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "gravity-falls-powers",
    "mundo": "gravity-falls",
    "nombre": "Agente Powers",
@@ -5278,6 +5299,27 @@
     "Gobierno",
     "Investigación",
     "Raromagedón",
+    "Temporada 2"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-trigger",
+   "mundo": "gravity-falls",
+   "nombre": "Agente Trigger",
+   "alias": "El otro agente",
+   "nombreReal": "Agente Trigger",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Agente federal",
+   "afiliacion": "Gobierno de los Estados Unidos",
+   "primeraAparicion": "Temporada 2 (2014)",
+   "estado": "Vivo",
+   "descripcion": "La pareja del agente Powers, más callado y más dispuesto a admitir que nada de lo que ven tiene sentido. Los dos investigan las anomalías del pueblo con una eficacia notable para todo salvo para creerse lo que descubren.",
+   "etiquetas": [
+    "Gobierno",
+    "Investigación",
     "Temporada 2"
    ],
    "imagen": ""
@@ -5371,6 +5413,28 @@
    "imagen": ""
   },
   {
+   "id": "gravity-falls-bud",
+   "mundo": "gravity-falls",
+   "nombre": "Bud Gleeful",
+   "alias": "El vendedor de coches",
+   "nombreReal": "Bud Gleeful",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Concesionario y padre de Gideon",
+   "afiliacion": "Carpa de la Telepatía",
+   "primeraAparicion": "Temporada 1 (2012)",
+   "estado": "Vivo",
+   "descripcion": "El padre de Gideon, vendedor de coches usados con la sonrisa puesta a todas horas, incluso mientras le tiene un miedo evidente a su propio hijo de nueve años. Gestiona la carpa, hace la vista gorda con todo y es la explicación más sencilla de por qué Gideon salió como salió.",
+   "etiquetas": [
+    "Familia Gleeful",
+    "Carpa de la Telepatía",
+    "Coches",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "gravity-falls-candy",
    "mundo": "gravity-falls",
    "nombre": "Candy Chiu",
@@ -5388,6 +5452,51 @@
     "Amiga de Mabel",
     "Fiesta de pijamas",
     "Inventos",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-celestabellebethabelle",
+   "mundo": "gravity-falls",
+   "nombre": "Celestabellebethabelle",
+   "alias": "El unicornio",
+   "nombreReal": "Celestabellebethabelle",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Unicornio",
+   "rol": "Guardiana del claro encantado",
+   "afiliacion": "Bosque de Gravity Falls",
+   "primeraAparicion": "Temporada 2 (2015)",
+   "estado": "Viva",
+   "descripcion": "El unicornio que solo deja entrar en su claro a las personas de corazón puro, y que resulta ser una estafadora insoportable que usa esa norma para humillar a quien se le acerque. Mabel acaba dándole un puñetazo, y el capítulo cierra con la lección menos infantil posible: nadie tiene el corazón puro y quien dice medirlo suele estar mintiendo.",
+   "etiquetas": [
+    "Unicornio",
+    "Bosque",
+    "Mabel",
+    "Temporada 2"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-chutzpar",
+   "mundo": "gravity-falls",
+   "nombre": "Chutzpar",
+   "alias": "El manotauro",
+   "nombreReal": "Chutzpar",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Manotauro",
+   "rol": "Guerrero de la Colina de la Calavera",
+   "afiliacion": "Colina de la Calavera",
+   "primeraAparicion": "Temporada 1 (2012)",
+   "estado": "Vivo",
+   "descripcion": "Uno de los manotauros, criaturas enormes hechas casi solo de brazos que viven en una cueva golpeándose el pecho y bebiendo savia. Acogen a Dipper para enseñarle a ser un hombre, y su programa consiste en gritar, romper cosas y no llorar nunca, cosa que la serie desmonta entera en veinte minutos.",
+   "etiquetas": [
+    "Manotauros",
+    "Bosque",
+    "Dipper",
+    "Masculinidad",
     "Temporada 1"
    ],
    "imagen": ""
@@ -5412,6 +5521,50 @@
     "Cabaña del Misterio",
     "Gorra",
     "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-dippy-fresh",
+   "mundo": "gravity-falls",
+   "nombre": "Dippy Fresh",
+   "alias": "El Dipper de mentira",
+   "nombreReal": "Dippy Fresh",
+   "edad": "12 años",
+   "nacimiento": "No especificada",
+   "especie": "Fantasía de Mabelandia",
+   "rol": "Sustituto ideal de Dipper",
+   "afiliacion": "Mabelandia",
+   "primeraAparicion": "Temporada 2 (2016)",
+   "estado": "Deshecho con Mabelandia",
+   "descripcion": "La versión de Dipper que la burbuja de Mabel fabrica para ella: monopatín, gorra al revés y un sí a todo lo que ella proponga. Existe unos minutos y sirve para lo más cruel que hace la serie con Mabel, enseñarle en qué consiste de verdad el mundo perfecto que ha aceptado.",
+   "etiquetas": [
+    "Mabelandia",
+    "Raromagedón",
+    "Dipper",
+    "Temporada 2"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-cambiaformas",
+   "mundo": "gravity-falls",
+   "nombre": "El Cambiaformas",
+   "alias": "Shapeshifter",
+   "nombreReal": "Cambiaformas",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Criatura del laboratorio",
+   "rol": "Experimento fugado",
+   "afiliacion": "Búnker del bosque",
+   "primeraAparicion": "Temporada 2 (2014)",
+   "estado": "Congelado en el búnker",
+   "descripcion": "Una criatura capaz de copiar la forma de cualquier ser vivo que haya visto, escapada de los experimentos de Ford y encerrada en un búnker bajo el bosque. Persigue a los gemelos adoptando la cara de sus amigos y termina congelada, pero antes deja la amenaza más escalofriante de la serie: se queda con la forma de Dipper gritando.",
+   "etiquetas": [
+    "Criatura",
+    "Búnker",
+    "Ford",
+    "Temporada 2"
    ],
    "imagen": ""
   },
@@ -5506,6 +5659,51 @@
    "imagen": ""
   },
   {
+   "id": "gravity-falls-giffany",
+   "mundo": "gravity-falls",
+   "nombre": "Giffany",
+   "alias": "La del videojuego",
+   "nombreReal": "Giffany",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Inteligencia artificial",
+   "rol": "Antagonista de un episodio",
+   "afiliacion": "Videojuego «Romance Académico 7»",
+   "primeraAparicion": "Temporada 2 (2014)",
+   "estado": "Destruida",
+   "descripcion": "La novia virtual de un videojuego de citas japonés que Soos compra por error y que resulta ser una inteligencia consciente, obsesiva y dispuesta a electrocutar a cualquiera que se acerque a él. Es de los capítulos más abiertamente terroríficos de la serie, y su final —Soos tirando el disco a la pizzería en llamas mientras ella grita— dio bastante que hablar.",
+   "etiquetas": [
+    "Antagonista",
+    "Videojuego",
+    "Inteligencia artificial",
+    "Soos",
+    "Temporada 2"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-gompers",
+   "mundo": "gravity-falls",
+   "nombre": "Gompers",
+   "alias": "La cabra",
+   "nombreReal": "Gompers",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Cabra",
+   "rol": "Fauna de la Cabaña",
+   "afiliacion": "Cabaña del Misterio",
+   "primeraAparicion": "Temporada 1 (2012)",
+   "estado": "Vivo",
+   "descripcion": "La cabra que vive en el tejado de la Cabaña del Misterio y que se come todo lo que encuentre, incluida ropa, papeles y en un momento dado un fragmento importante de la trama. No hace nada más y aparece en dos temporadas enteras como un mueble con cuernos, lo cual es justo el chiste.",
+   "etiquetas": [
+    "Cabra",
+    "Cabaña del Misterio",
+    "Fauna",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "gravity-falls-grenda",
    "mundo": "gravity-falls",
    "nombre": "Grenda",
@@ -5522,6 +5720,28 @@
    "etiquetas": [
     "Amiga de Mabel",
     "Fiesta de pijamas",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-ivan",
+   "mundo": "gravity-falls",
+   "nombre": "Ivan el Ciego",
+   "alias": "Blind Ivan",
+   "nombreReal": "Ivan",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Líder de la Sociedad del Ojo Cegado",
+   "afiliacion": "Sociedad del Ojo Cegado",
+   "primeraAparicion": "Temporada 1 (2012)",
+   "estado": "Con la memoria borrada",
+   "descripcion": "El jefe de la sociedad secreta que se dedica a borrarle la memoria a cualquiera que vea algo raro en el pueblo, usando la máquina que inventó McGucket. Es la explicación de por qué nadie en Gravity Falls recuerda nada: hay un grupo organizado encargándose de ello desde hace décadas. Termina cayendo en su propia arma.",
+   "etiquetas": [
+    "Sociedad del Ojo Cegado",
+    "Memoria borrada",
+    "McGucket",
     "Temporada 1"
    ],
    "imagen": ""
@@ -5549,6 +5769,50 @@
    "imagen": ""
   },
   {
+   "id": "gravity-falls-kryptos",
+   "mundo": "gravity-falls",
+   "nombre": "Kryptos",
+   "alias": "El rombo",
+   "nombreReal": "Kryptos",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Demonio del Rarocosmos",
+   "rol": "Secuaz de Bill",
+   "afiliacion": "Rarocosmos",
+   "primeraAparicion": "Temporada 2 (2016)",
+   "estado": "Devuelto al Rarocosmos",
+   "descripcion": "Un rombo azul de la cuadrilla de Bill, la figura geométrica que más se le parece y la que más cerca está de él en el trono de carne del Raromagedón. Su papel es el de segundo de a bordo que nadie ha nombrado oficialmente.",
+   "etiquetas": [
+    "Raromagedón",
+    "Secuaces",
+    "Rarocosmos",
+    "Temporada 2"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-lee",
+   "mundo": "gravity-falls",
+   "nombre": "Lee",
+   "alias": "El del gorro",
+   "nombreReal": "Lee",
+   "edad": "Adolescente",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Amigo de Wendy",
+   "afiliacion": "Gravity Falls",
+   "primeraAparicion": "Temporada 1 (2012)",
+   "estado": "Vivo",
+   "descripcion": "Uno de los dos inseparables de la pandilla de Wendy, siempre junto a Nate y siempre metiéndose donde no debe: saltar a piscinas cerradas, colarse en la tienda abandonada, animar cualquier idea peligrosa que se le ocurra a otro.",
+   "etiquetas": [
+    "Adolescentes",
+    "Wendy",
+    "Pueblo",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "gravity-falls-mabel",
    "mundo": "gravity-falls",
    "nombre": "Mabel Pines",
@@ -5568,6 +5832,138 @@
     "Cabaña del Misterio",
     "Waddles",
     "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-manly-dan",
+   "mundo": "gravity-falls",
+   "nombre": "Manly Dan",
+   "alias": "El leñador",
+   "nombreReal": "Dan Corduroy",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Leñador",
+   "afiliacion": "Gravity Falls",
+   "primeraAparicion": "Temporada 1 (2012)",
+   "estado": "Vivo",
+   "descripcion": "El padre de Wendy y el hombre más fuerte del pueblo: parte troncos de un puñetazo, atraviesa paredes cuando se enfada y llora abiertamente cada vez que algo le conmueve. Cría a cuatro hijos él solo y su idea de la crianza es llevarlos al bosque a pelearse con la naturaleza.",
+   "etiquetas": [
+    "Leñador",
+    "Familia Corduroy",
+    "Pueblo",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-melody",
+   "mundo": "gravity-falls",
+   "nombre": "Melody",
+   "alias": "La novia de Soos",
+   "nombreReal": "Melody",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Empleada de la Cabaña del Misterio",
+   "afiliacion": "Cabaña del Misterio",
+   "primeraAparicion": "Temporada 2 (2014)",
+   "estado": "Viva",
+   "descripcion": "Soos la conoce trabajando en una pizzería y la relación empieza por videollamada, a distancia y a trompicones, hasta que ella se muda al pueblo. Es la primera persona que trata a Soos como un adulto capaz, y la serie le da ese final sin ironía ninguna: se queda con él en la Cabaña.",
+   "etiquetas": [
+    "Cabaña del Misterio",
+    "Soos",
+    "Temporada 2"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-mermando",
+   "mundo": "gravity-falls",
+   "nombre": "Mermando",
+   "alias": "El tritón",
+   "nombreReal": "Mermando",
+   "edad": "Adolescente",
+   "nacimiento": "No especificada",
+   "especie": "Tritón",
+   "rol": "Novio de Mabel",
+   "afiliacion": "Océano",
+   "primeraAparicion": "Temporada 1 (2013)",
+   "estado": "Vivo",
+   "descripcion": "Un tritón mexicano que Mabel encuentra en la piscina municipal y del que se enamora en cuestión de horas. Su despedida —devolverlo al mar por un desagüe, con lágrimas de los dos— es el primer corazón roto de verdad de la serie, y su vuelta posterior por carta, anunciando que lo casan por obligación con una reina, es de las cosas más raras y tristes del conjunto.",
+   "etiquetas": [
+    "Tritón",
+    "Piscina",
+    "Mabel",
+    "Romance",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-nate",
+   "mundo": "gravity-falls",
+   "nombre": "Nate",
+   "alias": "El otro",
+   "nombreReal": "Nate",
+   "edad": "Adolescente",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Amigo de Wendy",
+   "afiliacion": "Gravity Falls",
+   "primeraAparicion": "Temporada 1 (2012)",
+   "estado": "Vivo",
+   "descripcion": "La otra mitad del dúo con Lee. Entre los dos forman el ruido de fondo de las escenas de adolescentes: apuestas tontas, gritos y una fe absoluta en que nada de lo que hagan puede salir mal, cosa que en Gravity Falls es una posición arriesgada.",
+   "etiquetas": [
+    "Adolescentes",
+    "Wendy",
+    "Pueblo",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-nathaniel",
+   "mundo": "gravity-falls",
+   "nombre": "Nathaniel Northwest",
+   "alias": "El falso fundador",
+   "nombreReal": "Nathaniel Northwest",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Supuesto fundador de Gravity Falls",
+   "afiliacion": "Familia Northwest",
+   "primeraAparicion": "Temporada 1 (2012)",
+   "estado": "Muerto hace más de un siglo",
+   "descripcion": "El antepasado que aparece en las estatuas y en los libros como fundador del pueblo, y que en realidad era un recogedor de estiércol al que el gobierno eligió al azar para tapar la verdad. Toda la fortuna y la arrogancia de los Northwest se sostienen sobre esa mentira, y Pacifica lo descubre a los doce años.",
+   "etiquetas": [
+    "Northwest",
+    "Fundación",
+    "Mentira",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-ocho-bolas",
+   "mundo": "gravity-falls",
+   "nombre": "Ocho Bolas",
+   "alias": "8-Ball",
+   "nombreReal": "Ocho Bolas",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Demonio del Rarocosmos",
+   "rol": "Secuaz de Bill",
+   "afiliacion": "Rarocosmos",
+   "primeraAparicion": "Temporada 2 (2016)",
+   "estado": "Devuelto al Rarocosmos",
+   "descripcion": "Un demonio con cuerpo de bola de billar y varios ojos, parte de la pandilla de Bill. Como el resto de secuaces, apenas tiene diálogo y ninguna motivación más allá de pasárselo bien mientras el mundo se rompe, que es exactamente lo que los hace funcionar.",
+   "etiquetas": [
+    "Raromagedón",
+    "Secuaces",
+    "Rarocosmos",
+    "Temporada 2"
    ],
    "imagen": ""
   },
@@ -5616,6 +6012,73 @@
    "imagen": ""
   },
   {
+   "id": "gravity-falls-probabilitor",
+   "mundo": "gravity-falls",
+   "nombre": "Probabilitor",
+   "alias": "El hechicero",
+   "nombreReal": "Probabilitor el Hechicero",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Criatura de juego de rol",
+   "rol": "Antagonista de un episodio",
+   "afiliacion": "Bosque de Gravity Falls",
+   "primeraAparicion": "Temporada 2 (2015)",
+   "estado": "Devuelto al tablero",
+   "descripcion": "El villano de un juego de rol de mesa que cobra vida al jugar con un dado infinitesimal, y que quiere comerse el cerebro de Ford y de Dipper porque son los más inteligentes que ha encontrado. Su capítulo es una carta de amor a los juegos de rol y también el que enfrenta por primera vez a los dos cerebros de la familia.",
+   "etiquetas": [
+    "Juego de rol",
+    "Ford",
+    "Dipper",
+    "Temporada 2"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-pyronica",
+   "mundo": "gravity-falls",
+   "nombre": "Pyronica",
+   "alias": "La secuaz rosa",
+   "nombreReal": "Pyronica",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Demonio del Rarocosmos",
+   "rol": "Secuaz de Bill",
+   "afiliacion": "Rarocosmos",
+   "primeraAparicion": "Temporada 2 (2016)",
+   "estado": "Devuelta al Rarocosmos",
+   "descripcion": "Una de los secuaces que Bill trae consigo al abrir la grieta: un demonio rosa con la cabeza en llamas y bastante mejor humor que su jefe. Junto al resto de la pandilla convierte el Raromagedón en una fiesta con la humanidad como decoración, lo que hace la amenaza más inquietante que si fueran soldados.",
+   "etiquetas": [
+    "Raromagedón",
+    "Secuaces",
+    "Rarocosmos",
+    "Temporada 2"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-trembley",
+   "mundo": "gravity-falls",
+   "nombre": "Quentin Trembley",
+   "alias": "El presidente 8½",
+   "nombreReal": "Quentin Trembley",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Octavo presidente y medio de los Estados Unidos",
+   "afiliacion": "Gravity Falls",
+   "primeraAparicion": "Temporada 1 (2012)",
+   "estado": "Vivo, tras décadas en caramelo",
+   "descripcion": "El presidente que el gobierno borró de todos los libros de historia por incompetente: declaró la guerra a los panqueques, nombró gobernadores a varias ardillas y fundó Gravity Falls por accidente. Los gemelos lo encuentran conservado dentro de un bloque de caramelo, perfectamente vivo, y con la única prueba legal de que el pueblo no pertenece a los Northwest.",
+   "etiquetas": [
+    "Historia",
+    "Presidente",
+    "Caramelo",
+    "Northwest",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "gravity-falls-robbie",
    "mundo": "gravity-falls",
    "nombre": "Robbie Valentino",
@@ -5633,6 +6096,28 @@
     "Adolescente",
     "Gótico",
     "Música",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-rumble",
+   "mundo": "gravity-falls",
+   "nombre": "Rumble McSkirmish",
+   "alias": "El del videojuego de lucha",
+   "nombreReal": "Rumble McSkirmish",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Personaje de videojuego",
+   "rol": "Luchador invocado",
+   "afiliacion": "Recreativa de Gravity Falls",
+   "primeraAparicion": "Temporada 1 (2013)",
+   "estado": "Devuelto a su juego",
+   "descripcion": "Un luchador de máquina recreativa de dieciséis bits al que Dipper saca del juego con un código para que le dé una paliza a Robbie. Solo entiende el mundo en términos de su videojuego —barras de vida, combos, «te has ganado un rival»— y no distingue una pelea de un asesinato, que es exactamente el problema.",
+   "etiquetas": [
+    "Recreativa",
+    "Videojuego",
+    "Dipper",
     "Temporada 1"
    ],
    "imagen": ""
@@ -5721,6 +6206,72 @@
     "Pueblo",
     "Greasy's Diner",
     "Camarera",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-tambry",
+   "mundo": "gravity-falls",
+   "nombre": "Tambry",
+   "alias": "La del móvil",
+   "nombreReal": "Tambry",
+   "edad": "Adolescente",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Amiga de Wendy",
+   "afiliacion": "Gravity Falls",
+   "primeraAparicion": "Temporada 1 (2012)",
+   "estado": "Viva",
+   "descripcion": "Parte de la pandilla de adolescentes de Wendy, siempre con el teléfono en la mano y comentando en voz alta lo que acaba de publicar. Es un chiste sobre las redes sociales hecho en 2012 que envejeció mejor de lo que nadie esperaba, y acaba saliendo con Robbie después de que Mabel los empareje a la fuerza.",
+   "etiquetas": [
+    "Adolescentes",
+    "Wendy",
+    "Redes",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-thompson",
+   "mundo": "gravity-falls",
+   "nombre": "Thompson",
+   "alias": "El del que se ríen",
+   "nombreReal": "Thompson",
+   "edad": "Adolescente",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Amigo de Wendy",
+   "afiliacion": "Gravity Falls",
+   "primeraAparicion": "Temporada 1 (2012)",
+   "estado": "Vivo",
+   "descripcion": "El miembro del grupo al que los demás usan de felpudo: come cosas del suelo cuando se lo piden y pone su furgoneta para todo. La serie deja caer, sin subrayarlo, que sabe perfectamente lo que está pasando y aguanta porque prefiere eso a quedarse solo, lo que lo vuelve el personaje más triste de la pandilla.",
+   "etiquetas": [
+    "Adolescentes",
+    "Wendy",
+    "Furgoneta",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "gravity-falls-toby",
+   "mundo": "gravity-falls",
+   "nombre": "Toby Determined",
+   "alias": "El del periódico",
+   "nombreReal": "Toby Determined",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Reportero del Gravity Falls Gossiper",
+   "afiliacion": "Gravity Falls Gossiper",
+   "primeraAparicion": "Temporada 1 (2012)",
+   "estado": "Vivo",
+   "descripcion": "El reportero del periódico local, un hombre pequeño y desesperadamente solo que entrevista a la gente con un desatascador porque no tiene micrófono. Su enamoramiento de la presentadora Shandra Jiménez es incómodo de ver a propósito, y aun así la serie acaba dándole un momento de dignidad en el Raromagedón.",
+   "etiquetas": [
+    "Periódico",
+    "Pueblo",
+    "Reportero",
     "Temporada 1"
    ],
    "imagen": ""
@@ -8802,6 +9353,52 @@
    "imagen": "imagenes/merlina-yoko-tanaka.webp"
   },
   {
+   "id": "minecraft-abeja",
+   "mundo": "minecraft",
+   "nombre": "Abeja",
+   "alias": "La polinizadora",
+   "nombreReal": "Bee",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob neutral",
+   "rol": "Insecto polinizador",
+   "afiliacion": "El Overworld",
+   "primeraAparicion": "Java Edition 1.15 «Buzzy Bees» (2019)",
+   "estado": "Activa",
+   "descripcion": "Va de flor en flor, vuelve a la colmena y acelera el crecimiento de lo que poliniza. Si le rompes el panal sin humo, sale enfadada toda la colonia y pican con veneno, y cada abeja que pica muere después, igual que las de verdad. Fue la actualización navideña más pequeña y una de las más queridas.",
+   "etiquetas": [
+    "Mob neutral",
+    "Colmena",
+    "Miel",
+    "Polinización",
+    "1.15"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-ahogado",
+   "mundo": "minecraft",
+   "nombre": "Ahogado",
+   "alias": "Drowned",
+   "nombreReal": "Drowned",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Zombi submarino",
+   "afiliacion": "Océanos, ríos y ruinas",
+   "primeraAparicion": "Java Edition 1.13 «Update Aquatic» (2018)",
+   "estado": "Activo",
+   "descripcion": "El zombi que se quedó bajo el agua demasiado tiempo. Nada, sale a la orilla de noche y algunos llevan tridente, que es la única forma de conseguir uno y también la razón por la que muchos jugadores mueren en aguas poco profundas: lo lanzan desde lejos y hace muchísimo daño.",
+   "etiquetas": [
+    "Mob hostil",
+    "Océano",
+    "Tridente",
+    "1.13",
+    "Nocturno"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "minecraft-aldeano",
    "mundo": "minecraft",
    "nombre": "Aldeano",
@@ -8822,6 +9419,29 @@
     "Esmeraldas",
     "Beta 1.9",
     "Profesiones"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-aldeano-errante",
+   "mundo": "minecraft",
+   "nombre": "Aldeano Errante",
+   "alias": "El de las llamas",
+   "nombreReal": "Wandering Trader",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Comerciante ambulante",
+   "afiliacion": "Ninguna: va de paso",
+   "primeraAparicion": "Java Edition 1.14 «Village & Pillage» (23 de abril de 2019)",
+   "estado": "Activo",
+   "descripcion": "Aparece de la nada junto a tu base con dos llamas atadas, se queda un par de días y desaparece. Vende cosas caras y a menudo inútiles, pero es la forma más fácil de conseguir plantones y corales de biomas que no has visitado. Bebe una poción de invisibilidad al amanecer para escapar.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Comercio",
+    "Llamas",
+    "Ambulante",
+    "1.14"
    ],
    "imagen": ""
   },
@@ -8898,6 +9518,75 @@
    "imagen": ""
   },
   {
+   "id": "minecraft-arana",
+   "mundo": "minecraft",
+   "nombre": "Araña",
+   "alias": "La que trepa",
+   "nombreReal": "Spider",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Enemigo nocturno",
+   "afiliacion": "El Overworld",
+   "primeraAparicion": "Survival Test (2009)",
+   "estado": "Activa",
+   "descripcion": "Trepa por las paredes, salta encima y cabe por huecos de un bloque de alto, así que casi ninguna casa mal hecha la deja fuera. De día se vuelve neutral y te ignora salvo que la ataques, lo que la convierte en el único hostil clásico con horario. Los esqueletos las montan de vez en cuando.",
+   "etiquetas": [
+    "Mob hostil",
+    "Trepa",
+    "Noche",
+    "Survival Test",
+    "Hilo"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-arana-de-cueva",
+   "mundo": "minecraft",
+   "nombre": "Araña de Cueva",
+   "alias": "La venenosa",
+   "nombreReal": "Cave Spider",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Enemigo de las minas abandonadas",
+   "afiliacion": "Minas abandonadas",
+   "primeraAparicion": "Java Edition Beta 1.8 «Adventure Update» (septiembre de 2011)",
+   "estado": "Activa",
+   "descripcion": "Más pequeña que la araña normal, azul, y envenena. Solo sale de los generadores enterrados entre las telarañas de las minas abandonadas, siempre en cantidades absurdas y siempre en pasillos estrechos donde no te puedes mover. Cabe por huecos de medio bloque, así que taparle la salida casi nunca funciona.",
+   "etiquetas": [
+    "Mob hostil",
+    "Mina abandonada",
+    "Veneno",
+    "Beta 1.8",
+    "Telarañas"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-armadillo",
+   "mundo": "minecraft",
+   "nombre": "Armadillo",
+   "alias": "El de la armadura de lobo",
+   "nombreReal": "Armadillo",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Fauna de sabana",
+   "afiliacion": "Sabanas y bosques secos",
+   "primeraAparicion": "Java Edition 1.20.5 «Armored Paws» (2024)",
+   "estado": "Activo",
+   "descripcion": "Se enrolla en una bola cuando algo se le acerca y suelta escudos de placa cada pocos minutos; con seis se fabrica la armadura para los lobos, que es lo único que evita que tu perro muera en la primera pelea seria. Come ojos de araña, igual que los armadillos de verdad comen insectos.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Sabana",
+    "Armadura de lobo",
+    "1.20.5",
+    "Escudo de placa"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "minecraft-axolotl",
    "mundo": "minecraft",
    "nombre": "Axolotl",
@@ -8946,6 +9635,52 @@
    "imagen": ""
   },
   {
+   "id": "minecraft-bogged",
+   "mundo": "minecraft",
+   "nombre": "Bogged",
+   "alias": "El esqueleto de los pantanos",
+   "nombreReal": "Bogged",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Esqueleto venenoso",
+   "afiliacion": "Pantanos y cámaras de pruebas",
+   "primeraAparicion": "Java Edition 1.21 «Tricky Trials» (13 de junio de 2024)",
+   "estado": "Activo",
+   "descripcion": "Cubierto de musgo y con setas creciéndole encima, dispara flechas de veneno de dos en dos. Aguanta menos que un esqueleto normal, pero en las cámaras de pruebas salen en tandas y el veneno no deja regenerar, que es justo lo que las hace peligrosas.",
+   "etiquetas": [
+    "Mob hostil",
+    "Pantano",
+    "Veneno",
+    "Cámaras de pruebas",
+    "1.21"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-breeze",
+   "mundo": "minecraft",
+   "nombre": "Breeze",
+   "alias": "El del viento",
+   "nombreReal": "Breeze",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Guardián de las cámaras de pruebas",
+   "afiliacion": "Cámaras de pruebas",
+   "primeraAparicion": "Java Edition 1.21 «Tricky Trials» (13 de junio de 2024)",
+   "estado": "Activo",
+   "descripcion": "Salta sin parar por las cámaras de pruebas disparando cargas de viento que empujan y activan botones y palancas a su paso. Es inmune a los proyectiles, así que el arco no sirve: hay que acorralarlo cuerpo a cuerpo. Sus varas hacen la maza, el arma más contundente que se ha añadido al juego.",
+   "etiquetas": [
+    "Mob hostil",
+    "Cámaras de pruebas",
+    "Viento",
+    "Maza",
+    "1.21"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "minecraft-bruja",
    "mundo": "minecraft",
    "nombre": "Bruja",
@@ -8970,6 +9705,213 @@
    "imagen": ""
   },
   {
+   "id": "minecraft-caballo",
+   "mundo": "minecraft",
+   "nombre": "Caballo",
+   "alias": "La montura",
+   "nombreReal": "Horse",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob domesticable",
+   "rol": "Transporte",
+   "afiliacion": "El Overworld",
+   "primeraAparicion": "Java Edition 1.6.1 «Horse Update» (2013)",
+   "estado": "Activo",
+   "descripcion": "El primer transporte decente del juego: se doma a base de intentar montarlo hasta que deja de tirarte, se le pone silla y armadura, y cada ejemplar nace con velocidad y salto distintos, así que buscar uno bueno es medio deporte. Con él, cruzar un continente deja de llevar una tarde.",
+   "etiquetas": [
+    "Domesticable",
+    "Montura",
+    "Silla",
+    "1.6",
+    "Overworld"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-cabra",
+   "mundo": "minecraft",
+   "nombre": "Cabra",
+   "alias": "La que embiste",
+   "nombreReal": "Goat",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob neutral",
+   "rol": "Fauna de montaña",
+   "afiliacion": "Montañas",
+   "primeraAparicion": "Java Edition 1.17 «Caves & Cliffs Parte I» (8 de junio de 2021)",
+   "estado": "Activa",
+   "descripcion": "Vive en los picos nevados, salta diez bloques y embiste sin previo aviso a lo que tenga cerca, incluido el jugador, que acaba en el fondo del valle. Suelta cuernos con los que se hacen los cuernos de cabra, que emiten llamadas distintas. Hay una variante gritona que berrea en vez de balar.",
+   "etiquetas": [
+    "Mob neutral",
+    "Montaña",
+    "Embestida",
+    "Cuerno",
+    "1.17"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-calamar",
+   "mundo": "minecraft",
+   "nombre": "Calamar",
+   "alias": "El de la tinta",
+   "nombreReal": "Squid",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Fauna marina",
+   "afiliacion": "Océanos, ríos y lagos",
+   "primeraAparicion": "Java Edition Alpha (2010)",
+   "estado": "Activo",
+   "descripcion": "Flota sin rumbo por cualquier masa de agua y suelta bolsas de tinta, que durante años fueron el único tinte negro del juego. No hace nada más ni lo pretende: es fauna de fondo, y su animación de nado sigue siendo de las más raras que hay.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Océano",
+    "Tinta",
+    "Alpha",
+    "Tinte negro"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-calamar-brillante",
+   "mundo": "minecraft",
+   "nombre": "Calamar Brillante",
+   "alias": "Glow Squid",
+   "nombreReal": "Glow Squid",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Fauna de las cuevas inundadas",
+   "afiliacion": "Cuevas profundas inundadas",
+   "primeraAparicion": "Java Edition 1.17 «Caves & Cliffs Parte I» (8 de junio de 2021)",
+   "estado": "Activo",
+   "descripcion": "Ganó la votación de mobs de 2020 contra el moobloom y el iceólogo, y llegó haciendo bastante menos de lo que la gente esperaba: brilla en la oscuridad de las cuevas inundadas y suelta bolsas de tinta luminosa para hacer letreros que se leen de noche. La decepción es parte de su fama.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Cuevas",
+    "Votación de mobs",
+    "Tinta luminosa",
+    "1.17"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-camello",
+   "mundo": "minecraft",
+   "nombre": "Camello",
+   "alias": "El de dos plazas",
+   "nombreReal": "Camel",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob domesticable",
+   "rol": "Transporte del desierto",
+   "afiliacion": "Aldeas del desierto",
+   "primeraAparicion": "Java Edition 1.20 «Trails & Tales» (7 de junio de 2023)",
+   "estado": "Activo",
+   "descripcion": "La única montura para dos jugadores del juego. Es lento pero alto, tanto que los zombis y los esqueletos no llegan a golpearte desde el suelo, y da un salto largo que cruza barrancos. Se sienta a descansar solo, y si te subes mientras está sentado tarda en levantarse.",
+   "etiquetas": [
+    "Domesticable",
+    "Desierto",
+    "Montura doble",
+    "1.20",
+    "Salto"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-caminante-abrasador",
+   "mundo": "minecraft",
+   "nombre": "Caminante Abrasador",
+   "alias": "Strider",
+   "nombreReal": "Strider",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob domesticable",
+   "rol": "Transporte sobre lava",
+   "afiliacion": "Mares de lava del Nether",
+   "primeraAparicion": "Java Edition 1.16 «Nether Update» (23 de junio de 2020)",
+   "estado": "Activo",
+   "descripcion": "La única forma de cruzar un mar de lava sin construir un puente: se ensilla, se dirige con una seta deformada en una caña y camina sobre la lava como si fuera suelo. Fuera de ella tiembla, se pone morado y se mueve fatal. A veces nace con una cría encima.",
+   "etiquetas": [
+    "Domesticable",
+    "El Nether",
+    "Lava",
+    "Montura",
+    "1.16"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-cerdo",
+   "mundo": "minecraft",
+   "nombre": "Cerdo",
+   "alias": "El primer mob del juego",
+   "nombreReal": "Pig",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Ganado",
+   "afiliacion": "El Overworld",
+   "primeraAparicion": "Survival Test (2009)",
+   "estado": "Activo",
+   "descripcion": "El animal con el que empezó todo: fue el modelo que Notch deformó por error hasta inventar al creeper. Se cría con zanahorias, suelta carne y es el único mob del juego al que puedes ensillar y dirigir con una zanahoria en una caña, un método de transporte tan malo que solo existe para reírse de él.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Ganado",
+    "Montura",
+    "Survival Test",
+    "Overworld"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-conejo",
+   "mundo": "minecraft",
+   "nombre": "Conejo",
+   "alias": "El del pie de la suerte",
+   "nombreReal": "Rabbit",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Fauna menor",
+   "afiliacion": "El Overworld",
+   "primeraAparicion": "Java Edition 1.8 «Bountiful Update» (2 de septiembre de 2014)",
+   "estado": "Activo",
+   "descripcion": "Pequeño, rapidísimo y con pelaje distinto según el bioma. Suelta la pata de conejo, ingrediente de la poción de salto, y hay una variante blanca llamada el Conejo Asesino que Mojang metió como guiño a Monty Python y que solo aparece con comandos.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Pata de conejo",
+    "Pociones",
+    "1.8",
+    "Overworld"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-creaking",
+   "mundo": "minecraft",
+   "nombre": "Creaking",
+   "alias": "El del jardín pálido",
+   "nombreReal": "Creaking",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Guardián del jardín pálido",
+   "afiliacion": "Jardines pálidos",
+   "primeraAparicion": "Java Edition 1.21.4 «The Garden Awakens» (2024)",
+   "estado": "Activo",
+   "descripcion": "Una figura de madera que camina de noche por el jardín pálido y que se queda congelada en el momento en que la miras. No se puede matar: los golpes no le hacen nada mientras siga en pie el corazón del creaking, un bloque escondido en un tronco cercano. Toda la pelea consiste en encontrarlo.",
+   "etiquetas": [
+    "Mob hostil",
+    "Jardín pálido",
+    "Inmortal",
+    "Mirada",
+    "1.21.4"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "minecraft-creeper",
    "mundo": "minecraft",
    "nombre": "Creeper",
@@ -8990,6 +9932,52 @@
     "Overworld",
     "Survival Test",
     "Siseo"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-cubo-de-magma",
+   "mundo": "minecraft",
+   "nombre": "Cubo de Magma",
+   "alias": "Magma Cube",
+   "nombreReal": "Magma Cube",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Slime del Nether",
+   "afiliacion": "El Nether",
+   "primeraAparicion": "Java Edition Beta 1.9 Prerelease (22 de septiembre de 2011)",
+   "estado": "Activo",
+   "descripcion": "El primo infernal del slime: se parte igual al morir, pero salta más alto, es inmune al fuego y pega bastante más. Suelta crema de magma, ingrediente de la poción de resistencia al fuego, que es justamente lo que hace falta para sobrevivir donde vive.",
+   "etiquetas": [
+    "Mob hostil",
+    "El Nether",
+    "Se divide",
+    "Crema de magma",
+    "Beta 1.9"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-delfin",
+   "mundo": "minecraft",
+   "nombre": "Delfín",
+   "alias": "El guía",
+   "nombreReal": "Dolphin",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob neutral",
+   "rol": "Fauna marina",
+   "afiliacion": "Océanos",
+   "primeraAparicion": "Java Edition 1.13 «Update Aquatic» (2018)",
+   "estado": "Activo",
+   "descripcion": "Juega con los objetos que flotan, salta fuera del agua y, si le das pescado, te lleva nadando hasta el pecio o la ruina submarina más cercana. Nadar a su lado da Gracia del Delfín, que multiplica la velocidad bajo el agua. Se ahoga si lo dejas fuera demasiado tiempo.",
+   "etiquetas": [
+    "Mob neutral",
+    "Océano",
+    "Tesoros",
+    "Gracia del delfín",
+    "1.13"
    ],
    "imagen": ""
   },
@@ -9066,6 +10054,29 @@
    "imagen": ""
   },
   {
+   "id": "minecraft-endermita",
+   "mundo": "minecraft",
+   "nombre": "Endermita",
+   "alias": "Endermite",
+   "nombreReal": "Endermite",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Parásito del End",
+   "afiliacion": "El End y allá donde caiga una perla",
+   "primeraAparicion": "Java Edition 1.8 «Bountiful Update» (2 de septiembre de 2014)",
+   "estado": "Activa",
+   "descripcion": "Un bicho morado diminuto que a veces aparece donde cae una perla de ender. Los endermans la odian y la matan en cuanto la ven, lo que la convierte en cebo: encerrar una es la base de las granjas de experiencia del End.",
+   "etiquetas": [
+    "Mob hostil",
+    "El End",
+    "Perla de ender",
+    "Granjas",
+    "1.8"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "minecraft-esqueleto",
    "mundo": "minecraft",
    "nombre": "Esqueleto",
@@ -9090,6 +10101,29 @@
    "imagen": ""
   },
   {
+   "id": "minecraft-esqueleto-wither",
+   "mundo": "minecraft",
+   "nombre": "Esqueleto Wither",
+   "alias": "El de la calavera",
+   "nombreReal": "Wither Skeleton",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Guardián de las fortalezas del Nether",
+   "afiliacion": "Fortalezas del Nether",
+   "primeraAparicion": "Java Edition 1.4.2 «Pretty Scary Update» (25 de octubre de 2012)",
+   "estado": "Activo",
+   "descripcion": "Alto, negro y con espada de piedra, y su golpe aplica marchitamiento, que quita vida durante diez segundos y no se cura comiendo. Su calavera cae una vez de cada cuarenta muertes más o menos, y hacen falta tres para invocar al Wither: esa cifra es la razón por la que media comunidad ha montado granjas en las fortalezas.",
+   "etiquetas": [
+    "Mob hostil",
+    "El Nether",
+    "Fortaleza",
+    "Marchitamiento",
+    "Calavera"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "minecraft-evocador",
    "mundo": "minecraft",
    "nombre": "Evocador",
@@ -9110,6 +10144,75 @@
     "Tótem de la inmortalidad",
     "Vex",
     "1.11"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-fantasma",
+   "mundo": "minecraft",
+   "nombre": "Fantasma",
+   "alias": "Phantom",
+   "nombreReal": "Phantom",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Castigo por no dormir",
+   "afiliacion": "El cielo del Overworld",
+   "primeraAparicion": "Java Edition 1.13 «Update Aquatic» (2018)",
+   "estado": "Activo",
+   "descripcion": "Ganó la votación de mobs de 2017 y es el único enemigo del juego que aparece por lo que haces y no por dónde estás: si llevas tres días sin dormir, baja del cielo en picado a por ti, una y otra vez, hasta que duermas o mueras. Se quema con el sol y su membrana repara los élitros.",
+   "etiquetas": [
+    "Mob hostil",
+    "Insomnio",
+    "Votación de mobs",
+    "Élitros",
+    "1.13"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-gallina",
+   "mundo": "minecraft",
+   "nombre": "Gallina",
+   "alias": "La de los huevos",
+   "nombreReal": "Chicken",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Ganado",
+   "afiliacion": "El Overworld",
+   "primeraAparicion": "Survival Test (2009)",
+   "estado": "Activa",
+   "descripcion": "Pone un huevo cada cinco o diez minutos sin que nadie se lo pida y planea al caer en vez de hacerse daño, cosa que la convierte en paracaídas involuntario de cualquiera que se despeñe con una encima. Los pollitos crecen en veinte minutos y a veces nacen ya montados sobre un zombi.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Huevos",
+    "Plumas",
+    "Survival Test",
+    "Overworld"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-gato",
+   "mundo": "minecraft",
+   "nombre": "Gato",
+   "alias": "El espantacreepers",
+   "nombreReal": "Cat",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob domesticable",
+   "rol": "Compañero",
+   "afiliacion": "El Overworld",
+   "primeraAparicion": "Java Edition 1.14 «Village & Pillage» (23 de abril de 2019)",
+   "estado": "Activo",
+   "descripcion": "Se doma con pescado crudo, aparece en las aldeas y en las chozas de las brujas, y tiene un uso muy concreto: los creepers y los fantasmas no se le acercan, así que tener uno en casa es una medida de seguridad. Duerme sobre tu cama, te trae regalos por la mañana y no obedece nada.",
+   "etiquetas": [
+    "Domesticable",
+    "Compañero",
+    "Aldea",
+    "Espanta creepers",
+    "1.14"
    ],
    "imagen": ""
   },
@@ -9162,6 +10265,52 @@
    "imagen": ""
   },
   {
+   "id": "minecraft-golem-de-nieve",
+   "mundo": "minecraft",
+   "nombre": "Golem de Nieve",
+   "alias": "El de la calabaza",
+   "nombreReal": "Snow Golem",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Golem",
+   "rol": "Defensa a distancia",
+   "afiliacion": "Construido por el jugador",
+   "primeraAparicion": "Java Edition Beta 1.9 Prerelease (22 de septiembre de 2011)",
+   "estado": "Invocable",
+   "descripcion": "Dos bloques de nieve y una calabaza tallada. Lanza bolas de nieve que no hacen daño a casi nadie pero empujan y marcan al enemigo para que las torretas y los golems de hierro sepan a quién pegar. Se derrite bajo la lluvia o en los biomas cálidos, y deja un rastro de nieve por donde pasa.",
+   "etiquetas": [
+    "Golem",
+    "Invocable",
+    "Nieve",
+    "Calabaza",
+    "Beta 1.9"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-guardian",
+   "mundo": "minecraft",
+   "nombre": "Guardián",
+   "alias": "El del rayo",
+   "nombreReal": "Guardian",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Defensa del monumento oceánico",
+   "afiliacion": "Monumentos oceánicos",
+   "primeraAparicion": "Java Edition 1.8 «Bountiful Update» (2 de septiembre de 2014)",
+   "estado": "Activo",
+   "descripcion": "Un pez con un solo ojo que carga un rayo durante un par de segundos y luego te alcanza sí o sí, porque no se puede esquivar una vez enganchado. Tiene pinchos que devuelven daño al que lo golpea cuerpo a cuerpo, y salen a decenas dentro del monumento.",
+   "etiquetas": [
+    "Mob hostil",
+    "Océano",
+    "Monumento oceánico",
+    "Rayo",
+    "1.8"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "minecraft-guardian-anciano",
    "mundo": "minecraft",
    "nombre": "Guardián Anciano",
@@ -9182,6 +10331,98 @@
     "Fatiga minera",
     "Esponja",
     "1.8"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-hoglin",
+   "mundo": "minecraft",
+   "nombre": "Hoglin",
+   "alias": "El jabalí del Nether",
+   "nombreReal": "Hoglin",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Presa y depredador",
+   "afiliacion": "El Nether",
+   "primeraAparicion": "Java Edition 1.16 «Nether Update» (23 de junio de 2020)",
+   "estado": "Activo",
+   "descripcion": "Un jabalí enorme de los bosques carmesíes que embiste y lanza por los aires, y a la vez la única fuente de carne del Nether, así que la relación con él es complicada. Le tiene pánico a las setas deformadas, que se usan para dirigirlo o para mantenerlo a raya.",
+   "etiquetas": [
+    "Mob hostil",
+    "El Nether",
+    "Bosque carmesí",
+    "Comida",
+    "1.16"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-ilusionista",
+   "mundo": "minecraft",
+   "nombre": "Ilusionista",
+   "alias": "Illusioner",
+   "nombreReal": "Illusioner",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Illager hechicero",
+   "afiliacion": "Ninguna: no aparece de forma natural",
+   "primeraAparicion": "Java Edition 1.12 «World of Color Update» (2017)",
+   "estado": "Activo, pero sin generación natural",
+   "descripcion": "El mob olvidado del juego: existe, funciona y tiene ataques propios —dispara con arco, te ciega y crea cuatro copias falsas de sí mismo para que no sepas a cuál pegar—, pero Mojang nunca lo puso a aparecer en ningún sitio. Solo sale invocándolo con comandos, y ahí lleva desde 2017.",
+   "etiquetas": [
+    "Mob hostil",
+    "Illager",
+    "Sin generación",
+    "Ceguera",
+    "1.12"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-lepisma",
+   "mundo": "minecraft",
+   "nombre": "Lepisma",
+   "alias": "Silverfish",
+   "nombreReal": "Silverfish",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Parásito de la piedra",
+   "afiliacion": "Fortalezas y montañas",
+   "primeraAparicion": "Java Edition Beta 1.8 «Adventure Update» (septiembre de 2011)",
+   "estado": "Activa",
+   "descripcion": "Se esconde dentro de bloques de piedra que parecen normales y sale cuando los picas, llamando de paso a todas las que haya alrededor. Es el mob que convierte encontrar la fortaleza del End en una molestia constante, porque cada bloque mal picado despierta a media docena.",
+   "etiquetas": [
+    "Mob hostil",
+    "Fortaleza",
+    "Piedra infestada",
+    "Beta 1.8",
+    "Enjambre"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-llama",
+   "mundo": "minecraft",
+   "nombre": "Llama",
+   "alias": "La de las alforjas",
+   "nombreReal": "Llama",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob neutral",
+   "rol": "Bestia de carga",
+   "afiliacion": "Montañas y sabanas",
+   "primeraAparicion": "Java Edition 1.11 «Exploration Update» (14 de noviembre de 2016)",
+   "estado": "Activa",
+   "descripcion": "No se monta, se carga: lleva un cofre a la espalda y se ata con cuerda a otras llamas formando caravanas de hasta diez, que es la forma más cómoda de mudar una base entera. Si algo la molesta escupe, y las que acompañan al aldeano errante atacan a quien lo toque.",
+   "etiquetas": [
+    "Mob neutral",
+    "Carga",
+    "Caravana",
+    "1.11",
+    "Alfombra"
    ],
    "imagen": ""
   },
@@ -9210,6 +10451,121 @@
    "imagen": ""
   },
   {
+   "id": "minecraft-loro",
+   "mundo": "minecraft",
+   "nombre": "Loro",
+   "alias": "El imitador",
+   "nombreReal": "Parrot",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob domesticable",
+   "rol": "Compañero de la jungla",
+   "afiliacion": "Junglas",
+   "primeraAparicion": "Java Edition 1.12 «World of Color Update» (2017)",
+   "estado": "Activo",
+   "descripcion": "Se posa en el hombro, viene en cinco colores y baila si hay un disco sonando cerca. Su gracia real es que imita el sonido de los mobs hostiles que haya cerca, así que funciona como detector de peligro. Las galletas lo matan al instante, un detalle que Mojang metió a propósito porque el chocolate es tóxico para los loros de verdad.",
+   "etiquetas": [
+    "Domesticable",
+    "Jungla",
+    "Hombro",
+    "Disco",
+    "1.12"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-murcielago",
+   "mundo": "minecraft",
+   "nombre": "Murciélago",
+   "alias": "El del susto",
+   "nombreReal": "Bat",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Fauna de cuevas",
+   "afiliacion": "Cuevas",
+   "primeraAparicion": "Java Edition 1.4.2 «Pretty Scary Update» (25 de octubre de 2012)",
+   "estado": "Activo",
+   "descripcion": "No suelta nada, no hace nada y no sirve para nada: su función es chillar en una cueva oscura y que el jugador se lleve un susto pensando que era otra cosa. Cumple ese papel desde 2012 con una eficacia impecable.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Cuevas",
+    "Ambiente",
+    "1.4.2",
+    "Inútil"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-ocelote",
+   "mundo": "minecraft",
+   "nombre": "Ocelote",
+   "alias": "El de la jungla",
+   "nombreReal": "Ocelot",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob neutral",
+   "rol": "Fauna de la jungla",
+   "afiliacion": "Junglas",
+   "primeraAparicion": "Java Edition 1.2.1 (1 de marzo de 2012)",
+   "estado": "Activo",
+   "descripcion": "Durante años fue el gato del juego: se le daba pescado y se convertía en uno doméstico. En 2019 lo separaron, y ahora el ocelote es un animal salvaje que nunca se doma, solo se gana su confianza para que deje de huir. Sigue espantando creepers, que es lo que le daba sentido.",
+   "etiquetas": [
+    "Mob neutral",
+    "Jungla",
+    "Espanta creepers",
+    "1.2.1",
+    "Pescado"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-oveja",
+   "mundo": "minecraft",
+   "nombre": "Oveja",
+   "alias": "La de la lana",
+   "nombreReal": "Sheep",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Ganado",
+   "afiliacion": "El Overworld",
+   "primeraAparicion": "Survival Test (2009)",
+   "estado": "Activa",
+   "descripcion": "La proveedora de lana, que es lo que hace falta para dormir la primera noche, así que casi nadie sobrevive al principio sin encontrarse una. Se la puede teñir de dieciséis colores y vuelve a crecerle el pelaje comiendo hierba, de modo que funciona como granja renovable de bloques de colores.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Lana",
+    "Tintes",
+    "Cama",
+    "Survival Test"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-panda",
+   "mundo": "minecraft",
+   "nombre": "Panda",
+   "alias": "El de las personalidades",
+   "nombreReal": "Panda",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Fauna de la jungla de bambú",
+   "afiliacion": "Junglas de bambú",
+   "primeraAparicion": "Java Edition 1.14 «Village & Pillage» (23 de abril de 2019)",
+   "estado": "Activo",
+   "descripcion": "Come bambú, se tumba de espaldas y viene con siete personalidades distintas que se heredan de los padres: perezoso, juguetón, preocupado, agresivo, débil, marrón y normal. El débil estornuda y, al hacerlo, a veces suelta un bloque de baba. Es el mob con más comportamiento gratuito del juego.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Bambú",
+    "Jungla",
+    "Personalidades",
+    "1.14"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "minecraft-piglin",
    "mundo": "minecraft",
    "nombre": "Piglin",
@@ -9230,6 +10586,121 @@
     "Trueque",
     "1.16",
     "Nether Update"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-piglin-bruto",
+   "mundo": "minecraft",
+   "nombre": "Piglin Bruto",
+   "alias": "Piglin Brute",
+   "nombreReal": "Piglin Brute",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Guardián de los bastiones",
+   "afiliacion": "El Nether",
+   "primeraAparicion": "Java Edition 1.16.2 (2020)",
+   "estado": "Activo",
+   "descripcion": "La excepción a la regla del oro: al bruto le da igual lo que lleves puesto, no comercia y ataca siempre, con un hacha y con mucha más vida que un piglin normal. Custodia los cofres de los bastiones, que es donde están las mejores cosas del Nether, y por eso está ahí.",
+   "etiquetas": [
+    "Mob hostil",
+    "El Nether",
+    "Bastión",
+    "Hacha",
+    "1.16"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-piglin-zombificado",
+   "mundo": "minecraft",
+   "nombre": "Piglin Zombificado",
+   "alias": "Zombie Pigman",
+   "nombreReal": "Zombified Piglin",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob neutral",
+   "rol": "Habitante muerto del Nether",
+   "afiliacion": "El Nether",
+   "primeraAparicion": "Java Edition Alpha v1.2.0 «Halloween Update» (30 de octubre de 2010)",
+   "estado": "Activo",
+   "descripcion": "Durante diez años se llamó hombrecerdo zombi y fue la primera lección dura del Nether: pega a uno y se te echan encima todos los que haya en cien bloques a la redonda, con espadas de oro y sin prisa. Es lo que queda de un piglin que pisó el Overworld, y también lo que aparece si te cae un rayo cerca de un cerdo.",
+   "etiquetas": [
+    "Mob neutral",
+    "El Nether",
+    "Enjambre",
+    "Oro",
+    "Halloween Update"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-rana",
+   "mundo": "minecraft",
+   "nombre": "Rana",
+   "alias": "La de las tres variantes",
+   "nombreReal": "Frog",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Fauna de pantano",
+   "afiliacion": "Pantanos y manglares",
+   "primeraAparicion": "Java Edition 1.19 «The Wild Update» (7 de junio de 2022)",
+   "estado": "Activa",
+   "descripcion": "Se come a los slimes pequeños y a los cubos de magma de un lengüetazo, y del magma suelta perlacé, el bloque que empuja objetos por el aire. Su color depende de la temperatura del bioma donde crezca el renacuajo, no de dónde nazca: templada, fría o cálida.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Pantano",
+    "Manglar",
+    "Perlacé",
+    "1.19"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-renacuajo",
+   "mundo": "minecraft",
+   "nombre": "Renacuajo",
+   "alias": "La cría de rana",
+   "nombreReal": "Tadpole",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Cría",
+   "afiliacion": "Pantanos y manglares",
+   "primeraAparicion": "Java Edition 1.19 «The Wild Update» (7 de junio de 2022)",
+   "estado": "Activo",
+   "descripcion": "Nada en grupo, huye de todo y se transforma en rana según el bioma donde termine de crecer, lo que convierte moverlos en cubo de un sitio a otro en la única forma de conseguir las tres variantes. Es el mob más indefenso del juego: cualquier cosa se lo come.",
+   "etiquetas": [
+    "Cría",
+    "Pantano",
+    "Cubo",
+    "1.19",
+    "Indefenso"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-saqueador",
+   "mundo": "minecraft",
+   "nombre": "Saqueador",
+   "alias": "Pillager",
+   "nombreReal": "Pillager",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Ballestero de los illagers",
+   "afiliacion": "Puestos de saqueadores y asaltos",
+   "primeraAparicion": "Java Edition 1.14 «Village & Pillage» (23 de abril de 2019)",
+   "estado": "Activo",
+   "descripcion": "La infantería de los illagers: ballesta, cara gris y ganas de arrasar aldeas. Patrullan los caminos en grupos y, si matas al capitán, te llevas el Mal Presagio, la maldición que dispara un asalto en cuanto pisas la siguiente aldea. Casi todo el que la sufre no sabía lo que hacía.",
+   "etiquetas": [
+    "Mob hostil",
+    "Illager",
+    "Ballesta",
+    "Mal Presagio",
+    "1.14"
    ],
    "imagen": ""
   },
@@ -9282,6 +10753,29 @@
    "imagen": ""
   },
   {
+   "id": "minecraft-sniffer",
+   "mundo": "minecraft",
+   "nombre": "Sniffer",
+   "alias": "El rastreador de semillas",
+   "nombreReal": "Sniffer",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Excavador de flora extinta",
+   "afiliacion": "Ruinas sumergidas y desiertos",
+   "primeraAparicion": "Java Edition 1.20 «Trails & Tales» (7 de junio de 2023)",
+   "estado": "Activo",
+   "descripcion": "Ganó la votación de mobs de 2022 y es el único que hay que resucitar: sus huevos salen cepillando ruinas sumergidas. Una vez vivo, olfatea el suelo y desentierra semillas de plantas que ya no existen en el juego, la antorcha-flor y la pícea, que solo se consiguen así.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Votación de mobs",
+    "Arqueología",
+    "Semillas",
+    "1.20"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "minecraft-steve",
    "mundo": "minecraft",
    "nombre": "Steve",
@@ -9302,6 +10796,144 @@
     "Superficie",
     "Sin canon",
     "2009"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-tortuga",
+   "mundo": "minecraft",
+   "nombre": "Tortuga",
+   "alias": "La de la playa",
+   "nombreReal": "Turtle",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Fauna costera",
+   "afiliacion": "Playas",
+   "primeraAparicion": "Java Edition 1.13 «Update Aquatic» (2018)",
+   "estado": "Activa",
+   "descripcion": "Nace en la playa donde fue puesta y siempre vuelve a esa misma playa a desovar, la lleves donde la lleves. Los huevos tardan mucho y cualquier mob los pisotea, así que sacar crías adelante es un proyecto. De sus escamas sale el caparazón, que deja respirar bajo el agua diez segundos más.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Playa",
+    "Huevos",
+    "Caparazón",
+    "1.13"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-vaca",
+   "mundo": "minecraft",
+   "nombre": "Vaca",
+   "alias": "La del cubo de leche",
+   "nombreReal": "Cow",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Ganado",
+   "afiliacion": "El Overworld",
+   "primeraAparicion": "Survival Test (2009)",
+   "estado": "Activa",
+   "descripcion": "Fuente de cuero y de carne, pero sobre todo de leche: es lo único del juego que quita cualquier efecto de poción, bueno o malo, y por eso viaja en la mochila de cualquiera que se meta en una pelea seria. Se cría con trigo y sigue a quien lo lleve en la mano.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Ganado",
+    "Leche",
+    "Cuero",
+    "Survival Test"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-vaca-champinon",
+   "mundo": "minecraft",
+   "nombre": "Vaca Champiñón",
+   "alias": "Mooshroom",
+   "nombreReal": "Mooshroom",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob pacífico",
+   "rol": "Ganado de las islas champiñón",
+   "afiliacion": "Islas champiñón",
+   "primeraAparicion": "Java Edition Beta 1.9 Prerelease (22 de septiembre de 2011)",
+   "estado": "Activa",
+   "descripcion": "Una vaca roja con setas creciéndole en el lomo que solo aparece en las islas champiñón, uno de los biomas más raros del juego. Con un cuenco en vez de un cubo da estofado de champiñones directamente, y esquilarla la convierte en una vaca normal y suelta las setas. Existe una variante marrón que da estofados con efectos.",
+   "etiquetas": [
+    "Mob pacífico",
+    "Isla champiñón",
+    "Estofado",
+    "Bioma raro",
+    "Beta 1.9"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-vagabundo",
+   "mundo": "minecraft",
+   "nombre": "Vagabundo",
+   "alias": "Stray",
+   "nombreReal": "Stray",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Esqueleto de la nieve",
+   "afiliacion": "Biomas nevados",
+   "primeraAparicion": "Java Edition 1.10 «Frostburn Update» (2016)",
+   "estado": "Activo",
+   "descripcion": "Un esqueleto de los biomas helados que dispara flechas de lentitud: te clava una y ya no puedes huir del resto. Sus flechas se recogen y se reutilizan, lo que lo convierte en la fuente más barata de munición con efectos del juego.",
+   "etiquetas": [
+    "Mob hostil",
+    "Nieve",
+    "Lentitud",
+    "1.10",
+    "Flechas"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-vex",
+   "mundo": "minecraft",
+   "nombre": "Vex",
+   "alias": "El invocado",
+   "nombreReal": "Vex",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Espíritu al servicio del evocador",
+   "afiliacion": "Mansiones del bosque y asaltos",
+   "primeraAparicion": "Java Edition 1.11 «Exploration Update» (14 de noviembre de 2016)",
+   "estado": "Activo",
+   "descripcion": "Un bichito volador con una espada que el evocador saca de la nada en grupos de tres. Atraviesa paredes, es rapidísimo y no se le puede acorralar, así que esconderse detrás de un bloque no sirve de nada. Se desvanece solo con el tiempo, que a menudo es la única forma de librarse.",
+   "etiquetas": [
+    "Mob hostil",
+    "Illager",
+    "Vuela",
+    "Atraviesa paredes",
+    "1.11"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-vindicador",
+   "mundo": "minecraft",
+   "nombre": "Vindicador",
+   "alias": "Johnny",
+   "nombreReal": "Vindicator",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Hachero de los illagers",
+   "afiliacion": "Mansiones del bosque y asaltos",
+   "primeraAparicion": "Java Edition 1.11 «Exploration Update» (14 de noviembre de 2016)",
+   "estado": "Activo",
+   "descripcion": "Va con un hacha de hierro y pega más fuerte que casi cualquier cosa del juego a esa altura de la partida. Vive en las mansiones del bosque, escondido detrás de puertas que parecen habitaciones normales. Si le pones de nombre «Johnny» con una etiqueta, ataca a todo ser vivo que vea, un guiño a El resplandor.",
+   "etiquetas": [
+    "Mob hostil",
+    "Illager",
+    "Hacha",
+    "Mansión del bosque",
+    "1.11"
    ],
    "imagen": ""
   },
@@ -9354,6 +10986,29 @@
    "imagen": ""
   },
   {
+   "id": "minecraft-zoglin",
+   "mundo": "minecraft",
+   "nombre": "Zoglin",
+   "alias": "El hoglin zombificado",
+   "nombreReal": "Zoglin",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Bestia sin bando",
+   "afiliacion": "El Overworld y El Nether",
+   "primeraAparicion": "Java Edition 1.16 «Nether Update» (23 de junio de 2020)",
+   "estado": "Activo",
+   "descripcion": "Lo que queda de un hoglin que pasó demasiado tiempo en el Overworld. Pierde el miedo a las setas, deja de comer y ataca a absolutamente todo lo que se mueva, incluidos los otros mobs del Nether. No se puede criar ni domar ni calmar: solo matar.",
+   "etiquetas": [
+    "Mob hostil",
+    "Zombificado",
+    "Sin bando",
+    "1.16",
+    "Embestida"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "minecraft-zombi",
    "mundo": "minecraft",
    "nombre": "Zombi",
@@ -9374,6 +11029,52 @@
     "Survival Test",
     "Arde al sol",
     "Mob básico"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-zombi-momia",
+   "mundo": "minecraft",
+   "nombre": "Zombi Momia",
+   "alias": "Husk",
+   "nombreReal": "Husk",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob hostil",
+   "rol": "Zombi del desierto",
+   "afiliacion": "Desiertos",
+   "primeraAparicion": "Java Edition 1.10 «Frostburn Update» (2016)",
+   "estado": "Activo",
+   "descripcion": "La versión del desierto del zombi, y bastante peor: no se quema con el sol, así que sale a plena luz del mediodía, y su golpe da hambre, que te vacía la barra de comida mientras peleas. Si se ahoga, se convierte en un zombi normal.",
+   "etiquetas": [
+    "Mob hostil",
+    "Desierto",
+    "Hambre",
+    "1.10",
+    "Inmune al sol"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "minecraft-zorro",
+   "mundo": "minecraft",
+   "nombre": "Zorro",
+   "alias": "El ladrón",
+   "nombreReal": "Fox",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Mob neutral",
+   "rol": "Fauna de la taiga",
+   "afiliacion": "Taigas",
+   "primeraAparicion": "Java Edition 1.14 «Village & Pillage» (23 de abril de 2019)",
+   "estado": "Activo",
+   "descripcion": "Duerme de día, caza gallinas de noche y siempre lleva algo en la boca, porque recoge del suelo lo primero que encuentre; con suerte, un tótem o una esmeralda que se le puede quitar. Los criados en cautividad confían en el jugador, y hay una variante blanca en las taigas nevadas.",
+   "etiquetas": [
+    "Mob neutral",
+    "Taiga",
+    "Ladrón",
+    "Nocturno",
+    "1.14"
    ],
    "imagen": ""
   },
@@ -9636,6 +11337,28 @@
    "imagen": ""
   },
   {
+   "id": "stranger-things-benny",
+   "mundo": "stranger-things",
+   "nombre": "Benny Hammond",
+   "alias": "El del bar",
+   "nombreReal": "Benny Hammond",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Dueño de la hamburguesería",
+   "afiliacion": "Benny's Burgers",
+   "primeraAparicion": "Temporada 1 (2016)",
+   "estado": "Muerto (primera temporada)",
+   "descripcion": "El primer adulto que encuentra a Once: la pilla robando comida, le da hamburguesas y llama a servicios sociales porque le parece lo correcto. Lo matan por eso, de un tiro en su propio local, disfrazado de suicidio. En veinte minutos de metraje la serie deja claro cuánto vale una vida para la gente del laboratorio.",
+   "etiquetas": [
+    "Hamburguesería",
+    "Once",
+    "Laboratorio de Hawkins",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "stranger-things-billy",
    "mundo": "stranger-things",
    "nombre": "Billy Hargrove",
@@ -9681,6 +11404,95 @@
    "imagen": ""
   },
   {
+   "id": "stranger-things-chrissy",
+   "mundo": "stranger-things",
+   "nombre": "Chrissy Cunningham",
+   "alias": "La animadora",
+   "nombreReal": "Chrissy Cunningham",
+   "edad": "Adolescente",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Animadora del instituto",
+   "afiliacion": "Instituto de Hawkins",
+   "primeraAparicion": "Temporada 4 (2022)",
+   "estado": "Muerta (cuarta temporada)",
+   "descripcion": "La chica más popular del instituto, que en su primera escena de verdad está comprando droga a Eddie Munson para poder dormir. Vecna la elige porque lleva años ocultando un trastorno alimentario y a un padre que la humilla, y su muerte —flotando y con los huesos rotos, delante de Eddie— abre la temporada y desata la caza de brujas contra él.",
+   "etiquetas": [
+    "Instituto",
+    "Vecna",
+    "Primera víctima",
+    "Temporada 4"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "stranger-things-claudia",
+   "mundo": "stranger-things",
+   "nombre": "Claudia Henderson",
+   "alias": "La madre de Dustin",
+   "nombreReal": "Claudia Henderson",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Madre",
+   "afiliacion": "Hawkins, Indiana",
+   "primeraAparicion": "Temporada 1 (2016)",
+   "estado": "Viva al final de la cuarta temporada",
+   "descripcion": "Cariñosa, un poco despistada y con un gato llamado Mews al que Dart se come en cuanto tiene ocasión. Es una de las pocas madres de la serie con una relación buena y sin dramas con su hijo, y su papel es recordarte que en Hawkins la gente normal sigue haciendo vida normal mientras el mundo se abre por debajo.",
+   "etiquetas": [
+    "Familia Henderson",
+    "Hawkins",
+    "Madre",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "stranger-things-sullivan",
+   "mundo": "stranger-things",
+   "nombre": "Coronel Sullivan",
+   "alias": "El militar",
+   "nombreReal": "Jack Sullivan",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Coronel del ejército",
+   "afiliacion": "Ejército de los Estados Unidos",
+   "primeraAparicion": "Temporada 4 (2022)",
+   "estado": "Vivo al final de la cuarta temporada",
+   "descripcion": "El oficial convencido de que la fuente de todas las muertes de Hawkins es Once, y de que la solución es matarla. Su lógica no es del todo absurda —ella abrió la primera grieta—, lo que lo convierte en un antagonista incómodo: persigue a una niña con argumentos, y la serie deja que los diga.",
+   "etiquetas": [
+    "Ejército",
+    "Antagonista",
+    "Persecución",
+    "Temporada 4"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "stranger-things-dart",
+   "mundo": "stranger-things",
+   "nombre": "Dart",
+   "alias": "D'Artagnan",
+   "nombreReal": "Dart",
+   "edad": "Cría",
+   "nacimiento": "No especificada",
+   "especie": "Criatura del Upside Down",
+   "rol": "Mascota accidental de Dustin",
+   "afiliacion": "El Upside Down",
+   "primeraAparicion": "Temporada 2 (2017)",
+   "estado": "Muerto (segunda temporada)",
+   "descripcion": "El renacuajo que Dustin encuentra en el cubo de la basura y adopta creyendo que es una especie nueva que lo hará famoso. Lo cría con chocolatinas mientras muda de piel tres veces y se convierte en un demoperro del tamaño de un perro grande. Su último gesto —dejar pasar a Dustin porque lo reconoce— es de las pocas ternuras que da el Upside Down.",
+   "etiquetas": [
+    "Demoperro",
+    "Dustin",
+    "Upside Down",
+    "Chocolatinas",
+    "Temporada 2"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "stranger-things-demogorgon",
    "mundo": "stranger-things",
    "nombre": "Demogorgon",
@@ -9704,6 +11516,51 @@
    "imagen": ""
   },
   {
+   "id": "stranger-things-demoperros",
+   "mundo": "stranger-things",
+   "nombre": "Demoperros",
+   "alias": "Demodogs",
+   "nombreReal": "Demodogs",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Criatura del Upside Down",
+   "rol": "Jauría",
+   "afiliacion": "El Upside Down",
+   "primeraAparicion": "Temporada 2 (2017)",
+   "estado": "Exterminados en el laboratorio",
+   "descripcion": "La forma intermedia del ciclo del Demogorgon: cuadrúpedos, rapidísimos y siempre en grupo, con la misma cabeza que se abre en pétalos. Cambian por completo el tipo de amenaza de la segunda temporada, que deja de ser un monstruo escondido para ser una jauría entrando por los conductos. El nombre se lo inventa Dustin, cómo no.",
+   "etiquetas": [
+    "Criatura",
+    "Upside Down",
+    "Jauría",
+    "Laboratorio de Hawkins",
+    "Temporada 2"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "stranger-things-dmitri",
+   "mundo": "stranger-things",
+   "nombre": "Dmitri Antonov",
+   "alias": "Enzo",
+   "nombreReal": "Dmitri Antonov",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Guardia de la prisión de Kamchatka",
+   "afiliacion": "Ejército soviético",
+   "primeraAparicion": "Temporada 4 (2022)",
+   "estado": "Vivo al final de la cuarta temporada",
+   "descripcion": "El carcelero ruso al que Hopper soborna para intentar escapar, y que acaba encerrado en la misma celda que él. La serie le da el arco más rápido de la temporada: empieza vendiendo información por dinero y termina jugándose la vida por un americano al que apenas conoce, con un demogorgon suelto en el patio de por medio.",
+   "etiquetas": [
+    "Rusia",
+    "Kamchatka",
+    "Prisión",
+    "Temporada 4"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "stranger-things-brenner",
    "mundo": "stranger-things",
    "nombre": "Dr. Martin Brenner",
@@ -9723,6 +11580,28 @@
     "Laboratorio de Hawkins",
     "Papá",
     "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "stranger-things-owens",
+   "mundo": "stranger-things",
+   "nombre": "Dr. Sam Owens",
+   "alias": "El del laboratorio, versión decente",
+   "nombreReal": "Sam Owens",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Director del Laboratorio de Hawkins",
+   "afiliacion": "Departamento de Energía",
+   "primeraAparicion": "Temporada 2 (2017)",
+   "estado": "Vivo al final de la cuarta temporada",
+   "descripcion": "El sustituto de Brenner al frente del laboratorio, y la prueba de que la serie no reparte a los adultos en buenos y malos: sigue tapando lo que hizo el gobierno, pero de verdad intenta que nadie más salga herido y le coge cariño a Once. Es quien le da a Hopper los papeles de adopción, y quien acaba secuestrado y obligado a colaborar con Brenner otra vez.",
+   "etiquetas": [
+    "Laboratorio de Hawkins",
+    "Gobierno",
+    "Aliado",
+    "Temporada 2"
    ],
    "imagen": ""
   },
@@ -9797,6 +11676,72 @@
    "imagen": ""
   },
   {
+   "id": "stranger-things-fred",
+   "mundo": "stranger-things",
+   "nombre": "Fred Benson",
+   "alias": "El del periódico",
+   "nombreReal": "Fred Benson",
+   "edad": "Adolescente",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Redactor del periódico del instituto",
+   "afiliacion": "Hawkins Post",
+   "primeraAparicion": "Temporada 4 (2022)",
+   "estado": "Muerto (cuarta temporada)",
+   "descripcion": "El compañero de Nancy en el periódico del instituto, que carga con la culpa de un accidente de coche en el que murió alguien y al que nunca se entregó. Vecna lo caza por eso, en mitad de la calle y a plena luz, y su muerte es la que convence a Nancy de que lo que está pasando no es un asesino con cuchillo.",
+   "etiquetas": [
+    "Hawkins Post",
+    "Vecna",
+    "Culpa",
+    "Temporada 4"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "stranger-things-holly",
+   "mundo": "stranger-things",
+   "nombre": "Holly Wheeler",
+   "alias": "La hermana pequeña",
+   "nombreReal": "Holly Wheeler",
+   "edad": "Niña",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Hija menor de los Wheeler",
+   "afiliacion": "Hawkins, Indiana",
+   "primeraAparicion": "Temporada 1 (2016)",
+   "estado": "Viva al final de la cuarta temporada",
+   "descripcion": "La menor de los Wheeler, de la que casi nadie se ocupa. Es de las primeras que ve algo raro —las luces del pasillo moviéndose solas— y, como tiene cuatro años, nadie le hace caso, que es la regla básica del pueblo aplicada a la escala más pequeña posible.",
+   "etiquetas": [
+    "Familia Wheeler",
+    "Hawkins",
+    "Niña",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "stranger-things-jason",
+   "mundo": "stranger-things",
+   "nombre": "Jason Carver",
+   "alias": "El capitán del equipo",
+   "nombreReal": "Jason Carver",
+   "edad": "Adolescente",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Capitán del equipo de baloncesto",
+   "afiliacion": "Instituto de Hawkins",
+   "primeraAparicion": "Temporada 4 (2022)",
+   "estado": "Muerto (cuarta temporada)",
+   "descripcion": "El novio de Chrissy y el motor del pánico satánico en Hawkins: convierte su duelo en un sermón y arrastra a medio pueblo a linchar a un chaval por escuchar metal y jugar a rol. No es un villano sobrenatural, y ese es el punto: la serie lo pone al lado de Vecna para enseñar cuál de los dos monstruos es más fácil de encontrar en la vida real.",
+   "etiquetas": [
+    "Instituto",
+    "Baloncesto",
+    "Pánico satánico",
+    "Temporada 4"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "stranger-things-hopper",
    "mundo": "stranger-things",
    "nombre": "Jim Hopper",
@@ -9861,6 +11806,51 @@
     "Luces de Navidad",
     "Hawkins",
     "Rescate",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "stranger-things-kali",
+   "mundo": "stranger-things",
+   "nombre": "Kali Prasad",
+   "alias": "Ocho",
+   "nombreReal": "Kali Prasad",
+   "edad": "Adulta joven",
+   "nacimiento": "No especificada",
+   "especie": "Humana con habilidades psiónicas",
+   "rol": "Sujeto 008 del Laboratorio de Hawkins",
+   "afiliacion": "Su propia banda, en Chicago",
+   "primeraAparicion": "Temporada 2 (2017)",
+   "estado": "Viva al final de la cuarta temporada",
+   "descripcion": "La otra superviviente del laboratorio, capaz de crear ilusiones que nadie distingue de la realidad, y la única persona del mundo que sabe lo que es ser Once. Vive en Chicago con una banda dedicada a cazar y matar a los que trabajaron en el programa. Su capítulo es el más odiado de la serie y también el que plantea la pregunta que Once tenía que responder: si usar el poder para vengarse o para volver a casa.",
+   "etiquetas": [
+    "Psiónica",
+    "Sujeto 008",
+    "Chicago",
+    "Laboratorio de Hawkins",
+    "Temporada 2"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "stranger-things-karen",
+   "mundo": "stranger-things",
+   "nombre": "Karen Wheeler",
+   "alias": "La madre de Mike y Nancy",
+   "nombreReal": "Karen Wheeler",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Ama de casa",
+   "afiliacion": "Hawkins, Indiana",
+   "primeraAparicion": "Temporada 1 (2016)",
+   "estado": "Viva al final de la cuarta temporada",
+   "descripcion": "La madre de la familia más normal de Hawkins, que es exactamente el problema: se pasa la serie sin enterarse de nada de lo que ocurre en su propio sótano. La serie la usa para retratar el aburrimiento de una vida cómoda, con un marido que solo mira la tele y una hija que ya no le cuenta nada, y le da un momento de tentación con Billy que se corta justo a tiempo.",
+   "etiquetas": [
+    "Familia Wheeler",
+    "Hawkins",
+    "Madre",
     "Temporada 1"
    ],
    "imagen": ""
@@ -10005,6 +11995,28 @@
    "imagen": ""
   },
   {
+   "id": "stranger-things-patrick",
+   "mundo": "stranger-things",
+   "nombre": "Patrick McKinney",
+   "alias": "El del equipo",
+   "nombreReal": "Patrick McKinney",
+   "edad": "Adolescente",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Jugador de baloncesto",
+   "afiliacion": "Instituto de Hawkins",
+   "primeraAparicion": "Temporada 4 (2022)",
+   "estado": "Muerto (cuarta temporada)",
+   "descripcion": "Compañero de equipo de Jason y Lucas, y la tercera víctima de Vecna. Su secreto es un padre que le pega, algo que nadie del instituto sabía, y muere flotando sobre el lago delante de Jason, que es lo que termina de convertir a este en un fanático.",
+   "etiquetas": [
+    "Instituto",
+    "Baloncesto",
+    "Vecna",
+    "Temporada 4"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "stranger-things-robin",
    "mundo": "stranger-things",
    "nombre": "Robin Buckley",
@@ -10028,6 +12040,28 @@
    "imagen": ""
   },
   {
+   "id": "stranger-things-clarke",
+   "mundo": "stranger-things",
+   "nombre": "Sr. Clarke",
+   "alias": "El profesor de ciencias",
+   "nombreReal": "Scott Clarke",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Profesor de ciencias",
+   "afiliacion": "Colegio de Hawkins",
+   "primeraAparicion": "Temporada 1 (2016)",
+   "estado": "Vivo al final de la cuarta temporada",
+   "descripcion": "El profesor del club de ciencias que les explica a los críos las dimensiones paralelas con un plato y una cuerda de acróbata, y que les presta media clase en piezas para montar una radio. Es el único adulto de la primera temporada que responde a sus preguntas en serio, y por eso media trama avanza gracias a él sin que se entere de nada.",
+   "etiquetas": [
+    "Colegio",
+    "Club de ciencias",
+    "Aliado",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "stranger-things-steve",
    "mundo": "stranger-things",
    "nombre": "Steve Harrington",
@@ -10046,6 +12080,72 @@
     "Scoops Ahoy",
     "Family Video",
     "Niñera",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "stranger-things-suzie",
+   "mundo": "stranger-things",
+   "nombre": "Suzie Bingham",
+   "alias": "Suzie-Poo",
+   "nombreReal": "Suzie Bingham",
+   "edad": "Adolescente",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Novia de Dustin",
+   "afiliacion": "Salt Lake City, Utah",
+   "primeraAparicion": "Temporada 3 (2019)",
+   "estado": "Viva al final de la cuarta temporada",
+   "descripcion": "La novia de Dustin que todos daban por inventada hasta que aparece por radio en el peor momento posible y exige que le canten entera la canción de La historia interminable antes de dar el dato que salva la operación. Es puro Dustin en versión femenina: superdotada, obsesiva y con una familia enorme que la serie usa para su mejor escena cómica.",
+   "etiquetas": [
+    "Radio",
+    "Utah",
+    "Novia de Dustin",
+    "Temporada 3"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "stranger-things-ted",
+   "mundo": "stranger-things",
+   "nombre": "Ted Wheeler",
+   "alias": "El padre del sillón",
+   "nombreReal": "Ted Wheeler",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Padre de familia",
+   "afiliacion": "Hawkins, Indiana",
+   "primeraAparicion": "Temporada 1 (2016)",
+   "estado": "Vivo al final de la cuarta temporada",
+   "descripcion": "Duerme en el sillón, contesta con monosílabos y su aportación a cuatro temporadas de crisis es preguntar qué hay de cena. Es un chiste sostenido durante toda la serie sobre el padre ausente estando presente, y funciona porque nunca se le da la vuelta: cuando el gobierno le pone la casa patas arriba, sigue sin enterarse.",
+   "etiquetas": [
+    "Familia Wheeler",
+    "Hawkins",
+    "Padre",
+    "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "stranger-things-terry",
+   "mundo": "stranger-things",
+   "nombre": "Terry Ives",
+   "alias": "La madre de Once",
+   "nombreReal": "Terry Ives",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Sujeto del programa MKUltra",
+   "afiliacion": "Laboratorio de Hawkins",
+   "primeraAparicion": "Temporada 1 (2016)",
+   "estado": "Viva, en estado catatónico",
+   "descripcion": "Participó en los experimentos con LSD del programa MKUltra estando embarazada, y cuando reclamó a su hija se la quitaron y la borraron a base de electrochoques. Vive catatónica en casa de su hermana, repitiendo en bucle las mismas cuatro palabras. Es la prueba más clara de lo que el gobierno hizo aquí, y nadie puede usarla como testigo.",
+   "etiquetas": [
+    "MKUltra",
+    "Madre de Once",
+    "Catatónica",
     "Temporada 1"
    ],
    "imagen": ""
@@ -10075,6 +12175,27 @@
    "imagen": ""
   },
   {
+   "id": "stranger-things-vickie",
+   "mundo": "stranger-things",
+   "nombre": "Vickie",
+   "alias": "La de la banda del instituto",
+   "nombreReal": "Vickie",
+   "edad": "Adolescente",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Estudiante",
+   "afiliacion": "Instituto de Hawkins",
+   "primeraAparicion": "Temporada 4 (2022)",
+   "estado": "Viva al final de la cuarta temporada",
+   "descripcion": "La chica que le gusta a Robin, tan incapaz de hablar sin atropellarse como ella. Su papel es pequeño y hace algo que la serie tenía pendiente: darle a Robin una historia romántica en vez de dejarla siempre haciendo de mejor amiga de todo el mundo.",
+   "etiquetas": [
+    "Instituto",
+    "Robin",
+    "Temporada 4"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "stranger-things-will",
    "mundo": "stranger-things",
    "nombre": "Will Byers",
@@ -10095,6 +12216,28 @@
     "Desaparecido",
     "Azotamentes",
     "Temporada 1"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "stranger-things-yuri",
+   "mundo": "stranger-things",
+   "nombre": "Yuri Ismaylov",
+   "alias": "El contrabandista",
+   "nombreReal": "Yuri Ismaylov",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Piloto y contrabandista",
+   "afiliacion": "Independiente",
+   "primeraAparicion": "Temporada 4 (2022)",
+   "estado": "Vivo al final de la cuarta temporada",
+   "descripcion": "Un traficante ruso con avioneta, sentido del humor pésimo y ninguna lealtad: acepta el dinero de Joyce y Murray y los entrega a las autoridades en cuanto ve más beneficio. Es el alivio cómico de la trama soviética, con sus chistes malos y su mantequilla de cacahuete de contrabando, hasta que un golpe en la cabeza lo deja del lado de los buenos por accidente.",
+   "etiquetas": [
+    "Rusia",
+    "Contrabando",
+    "Alivio cómico",
+    "Temporada 4"
    ],
    "imagen": ""
   }
