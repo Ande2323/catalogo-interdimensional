@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-30T00:57:24.632Z",
+ "actualizado": "2026-08-30T01:11:40.224Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -140,7 +140,7 @@
     "Todos los Males",
     "Fate/hollow ataraxia"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-angra-mainyu.webp"
   },
   {
    "id": "fate-artoria-pendragon",
@@ -165,7 +165,7 @@
     "Fate/Zero",
     "Fate/stay night"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-artoria-pendragon.webp"
   },
   {
    "id": "fate-cu-chulainn",
@@ -189,7 +189,7 @@
     "Mitología celta",
     "Fate/stay night"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-cu-chulainn.webp"
   },
   {
    "id": "fate-diarmuid-ua-duibhne",
@@ -213,7 +213,7 @@
     "Maldición",
     "Fate/Zero"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-diarmuid-ua-duibhne.webp"
   },
   {
    "id": "fate-emiya",
@@ -237,7 +237,7 @@
     "Shirou",
     "Fate/stay night"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-emiya.webp"
   },
   {
    "id": "fate-gilgamesh",
@@ -262,7 +262,7 @@
     "Fate/Zero",
     "Fate/stay night"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-gilgamesh.webp"
   },
   {
    "id": "fate-gilles-de-rais",
@@ -286,7 +286,7 @@
     "Grimorio",
     "Fate/Zero"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-gilles-de-rais.webp"
   },
   {
    "id": "fate-hassan-de-los-cien-rostros",
@@ -310,7 +310,7 @@
     "Secta de los asesinos",
     "Fate/Zero"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-hassan-de-los-cien-rostros.webp"
   },
   {
    "id": "fate-hassan-del-brazo-maldito",
@@ -334,7 +334,7 @@
     "Brazo maldito",
     "Fate/stay night"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-hassan-del-brazo-maldito.webp"
   },
   {
    "id": "fate-heracles",
@@ -358,7 +358,7 @@
     "Mitología griega",
     "Fate/stay night"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-heracles.webp"
   },
   {
    "id": "fate-iskandar",
@@ -382,7 +382,7 @@
     "Rey Conquistador",
     "Fate/Zero"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-iskandar.webp"
   },
   {
    "id": "fate-lancelot",
@@ -406,7 +406,7 @@
     "Culpa",
     "Fate/Zero"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-lancelot.webp"
   },
   {
    "id": "fate-medea",
@@ -430,7 +430,7 @@
     "Jasón",
     "Fate/stay night"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-medea.webp"
   },
   {
    "id": "fate-medusa",
@@ -454,7 +454,7 @@
     "Mitología griega",
     "Fate/stay night"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-medusa.webp"
   },
   {
    "id": "fate-sasaki-kojirou",
@@ -478,7 +478,7 @@
     "Falso héroe",
     "Fate/stay night"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-sasaki-kojirou.webp"
   },
   {
    "id": "fnaf-balloon-boy",
