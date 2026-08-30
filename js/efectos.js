@@ -209,6 +209,10 @@ void main() {
     vec2 p = vec2((uv.x - 0.5) * aspect, uv.y - 0.5);
 
     float t = u_time * 0.4;
+    // La vida de los portales corre en su propio reloj, más rápido que el resto
+    // del shader: así aparecen y se desvanecen a menudo sin acelerar el oleaje del
+    // borde ni las muescas, que a esa velocidad se verían nerviosos.
+    float tVida = t * 2.2;
 
     vec3 bgColor = vec3(0.078, 0.078, 0.114); // #14141D
     vec3 gold = vec3(0.9, 0.698, 0.235);       // #E6B23C
@@ -251,7 +255,7 @@ void main() {
     for (int i = 0; i < 4; i++) {
         // Breathing cycle
         float phase = portalPhase[i];
-        float cycle = mod(t + phase, 8.0);
+        float cycle = mod(tVida + phase, 8.0);
         float life = 0.0;
         if (cycle < 1.0) life = smoothstep(0.0, 1.0, cycle); // fade in
         else if (cycle < 2.0) life = 1.0 + 0.1 * (cycle - 1.0); // expand
