@@ -76,6 +76,21 @@ function idLibre(base, existentes) {
   return id;
 }
 
+/* El archivo guarda los personajes agrupados por mundo, los bloques en orden de
+   id de mundo y cada bloque por nombre, y el riel del explorador pinta ese orden
+   tal cual. Como en el editor el nombre y el mundo cambian sobre la marcha, la
+   ficha se recoloca en cada cambio en vez de quedarse donde nació. La
+   comparación es la simple de JavaScript, que es la del resto del archivo: deja
+   «EMIYA» antes que «Elizabeth Báthory». */
+function colocarEnOrden(p) {
+  const lista = Estado.datos.personajes;
+  const i = lista.indexOf(p);
+  if (i >= 0) lista.splice(i, 1);
+  const antesQue = (a, b) => (a.mundo !== b.mundo ? a.mundo < b.mundo : a.nombre < b.nombre);
+  const pos = lista.findIndex(x => antesQue(p, x));
+  lista.splice(pos < 0 ? lista.length : pos, 0, p);
+}
+
 /* Sin mundo (por ejemplo al filtrar por «todos») el acento cae a neutro, igual
    que en la bienvenida: ningún universo tiene por qué teñir la pantalla. */
 const ACENTO_NEUTRO = "#EDEDF4";

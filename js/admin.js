@@ -350,7 +350,11 @@ const Admin = (() => {
     else if (campo === "orden") obj.orden = Number(valor) || 0;
     else obj[campo] = valor;
 
-    if (campo === "nombre" || campo === "mundo") reidentificar(obj, vista === "mundos");
+    if (campo === "nombre" || campo === "mundo") {
+      reidentificar(obj, vista === "mundos");
+      // renombrar o mudar de mundo cambia dónde le toca ir en el archivo
+      if (vista === "personajes") { colocarEnOrden(obj); pintarRiel(); }
+    }
 
     marcarSucio();
     if (campo === "acento" || campo === "tinta") {
@@ -438,7 +442,7 @@ const Admin = (() => {
       especie: "", rol: "", afiliacion: "", primeraAparicion: "", estado: "",
       descripcion: "", etiquetas: [], imagen: "",
     };
-    Estado.datos.personajes.push(p);
+    colocarEnOrden(p);   // nace ya en su sitio, no al final del archivo
     Estado.sinPublicar.add(p.id);
     vista = "personajes"; seleccion = p.id; filtro = ""; mundoFiltro = p.mundo;
     $$(".anav[data-vista]").forEach(x => x.classList.toggle("activo", x.dataset.vista === "personajes"));
