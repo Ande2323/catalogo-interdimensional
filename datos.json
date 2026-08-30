@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-30T00:04:28.339Z",
+ "actualizado": "2026-08-30T00:22:55.674Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -4651,7 +4651,7 @@
     "Cocolia",
     "Jarilo-VI"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-cocolia-madre-del-engano.webp"
   },
   {
    "id": "honkai-star-rail-dan-heng",
@@ -5092,7 +5092,7 @@
     "Excéntrica",
     "Estación Herta"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-senora-herta.webp"
   },
   {
    "id": "honkai-star-rail-silver-wolf",
