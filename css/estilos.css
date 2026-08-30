@@ -437,5 +437,8 @@ a{color:var(--accent)}
 /* Con efecto detrás, el texto necesita algo de fondo propio para no pelearse
    con las llamas. */
 .detalle:has(> .efecto) .detalle-cuerpo{
-  background:linear-gradient(90deg,rgba(20,20,29,.82),rgba(20,20,29,.62) 55%,rgba(20,20,29,.42))}
+  background:linear-gradient(90deg,
+    rgba(20,20,29,calc(.82 * var(--velo,1))),
+    rgba(20,20,29,calc(.62 * var(--velo,1))) 55%,
+    rgba(20,20,29,calc(.42 * var(--velo,1))))}
 .detalle:has(> .efecto) .detalle-arte{background:none}
