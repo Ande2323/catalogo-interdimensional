@@ -74,11 +74,15 @@ function idLibre(base, existentes) {
   return id;
 }
 
+/* Sin mundo (por ejemplo al filtrar por «todos») el acento cae a neutro, igual
+   que en la bienvenida: ningún universo tiene por qué teñir la pantalla. */
+const ACENTO_NEUTRO = "#EDEDF4";
 function aplicarAcento(mundo) {
   const r = document.documentElement.style;
-  r.setProperty("--accent", mundo?.acento || "#FFE14D");
+  const color = mundo?.acento || ACENTO_NEUTRO;
+  r.setProperty("--accent", color);
   r.setProperty("--accent-ink", mundo?.tinta || "#0B0B10");
-  r.setProperty("--accent-soft", (mundo?.acento || "#FFE14D") + "24");
+  r.setProperty("--accent-soft", color + "24");
 }
 
 /* ---------- navegación entre pantallas ---------- */

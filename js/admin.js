@@ -89,7 +89,18 @@ const Admin = (() => {
   };
   $("#btnNuevo").onclick = () => (vista === "personajes" ? nuevoPersonaje(Estado.mundoId) : nuevoMundo());
 
+  /* El panel se tiñe del mundo sobre el que se está trabajando, no del que
+     quedó abierto en el explorador. En «todos los mundos» va neutro. */
+  function acentoDelPanel() {
+    if (vista === "mundos") {
+      aplicarAcento(seleccion ? mundoPorId(seleccion) : null);
+    } else {
+      aplicarAcento(mundoFiltro ? mundoPorId(mundoFiltro) : null);
+    }
+  }
+
   function pintarPanel() {
+    acentoDelPanel();
     $("#adminTitulo").textContent = vista === "personajes" ? "Personajes" : "Mundos";
     $("#btnNuevo").querySelector("span").textContent = vista === "personajes" ? "Nuevo personaje" : "Nuevo mundo";
     const av = $("#pendientes");
@@ -168,7 +179,7 @@ const Admin = (() => {
           <span class="t"><span class="n">${esc(it.nombre)}</span>
           <span class="s">${n} ${n === 1 ? "personaje" : "personajes"}</span></span>`;
       }
-      b.onclick = () => { seleccion = it.id; pintarLista(); pintarFormulario(); };
+      b.onclick = () => { seleccion = it.id; acentoDelPanel(); pintarLista(); pintarFormulario(); };
       cont.appendChild(b);
     }
   }
