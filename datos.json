@@ -4629,6 +4629,31 @@
    "imagen": "imagenes/honkai-star-rail-cocolia-rand.webp"
   },
   {
+   "id": "honkai-star-rail-cocolia-madre-del-engano",
+   "mundo": "honkai-star-rail",
+   "nombre": "Cocolia, Madre del Engaño",
+   "alias": "Cocolia, Mother of Deception",
+   "nombreReal": "Cocolia Rand",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Manifestación de Estelarón",
+   "rol": "Jefe final del arco de Jarilo-VI",
+   "afiliacion": "Jarilo-VI",
+   "primeraAparicion": "Honkai: Star Rail — Jarilo-VI (2023)",
+   "estado": "Derrotada",
+   "descripcion": "La forma que adopta Cocolia Rand cuando se entrega por completo al Estelarón de Jarilo-VI: un cuerpo colosal de hielo y luz que ya no conserva casi nada de la mujer que gobernó Belobog. Combina daño de Hielo e Imaginario, invoca refuerzos, congela y aprisiona, y es el enfrentamiento que cierra el arco. Funciona como Eco de Guerra, así que se puede repetir indefinidamente. Que la ficha esté separada de la de Cocolia Rand responde a lo evidente: no es la misma mujer con otra ropa, es otro cuerpo, y lo que queda dentro de él apenas la reconoce.",
+   "etiquetas": [
+    "Jefe final",
+    "Estelarón",
+    "Hielo",
+    "Imaginario",
+    "Eco de Guerra",
+    "Cocolia",
+    "Jarilo-VI"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "honkai-star-rail-dan-heng",
    "mundo": "honkai-star-rail",
    "nombre": "Dan Heng",
