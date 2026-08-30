@@ -4681,7 +4681,7 @@
    "id": "honkai-star-rail-herta",
    "mundo": "honkai-star-rail",
    "nombre": "Herta",
-   "alias": "Miembro n.º 83 de la Sociedad de Genios",
+   "alias": "La marioneta de la n.º 83",
    "nombreReal": "Herta",
    "edad": "No especificada",
    "nacimiento": "No especificada",
@@ -5044,6 +5044,30 @@
     "Jarilo-VI"
    ],
    "imagen": "imagenes/honkai-star-rail-serval-landau.webp"
+  },
+  {
+   "id": "honkai-star-rail-senora-herta",
+   "mundo": "honkai-star-rail",
+   "nombre": "Señora Herta",
+   "alias": "The Herta, miembro n.º 83 de la Sociedad de Genios",
+   "nombreReal": "Herta",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humana",
+   "rol": "Fundadora de la Estación Espacial Herta, miembro de la Sociedad de Genios",
+   "afiliacion": "Estación Espacial Herta, Sociedad de Genios",
+   "primeraAparicion": "Honkai: Star Rail — Estación Espacial Herta (2023)",
+   "estado": "Viva",
+   "descripcion": "El cuerpo real de la genio que fundó la estación, frente a las marionetas mecánicas con las que despacha casi todos sus asuntos. Que aparezca en persona es tan raro que la propia estación lo trata como un acontecimiento: lleva décadas delegando en muñecos precisamente para no tener que estar. Conserva la curiosidad voraz y la nula paciencia de su versión de repuesto, pero sin el filtro cómico que dan unos ojos de porcelana: lo que en la marioneta parecía excentricidad, en persona se lee como una indiferencia bastante fría hacia todo lo que no la entretenga. Como miembro número 83 de la Sociedad de Genios, su intelecto está por encima de casi cualquier cosa viva del cosmos, y ella lo sabe.",
+   "etiquetas": [
+    "Sociedad de Genios",
+    "Erudición",
+    "Hielo",
+    "Cuerpo real",
+    "Excéntrica",
+    "Estación Herta"
+   ],
+   "imagen": ""
   },
   {
    "id": "honkai-star-rail-silver-wolf",
