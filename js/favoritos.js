@@ -35,7 +35,9 @@ const Fav = (() => {
     const { data } = await cliente.auth.getSession();
     if (data?.session?.user) {
       usuario = data.session.user;
-      await sincronizar();
+      await sincronizar();          // esto ya cuenta como actividad
+    } else {
+      tocarProyecto();              // sin sesión no habría ninguna petición
     }
     cliente.auth.onAuthStateChange((_evento, sesion) => {
       usuario = sesion?.user ?? null;
@@ -57,6 +59,17 @@ const Fav = (() => {
     const { data, error } = await cliente.from("favoritos").select("personaje");
     if (error) { Aviso.error("No se pudieron cargar tus favoritos", error.message); return; }
     marcados = new Set(data.map(f => f.personaje));
+  }
+
+
+  /* El plan gratuito de Supabase pausa los proyectos con poca actividad en siete
+     días, y comprobar la sesión se hace leyendo el navegador: un visitante sin
+     cuenta no generaría ni una petición. Este toque mínimo —una cabecera, sin
+     cuerpo— hace que cualquier visita cuente. No se espera ni importa si falla. */
+  function tocarProyecto() {
+    cliente.from("favoritos")
+      .select("personaje", { head: true, count: "exact" })
+      .then(() => {}, () => {});
   }
 
   /* ---------- sesión ---------- */
