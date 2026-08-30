@@ -259,6 +259,31 @@
    "imagen": "imagenes/fate-artoria-pendragon.webp"
   },
   {
+   "id": "fate-atalanta",
+   "mundo": "fate",
+   "nombre": "Atalanta",
+   "alias": "Archer, la Casta Cazadora",
+   "nombreReal": "Atalanta",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de la Bruja Dragón",
+   "afiliacion": "Grecia, Primera Singularidad",
+   "primeraAparicion": "Fate/Apocrypha (2012)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "La cazadora griega abandonada al nacer por ser mujer, criada por una osa y bendecida por Artemisa con una velocidad que ningún humano alcanza. Participó en la cacería del jabalí de Calidón y en la expedición de los argonautas. Su deseo para el Grial es que ningún niño vuelva a ser abandonado, y esa obsesión, tan comprensible como incapaz de razonar, es lo que la pone del lado equivocado en Orleans.",
+   "etiquetas": [
+    "Archer",
+    "Espíritu Heroico",
+    "Grecia",
+    "Artemisa",
+    "Caza",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "fate-bedivere",
    "mundo": "fate",
    "nombre": "Bedivere",
@@ -282,6 +307,81 @@
     "Sexta Singularidad"
    ],
    "imagen": "imagenes/fate-bedivere.webp"
+  },
+  {
+   "id": "fate-carmilla",
+   "mundo": "fate",
+   "nombre": "Carmilla",
+   "alias": "Assassin, la Condesa Sangrienta",
+   "nombreReal": "Erzsébet Báthory",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de la Bruja Dragón",
+   "afiliacion": "Hungría, Primera Singularidad",
+   "primeraAparicion": "Fate/Grand Order — Orleans (2015)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "Lo que Elizabeth Báthory acabó siendo: la condesa que torturó y asesinó a centenares de jóvenes convencida de que su sangre la mantendría joven, y que murió emparedada en su propio castillo. Es la misma persona que Elizabeth en dos momentos irreconciliables de su vida, y se detestan mutuamente por eso. Su Fantasma Noble es la Dama de Hierro, el instrumento de tortura en el que ella misma acabó.",
+   "etiquetas": [
+    "Assassin",
+    "Espíritu Heroico",
+    "Hungría",
+    "Dama de Hierro",
+    "Elizabeth",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "fate-charles-henri-sanson",
+   "mundo": "fate",
+   "nombre": "Charles-Henri Sanson",
+   "alias": "Assassin, el verdugo de París",
+   "nombreReal": "Charles-Henri Sanson",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de la Primera Singularidad",
+   "afiliacion": "Francia, Primera Singularidad",
+   "primeraAparicion": "Fate/Grand Order — Orleans (2015)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "Verdugo oficial de París durante la Revolución, responsable de casi tres mil ejecuciones, entre ellas la de Luis XVI y la de Marie Antoinette. Quería ser médico y heredó el oficio de su padre sin poder elegir, así que se pasó la vida matando gente mientras estudiaba anatomía para intentar salvarla. Que en Orleans acabe sirviendo a la reina que ejecutó es una de las ironías más deliberadas del capítulo.",
+   "etiquetas": [
+    "Assassin",
+    "Espíritu Heroico",
+    "Francia",
+    "Guillotina",
+    "Revolución",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "fate-chevalier-d-eon",
+   "mundo": "fate",
+   "nombre": "Chevalier d'Eon",
+   "alias": "Saber, caballero del Secreto del Rey",
+   "nombreReal": "Charles de Beaumont",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de la Bruja Dragón, luego aliado",
+   "afiliacion": "Francia, Primera Singularidad",
+   "primeraAparicion": "Fate/Grand Order — Orleans (2015)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "Espía y diplomático de Luis XV, miembro del servicio secreto conocido como el Secreto del Rey, que vivió media vida como hombre y media como mujer sin que nadie llegara a determinar cuál era la verdadera. El Grial reproduce esa ambigüedad literalmente: su cuerpo no es ni una cosa ni otra. Sirve a Francia por encima de a cualquier persona, y esa lealtad al país y no al trono decide de qué lado acaba en Orleans.",
+   "etiquetas": [
+    "Saber",
+    "Espíritu Heroico",
+    "Francia",
+    "Secreto del Rey",
+    "Espionaje",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
   },
   {
    "id": "fate-cu-chulainn",
@@ -356,6 +456,31 @@
    "imagen": "imagenes/fate-emiya.webp"
   },
   {
+   "id": "fate-elizabeth-bathory",
+   "mundo": "fate",
+   "nombre": "Elizabeth Báthory",
+   "alias": "Lancer, la condesa idol",
+   "nombreReal": "Erzsébet Báthory",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de la Primera Singularidad",
+   "afiliacion": "Hungría, Primera Singularidad",
+   "primeraAparicion": "Fate/Grand Order (2015)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "Erzsébet Báthory antes de convertirse en la Condesa Sangrienta: una adolescente mimada, ruidosa y obsesionada con ser cantante, con sangre de dragón por parte de familia y un canto que hace daño físico de puro desafinado. Todo el humor del personaje descansa en saber en qué va a acabar convirtiéndose, y en que ella misma no soporta a la versión adulta cuando se la cruza.",
+   "etiquetas": [
+    "Lancer",
+    "Espíritu Heroico",
+    "Hungría",
+    "Dragón",
+    "Canto",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "fate-enkidu",
    "mundo": "fate",
    "nombre": "Enkidu",
@@ -406,6 +531,31 @@
    "imagen": "imagenes/fate-ereshkigal.webp"
   },
   {
+   "id": "fate-fantasma-de-la-opera",
+   "mundo": "fate",
+   "nombre": "Fantasma de la Ópera",
+   "alias": "Assassin, Erik",
+   "nombreReal": "Desconocido",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico (personaje de ficción)",
+   "rol": "Servant de la Bruja Dragón",
+   "afiliacion": "Primera Singularidad",
+   "primeraAparicion": "Fate/Grand Order — Orleans (2015)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "El fantasma de la ópera de París, un caso raro entre los Servants: no fue una persona real sino un personaje de novela cuya leyenda cuajó lo suficiente como para manifestarse igualmente. Deforme, enmascarado y obsesionado con una cantante muerta, a la que cree reconocer en cualquiera que se le parezca. Su voz altera la mente de quien la oye.",
+   "etiquetas": [
+    "Assassin",
+    "Espíritu Heroico",
+    "París",
+    "Ópera",
+    "Ficción",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "fate-gareth",
    "mundo": "fate",
    "nombre": "Gareth",
@@ -454,6 +604,31 @@
     "Sexta Singularidad"
    ],
    "imagen": "imagenes/fate-gawain.webp"
+  },
+  {
+   "id": "fate-georgios",
+   "mundo": "fate",
+   "nombre": "Georgios",
+   "alias": "Rider, San Jorge",
+   "nombreReal": "Georgios",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Aliado de la Primera Singularidad",
+   "afiliacion": "Chaldea, Primera Singularidad",
+   "primeraAparicion": "Fate/Grand Order — Orleans (2015)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "El santo que mató al dragón, invocado como Rider y convertido en el muro que aguanta mientras los demás golpean. Su especialidad es atraer los ataques hacia sí y no caerse, lo que en un capítulo lleno de dragones resulta especialmente útil. Es paternal, sereno y trata a los demás Servants con una amabilidad que contrasta con la brutalidad de lo que ocurre a su alrededor.",
+   "etiquetas": [
+    "Rider",
+    "Espíritu Heroico",
+    "Santo",
+    "Dragón",
+    "Defensa",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
   },
   {
    "id": "fate-gilgamesh",
@@ -651,6 +826,56 @@
    "imagen": "imagenes/fate-iskandar.webp"
   },
   {
+   "id": "fate-jeanne-d-arc",
+   "mundo": "fate",
+   "nombre": "Jeanne d'Arc",
+   "alias": "Ruler, la Doncella de Orleans",
+   "nombreReal": "Jeanne d'Arc",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Ruler de la Primera Singularidad",
+   "afiliacion": "Francia, Chaldea",
+   "primeraAparicion": "Fate/Grand Order — Orleans (2015)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "La campesina que oyó voces, condujo un ejército y liberó Orleans antes de ser quemada por herejía a los diecinueve años. Invocada como Ruler, la clase que arbitra las Guerras del Grial, llega a una Francia donde otra con su cara está arrasando el país en su nombre. No guarda rencor a nadie, ni siquiera a quienes la mandaron a la hoguera, y esa ausencia total de resentimiento es justamente lo que su contraparte no soporta de ella. Su fe no es ingenuidad: es una decisión que sostiene incluso cuando le cuesta todo.",
+   "etiquetas": [
+    "Ruler",
+    "Espíritu Heroico",
+    "Francia",
+    "Orleans",
+    "Santa",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "fate-jeanne-d-arc-alter",
+   "mundo": "fate",
+   "nombre": "Jeanne d'Arc Alter",
+   "alias": "Avenger, la Bruja Dragón",
+   "nombreReal": "Jeanne d'Arc Alter",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico artificial",
+   "rol": "Antagonista principal de la Primera Singularidad",
+   "afiliacion": "Bruja Dragón, Primera Singularidad",
+   "primeraAparicion": "Fate/Grand Order — Orleans (2015)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "No es Jeanne corrompida: es un ser nuevo, fabricado por el Grial a partir del deseo de Gilles de Rais, que se negaba a aceptar que su santa hubiera muerto sin odiar a nadie. Nació ya con el rencor que la original nunca tuvo, y con la certeza de ser una falsificación, lo que la vuelve mucho más peligrosa. Arrasa Francia con wyverns y condena a muerte a quien la mire. Va en ficha propia porque no comparte con Jeanne más que la cara: es otra persona, hecha a propósito.",
+   "etiquetas": [
+    "Avenger",
+    "Espíritu Heroico",
+    "Bruja Dragón",
+    "Gilles de Rais",
+    "Falsificación",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "fate-kingu",
    "mundo": "fate",
    "nombre": "Kingu",
@@ -674,6 +899,31 @@
     "Séptima Singularidad"
    ],
    "imagen": "imagenes/fate-kingu.webp"
+  },
+  {
+   "id": "fate-kiyohime",
+   "mundo": "fate",
+   "nombre": "Kiyohime",
+   "alias": "Berserker, la serpiente de Dōjōji",
+   "nombreReal": "Kiyohime",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de la Primera Singularidad",
+   "afiliacion": "Japón, Primera Singularidad",
+   "primeraAparicion": "Fate/Grand Order (2015)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "La joven de la leyenda de Dōjōji que se enamoró de un monje, y que al descubrir que le había mentido se transformó en serpiente, lo persiguió hasta el templo donde se escondía bajo una campana y lo quemó vivo dentro. Invocada como Berserker, conserva intactas las dos cosas: la capacidad de convertirse en dragón y la de fijarse en alguien y no soltarlo jamás. Es encantadora hasta el instante exacto en que deja de serlo.",
+   "etiquetas": [
+    "Berserker",
+    "Espíritu Heroico",
+    "Japón",
+    "Dōjōji",
+    "Serpiente",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
   },
   {
    "id": "fate-lancelot",
@@ -723,6 +973,56 @@
     "Séptima Singularidad"
    ],
    "imagen": "imagenes/fate-leonidas-i.webp"
+  },
+  {
+   "id": "fate-marie-antoinette",
+   "mundo": "fate",
+   "nombre": "Marie Antoinette",
+   "alias": "Rider, la Reina de Francia",
+   "nombreReal": "María Antonieta",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Aliada de la Primera Singularidad",
+   "afiliacion": "Francia, Chaldea",
+   "primeraAparicion": "Fate/Grand Order — Orleans (2015)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "La última reina de Francia antes de la Revolución, guillotinada a los treinta y siete años. En Orleans aparece con un optimismo desbordante que desarma a todo el mundo: trata a los campesinos como invitados, se niega a hablar mal de nadie y conduce un carro tirado por un espíritu llamado Sanson, que resulta ser el mismo hombre que la ejecutó. Su bondad es genuina y en el capítulo funciona como el contrapunto exacto de la Bruja Dragón.",
+   "etiquetas": [
+    "Rider",
+    "Espíritu Heroico",
+    "Francia",
+    "Revolución",
+    "Realeza",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "fate-martha",
+   "mundo": "fate",
+   "nombre": "Martha",
+   "alias": "Rider, la domadora de la Tarasca",
+   "nombreReal": "Marta de Betania",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de la Bruja Dragón, luego aliada",
+   "afiliacion": "Primera Singularidad, Chaldea",
+   "primeraAparicion": "Fate/Grand Order — Orleans (2015)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "La santa que domó a la Tarasca, el dragón que aterrorizaba Provenza, no matándolo sino convenciéndolo. En Fate la acompaña esa misma criatura, convertida en montura y en chiste recurrente. Su santidad no le quita ni un gramo de carácter: resuelve los problemas a puñetazos con una naturalidad que descoloca a todo el que espera una monja mansa. Contra los dragones de Orleans es de las más eficaces.",
+   "etiquetas": [
+    "Rider",
+    "Espíritu Heroico",
+    "Santa",
+    "Tarasca",
+    "Dragón",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
   },
   {
    "id": "fate-medea",
@@ -997,6 +1297,31 @@
    "imagen": "imagenes/fate-serenity.webp"
   },
   {
+   "id": "fate-siegfried",
+   "mundo": "fate",
+   "nombre": "Siegfried",
+   "alias": "Saber, el Matadragones",
+   "nombreReal": "Siegfried",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Aliado de la Primera Singularidad",
+   "afiliacion": "Chaldea, Primera Singularidad",
+   "primeraAparicion": "Fate/Apocrypha (2012)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "El héroe del cantar de los nibelungos, que mató al dragón Fafnir y se bañó en su sangre para volverse invulnerable, salvo por un punto de la espalda que una hoja de tilo dejó al descubierto. Pasó la vida cumpliendo deseos ajenos sin permitirse nunca uno propio, y arrastra por eso una melancolía que no se le va. En Orleans es la pieza clave contra los dragones, y su reencuentro con Fafnir cierra el capítulo.",
+   "etiquetas": [
+    "Saber",
+    "Espíritu Heroico",
+    "Nibelungos",
+    "Balmung",
+    "Fafnir",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "fate-tiamat",
    "mundo": "fate",
    "nombre": "Tiamat",
@@ -1070,6 +1395,56 @@
     "Séptima Singularidad"
    ],
    "imagen": "imagenes/fate-ushiwakamaru.webp"
+  },
+  {
+   "id": "fate-vlad-iii",
+   "mundo": "fate",
+   "nombre": "Vlad III",
+   "alias": "Lancer, el Señor del Empalamiento",
+   "nombreReal": "Vlad III Draculea",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Servant de la Bruja Dragón",
+   "afiliacion": "Valaquia, Primera Singularidad",
+   "primeraAparicion": "Fate/Apocrypha (2012)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "El príncipe de Valaquia que contuvo al Imperio Otomano empalando a sus enemigos por millares, y que detesta profundamente la leyenda vampírica que Occidente construyó sobre su nombre. Se considera un cristiano devoto y un defensor de su pueblo, no un monstruo, y lo peor que se le puede hacer es llamarlo Drácula. Su Fantasma Noble levanta un bosque de estacas desde el suelo.",
+   "etiquetas": [
+    "Lancer",
+    "Espíritu Heroico",
+    "Valaquia",
+    "Empalamiento",
+    "Drácula",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "fate-wolfgang-amadeus-mozart",
+   "mundo": "fate",
+   "nombre": "Wolfgang Amadeus Mozart",
+   "alias": "Caster, el compositor",
+   "nombreReal": "Wolfgang Amadeus Mozart",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico",
+   "rol": "Aliado de la Primera Singularidad",
+   "afiliacion": "Chaldea, Primera Singularidad",
+   "primeraAparicion": "Fate/Grand Order — Orleans (2015)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "El compositor austriaco, invocado como Caster pese a no haber practicado magia en su vida: su arte basta. Combate con música, y sus melodías alteran directamente el ánimo y las capacidades de quien las oye. Es infantil, indecente y bastante insoportable en el trato, exactamente como lo describían sus contemporáneos. Se une a Marie Antoinette en Orleans y su devoción por ella es de las cosas más sinceras del capítulo.",
+   "etiquetas": [
+    "Caster",
+    "Espíritu Heroico",
+    "Música",
+    "Austria",
+    "Composición",
+    "Orleans",
+    "Primera Singularidad"
+   ],
+   "imagen": ""
   },
   {
    "id": "fnaf-balloon-boy",
