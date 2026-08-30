@@ -4530,6 +4530,56 @@
    "imagen": "imagenes/honkai-star-rail-asta.webp"
   },
   {
+   "id": "honkai-star-rail-baiheng",
+   "mundo": "honkai-star-rail",
+   "nombre": "Baiheng",
+   "alias": "Miembro del Quinteto de las Nubes Altas",
+   "nombreReal": "Baiheng",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Foxiana",
+   "rol": "Miembro del Quinteto de las Nubes Altas",
+   "afiliacion": "Quinteto de las Nubes Altas, Xianzhou Luofu",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Fallecida",
+   "descripcion": "La quinta del Quinteto de las Nubes Altas, junto a Jing Yuan, Jingliu, Dan Feng y Yingxing. Su muerte es el punto en que ese grupo se rompe y arranca la cadena de desgracias que arrastran los otros cuatro: la condena de Dan Feng, la inmortalidad de Yingxing y la mara de Jingliu vienen todas de intentar deshacer lo que le pasó. Aparece solo en recuerdos, y aun así es la pieza que explica el arco entero.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Quinteto",
+    "Foxiana",
+    "Recuerdo",
+    "Origen",
+    "Trágica",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-bailu",
+   "mundo": "honkai-star-rail",
+   "nombre": "Bailu",
+   "alias": "La Dragona Sanadora",
+   "nombreReal": "Bailu",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Vidyadhara",
+   "rol": "Médica del Xianzhou Luofu",
+   "afiliacion": "Xianzhou Luofu, Comisión Alquímica",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Viva",
+   "descripcion": "Vidyadhara y heredera del linaje de los Altos Ancianos, capaz de curar cualquier herida y hasta de devolver la vida, un poder que la Comisión Alquímica vigila de cerca porque roza demasiado la Abundancia. Se comporta como la niña que es: se escapa de la clínica, odia que la traten como a una reliquia y llama abuelo a todo el que le parece viejo. Su relación con Dan Heng es incómoda para los dos, porque para ella él es la reencarnación de alguien a quien su estirpe condenó.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Vidyadhara",
+    "Rayo",
+    "Abundancia",
+    "Sanación",
+    "Dragona",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "honkai-star-rail-bestia-del-apocalipsis",
    "mundo": "honkai-star-rail",
    "nombre": "Bestia del Juicio Final",
@@ -4552,6 +4602,31 @@
     "Estación Herta"
    ],
    "imagen": "imagenes/honkai-star-rail-bestia-del-apocalipsis.webp"
+  },
+  {
+   "id": "honkai-star-rail-blade",
+   "mundo": "honkai-star-rail",
+   "nombre": "Blade",
+   "alias": "Yingxing",
+   "nombreReal": "Yingxing",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Especie de vida longeva",
+   "rol": "Antagonista, miembro de los Cazadores de Estelarones",
+   "afiliacion": "Cazadores de Estelarones, Quinteto de las Nubes Altas (antes)",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Vivo",
+   "descripcion": "Fue Yingxing, el mejor artesano de la Luofu y miembro del Quinteto de las Nubes Altas. Un experimento con la Abundancia lo dejó incapaz de morir: cada herida se cierra, cada muerte lo devuelve, y siglos de eso lo han convertido en alguien cuya única meta es encontrar la forma de acabar. Se une a los Cazadores de Estelarones porque le prometieron exactamente eso. Combate hiriéndose a sí mismo para pegar más fuerte, que es la traducción literal de lo que le pasa.",
+   "etiquetas": [
+    "Cazadores de Estelarones",
+    "Quinteto",
+    "Viento",
+    "Destrucción",
+    "Inmortalidad",
+    "Yingxing",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
   },
   {
    "id": "honkai-star-rail-bronya-rand",
@@ -4654,6 +4729,31 @@
    "imagen": "imagenes/honkai-star-rail-cocolia-madre-del-engano.webp"
   },
   {
+   "id": "honkai-star-rail-dan-feng",
+   "mundo": "honkai-star-rail",
+   "nombre": "Dan Feng",
+   "alias": "Imbibitor Lunae",
+   "nombreReal": "Dan Feng",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Vidyadhara",
+   "rol": "Alto Anciano del Xianzhou Luofu",
+   "afiliacion": "Xianzhou Luofu, Altos Ancianos, Quinteto de las Nubes Altas",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Fallecido",
+   "descripcion": "El Alto Anciano de los Vidyadhara antes de la reencarnación que dio lugar a Dan Heng, y miembro del Quinteto de las Nubes Altas junto a Jing Yuan, Jingliu, Yingxing y Baiheng. Fue condenado por un crimen relacionado con la Abundancia que marcó a toda su estirpe, y su nombre sigue siendo una herida abierta en la Luofu siglos después. Va en ficha propia porque los Vidyadhara reencarnan en cuerpos nuevos: Dan Heng carga con su historia, pero no es el mismo cuerpo ni, en muchos sentidos, la misma persona.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Vidyadhara",
+    "Altos Ancianos",
+    "Quinteto",
+    "Reencarnación",
+    "Dan Heng",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "honkai-star-rail-dan-heng",
    "mundo": "honkai-star-rail",
    "nombre": "Dan Heng",
@@ -4676,6 +4776,81 @@
     "Estación Herta"
    ],
    "imagen": "imagenes/honkai-star-rail-dan-heng.webp"
+  },
+  {
+   "id": "honkai-star-rail-feixiao",
+   "mundo": "honkai-star-rail",
+   "nombre": "Feixiao",
+   "alias": "La Garra de Merlín",
+   "nombreReal": "Saran",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Foxiana",
+   "rol": "General de la Comisión de Nubes Caballeros",
+   "afiliacion": "Xianzhou Luofu, Comisión de Nubes Caballeros",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2024)",
+   "estado": "Viva",
+   "descripcion": "General de las Nubes Caballeros y una de las guerreras más temidas de la flota, conocida como la Garra de Merlín. Su verdadero nombre es Saran. Lleva dentro algo que no debería seguir vivo y que mantiene a raya con una disciplina brutal, porque ceder significaría convertirse en aquello que se dedica a cazar. Es directa, competitiva y de las pocas que trata a Jing Yuan de igual a igual.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Nubes Caballeros",
+    "Viento",
+    "Cacería",
+    "General",
+    "Foxiana",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-fu-xuan",
+   "mundo": "honkai-star-rail",
+   "nombre": "Fu Xuan",
+   "alias": "Maestra Adivina de la Comisión Taiboo",
+   "nombreReal": "Fu Xuan",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Nativa del Xianzhou",
+   "rol": "Maestra Adivina, jefa de la Comisión Taiboo",
+   "afiliacion": "Xianzhou Luofu, Comisión Taiboo",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Viva",
+   "descripcion": "Dirige la Comisión Taiboo y con ella la seguridad interna de la nave: vigila, censura y decide qué se puede saber. Su don es el Ojo de la Adivinación, que le muestra futuros probables, y el precio es una migraña permanente y la certeza de conocer desenlaces que no puede contarle a nadie. Trata al Expreso Astral como sospechosos desde el primer minuto y no se disculpa por ello. Bajo la arrogancia hay alguien que carga sola con lo que ve.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Comisión Taiboo",
+    "Cuántico",
+    "Preservación",
+    "Adivinación",
+    "Escudo",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-fugue",
+   "mundo": "honkai-star-rail",
+   "nombre": "Fugue",
+   "alias": "Viajera del No Retorno",
+   "nombreReal": "Fugue",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Foxiana",
+   "rol": "Entidad que habita el cuerpo de Tingyun",
+   "afiliacion": "Xianzhou Luofu",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Viva",
+   "descripcion": "Lleva el cuerpo de Tingyun pero no es Tingyun. La antigua representante del gremio de Llamas Silbantes estuvo a punto de perder la vida en un incidente catastrófico durante su viaje de vuelta, y lo que regresó en su lugar es otra cosa: la Viajera del No Retorno. Comparte rostro, voz y recuerdos prestados, y aun así nadie que conociera a la original se confunde mucho rato. Va en ficha propia por eso mismo: el envase es el de Tingyun, la persona no.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Foxiana",
+    "Fuego",
+    "Nihilidad",
+    "Posesión",
+    "Tingyun",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
   },
   {
    "id": "honkai-star-rail-gepard-landau",
@@ -4701,6 +4876,56 @@
     "Jarilo-VI"
    ],
    "imagen": "imagenes/honkai-star-rail-gepard-landau.webp"
+  },
+  {
+   "id": "honkai-star-rail-guinaifen",
+   "mundo": "honkai-star-rail",
+   "nombre": "Guinaifen",
+   "alias": "La tragafuegos",
+   "nombreReal": "Guinaifen",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Especie de vida breve",
+   "rol": "Artista callejera y difusora",
+   "afiliacion": "Xianzhou Luofu",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Viva",
+   "descripcion": "Forastera de especie de vida breve que se ganó un sitio en la Luofu haciendo espectáculos de fuego en la calle y retransmitiéndolo todo. Persigue la fama con una insistencia que raya lo agotador y conoce cada rumor de la nave antes que la propia Comisión Taiboo, porque su público se lo cuenta. Esa red de contactos la vuelve mucho más útil de lo que su oficio sugiere.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Fuego",
+    "Nihilidad",
+    "Espectáculo",
+    "Rumores",
+    "Vida breve",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-hanya",
+   "mundo": "honkai-star-rail",
+   "nombre": "Hanya",
+   "alias": "La escribana de los Diez Señores",
+   "nombreReal": "Hanya",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Nativa del Xianzhou",
+   "rol": "Escribana de la Comisión de los Diez Señores",
+   "afiliacion": "Xianzhou Luofu, Comisión de los Diez Señores",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Viva",
+   "descripcion": "Registra los pecados de los condenados por la Comisión de los Diez Señores: cada sentencia pasa por su pincel antes de ejecutarse. Es fría, eficiente y trata su trabajo como pura burocracia, lo que resulta escalofriante teniendo en cuenta de qué va. Comparte comisión con Xueyi y Huohuo y es, con diferencia, la que menos parece afectada por lo que hacen.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Diez Señores",
+    "Físico",
+    "Armonía",
+    "Escriba",
+    "Burocracia",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
   },
   {
    "id": "honkai-star-rail-herta",
@@ -4776,6 +5001,81 @@
    "imagen": "imagenes/honkai-star-rail-hook.webp"
   },
   {
+   "id": "honkai-star-rail-huohuo",
+   "mundo": "honkai-star-rail",
+   "nombre": "Huohuo",
+   "alias": "La Maldita",
+   "nombreReal": "Huohuo",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Foxiana",
+   "rol": "Exorcista de la Comisión de los Diez Señores",
+   "afiliacion": "Xianzhou Luofu, Comisión de los Diez Señores",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Viva",
+   "descripcion": "Aprendiz de exorcista aterrorizada por todo, sobre todo por lo que lleva encima: un espíritu llamado Cola, atado a ella y que le sale por la espalda. Cola habla por su cuenta, la empuja a hacer cosas que jamás haría y, en la práctica, es quien pelea. Ella preferiría un trabajo tranquilo en cualquier otra parte. La combinación de una niña llorosa con una entidad milenaria pegada al cuerpo funciona tan bien porque ninguno de los dos eligió al otro.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Diez Señores",
+    "Viento",
+    "Abundancia",
+    "Exorcismo",
+    "Cola",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-jing-yuan",
+   "mundo": "honkai-star-rail",
+   "nombre": "Jing Yuan",
+   "alias": "El General Divino Previsor",
+   "nombreReal": "Jing Yuan",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Especie de vida longeva",
+   "rol": "General de la Comisión de Nubes Caballeros",
+   "afiliacion": "Xianzhou Luofu, Comisión de Nubes Caballeros",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Vivo",
+   "descripcion": "El general al mando de la Luofu, con fama de dormirse en las reuniones y de tomarse las crisis con una calma que sus subordinados encuentran exasperante. Esa pereza es en buena parte fachada: lleva siglos moviendo piezas y prevé los movimientos ajenos con bastante antelación. Combate acompañado del Señor del Rayo, un león de energía que convoca y que pelea por su cuenta. Fue miembro del Quinteto de las Nubes Altas junto a Jingliu, Dan Feng, Yingxing y Baiheng, y es el único de los cinco que conserva su puesto, su cordura y su nombre.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Nubes Caballeros",
+    "Rayo",
+    "Erudición",
+    "General",
+    "Quinteto",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-jingliu",
+   "mundo": "honkai-star-rail",
+   "nombre": "Jingliu",
+   "alias": "La Espada del Crepúsculo",
+   "nombreReal": "Jingliu",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Especie de vida longeva",
+   "rol": "Antigua general, espadachina afectada por la mara",
+   "afiliacion": "Xianzhou Luofu (antes), Quinteto de las Nubes Altas",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Viva",
+   "descripcion": "Fue la mejor espadachina que ha dado la Luofu y maestra de Jing Yuan, hasta que la mara —la locura que devora a las especies longevas cuando la vida se les hace demasiado larga— la alcanzó. Se dejó cegar voluntariamente para no perderse en las visiones, y combate en un estado en el que apenas distingue aliado de enemigo. Su tragedia es la del arco entero: la inmortalidad del Xianzhou no es un premio, es una condena administrada.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Quinteto",
+    "Hielo",
+    "Destrucción",
+    "Espada",
+    "Mara",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "honkai-star-rail-kafka",
    "mundo": "honkai-star-rail",
    "nombre": "Kafka",
@@ -4798,6 +5098,31 @@
     "Estación Herta"
    ],
    "imagen": "imagenes/honkai-star-rail-kafka.webp"
+  },
+  {
+   "id": "honkai-star-rail-lingsha",
+   "mundo": "honkai-star-rail",
+   "nombre": "Lingsha",
+   "alias": "Maestra del Caldero de la Nueva Comisión Alquímica",
+   "nombreReal": "Lingsha",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Vidyadhara",
+   "rol": "Maestra del Caldero de la Nueva Comisión Alquímica",
+   "afiliacion": "Xianzhou Luofu, Nueva Comisión Alquímica",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2024)",
+   "estado": "Viva",
+   "descripcion": "Vidyadhara al frente del caldero de la Nueva Comisión Alquímica, responsable de producir las medicinas de la nave y de decidir qué se produce y qué no. Combina el oficio de boticaria con el de bombera: cuando algo arde en la Luofu, apaga el fuego ella. Su carácter directo choca con la solemnidad del resto de comisiones, y esa falta de ceremonia es justo lo que la hace fiable.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Comisión Alquímica",
+    "Fuego",
+    "Abundancia",
+    "Medicina",
+    "Vidyadhara",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
   },
   {
    "id": "honkai-star-rail-luka",
@@ -4823,6 +5148,31 @@
     "Jarilo-VI"
    ],
    "imagen": "imagenes/honkai-star-rail-luka.webp"
+  },
+  {
+   "id": "honkai-star-rail-luocha",
+   "mundo": "honkai-star-rail",
+   "nombre": "Luocha",
+   "alias": "El Viajero de Otros Mundos",
+   "nombreReal": "Luocha",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Humano",
+   "rol": "Comerciante y sanador de paso",
+   "afiliacion": "Xianzhou Luofu (de visita)",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Vivo",
+   "descripcion": "Un mercader forastero de modales impecables que aparece en la Luofu ofreciendo mercancías y curaciones sin cobrar de más, lo cual ya resulta sospechoso. Arrastra un ataúd allá donde va y evita cualquier pregunta sobre su contenido con una sonrisa. Es un sanador extraordinario, y esa habilidad tiene un origen que el arco insinúa sin llegar a explicar. De todos los aliados que el Expreso hace en la nave, es el único que sigue siendo un completo desconocido al final.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Físico",
+    "Abundancia",
+    "Sanación",
+    "Ataúd",
+    "Misterio",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
   },
   {
    "id": "honkai-star-rail-lynx-landau",
@@ -4948,6 +5298,31 @@
    "imagen": "imagenes/honkai-star-rail-pela.webp"
   },
   {
+   "id": "honkai-star-rail-phantylia-la-imperecedera",
+   "mundo": "honkai-star-rail",
+   "nombre": "Phantylia la Imperecedera",
+   "alias": "Phantylia the Undying",
+   "nombreReal": "Phantylia",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Señora de la Devastación",
+   "rol": "Jefe final del arco del Xianzhou Luofu",
+   "afiliacion": "Legión de la Antimateria",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Derrotada",
+   "descripcion": "Señora de la Devastación al servicio de la Legión de la Antimateria y responsable del asalto a la Luofu. Manipula a los Discípulos de Sanctus Medicus y a media nave sin que nadie note que está detrás, y su especialidad es hacer que sus enemigos se destruyan entre ellos antes de tener que pelear. Combina daño de Viento, Rayo e Imaginario y se enfrenta a los Nubes Caballeros al descubierto en el desenlace del arco. Funciona como Eco de Guerra, así que se puede repetir.",
+   "etiquetas": [
+    "Jefe final",
+    "Legión de la Antimateria",
+    "Devastación",
+    "Eco de Guerra",
+    "Manipulación",
+    "Sanctus Medicus",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "honkai-star-rail-pionero",
    "mundo": "honkai-star-rail",
    "nombre": "Pionero",
@@ -4994,6 +5369,31 @@
     "Estación Herta"
    ],
    "imagen": "imagenes/honkai-star-rail-pom-pom.webp"
+  },
+  {
+   "id": "honkai-star-rail-qingque",
+   "mundo": "honkai-star-rail",
+   "nombre": "Qingque",
+   "alias": "La funcionaria de la Comisión Divina",
+   "nombreReal": "Qingque",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Nativa del Xianzhou",
+   "rol": "Funcionaria de la Comisión Divina",
+   "afiliacion": "Xianzhou Luofu, Comisión Divina",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Viva",
+   "descripcion": "Funcionaria de la Comisión Divina cuyo talento para la adivinación es innegable y cuyo interés por ejercerlo es nulo. Se pasa el turno jugando al mahjong, escaqueándose del papeleo y buscando la manera de no hacer nada con el mínimo esfuerzo posible, que ella considera una habilidad en sí misma. Hasta su forma de combatir depende de la suerte de las fichas que le toquen.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Comisión Divina",
+    "Cuántico",
+    "Erudición",
+    "Mahjong",
+    "Pereza",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
   },
   {
    "id": "honkai-star-rail-sampo-koski",
@@ -5119,6 +5519,31 @@
    "imagen": "imagenes/honkai-star-rail-silver-wolf.webp"
   },
   {
+   "id": "honkai-star-rail-sushang",
+   "mundo": "honkai-star-rail",
+   "nombre": "Sushang",
+   "alias": "La Nube Caballero novata",
+   "nombreReal": "Sushang",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Nativa del Xianzhou",
+   "rol": "Nube Caballero",
+   "afiliacion": "Xianzhou Luofu, Comisión de Nubes Caballeros",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Viva",
+   "descripcion": "Nube Caballero de las de a pie, entusiasta hasta el agotamiento y con un apetito que es medio chiste recurrente. Se toma su juramento completamente en serio y patrulla la nave buscando algo que hacer, lo que la convierte en la primera en aparecer cada vez que hay problemas. Su rivalidad autoimpuesta con Yanqing tiene más de compañerismo mal expresado que de otra cosa.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Nubes Caballeros",
+    "Físico",
+    "Cacería",
+    "Espada",
+    "Entusiasmo",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "honkai-star-rail-svarog",
    "mundo": "honkai-star-rail",
    "nombre": "Svarog",
@@ -5144,6 +5569,31 @@
    "imagen": "imagenes/honkai-star-rail-svarog.webp"
   },
   {
+   "id": "honkai-star-rail-tingyun",
+   "mundo": "honkai-star-rail",
+   "nombre": "Tingyun",
+   "alias": "Representante de la Gremio de Llamas Silbantes",
+   "nombreReal": "Tingyun",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Foxiana",
+   "rol": "Representante comercial",
+   "afiliacion": "Xianzhou Luofu, Gremio de Llamas Silbantes",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Fallecida",
+   "descripcion": "Foxiana encantadora y de trato inmejorable, representante de un gremio mercante y la primera de la Luofu que recibe al Expreso Astral con los brazos abiertos. Es la aliada más cálida que el grupo encuentra en toda la nave, la que resuelve trámites, abre puertas y trata al Pionero como a un amigo. Todo eso hace que su traición funcione tan bien: en el momento de la verdad está del otro lado, y ni siquiera queda claro cuánto de ella había en lo anterior. Su cuerpo pasa después a albergar algo que no es ella.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Foxiana",
+    "Rayo",
+    "Armonía",
+    "Comercio",
+    "Traición",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "honkai-star-rail-welt-yang",
    "mundo": "honkai-star-rail",
    "nombre": "Welt Yang",
@@ -5166,6 +5616,81 @@
     "Estación Herta"
    ],
    "imagen": "imagenes/honkai-star-rail-welt-yang.webp"
+  },
+  {
+   "id": "honkai-star-rail-xueyi",
+   "mundo": "honkai-star-rail",
+   "nombre": "Xueyi",
+   "alias": "Jueza de la Comisión de los Diez Señores",
+   "nombreReal": "Xueyi",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Ingenium (cuerpo artificial)",
+   "rol": "Jueza de la Comisión de los Diez Señores",
+   "afiliacion": "Xianzhou Luofu, Comisión de los Diez Señores",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Viva",
+   "descripcion": "Su cuerpo es un Ingenium, una construcción artificial que alberga su conciencia después de que el original dejara de servirle. Trabaja para la Comisión de los Diez Señores dando caza a los abominaciones de la Abundancia, y su condición la coloca en una posición incómoda: persigue a criaturas que se niegan a morir siendo ella misma alguien que sobrevive en un cuerpo prestado. Es seca, directa y no le interesa disimularlo.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Diez Señores",
+    "Cuántico",
+    "Destrucción",
+    "Ingenium",
+    "Cuerpo artificial",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-yanqing",
+   "mundo": "honkai-star-rail",
+   "nombre": "Yanqing",
+   "alias": "Lugarteniente de las Nubes Caballeros",
+   "nombreReal": "Yanqing",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Nativo del Xianzhou",
+   "rol": "Lugarteniente de Jing Yuan",
+   "afiliacion": "Xianzhou Luofu, Comisión de Nubes Caballeros",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Vivo",
+   "descripcion": "Prodigio de la espada, lugarteniente de Jing Yuan a una edad en la que nadie más lo sería, y absolutamente insufrible al respecto. Colecciona espadas, presume de ellas y mide a todo el que conoce por el arma que lleva. Su talento es real, pero su inexperiencia lo mete en problemas que su general tiene que resolver. La rivalidad que se autoimpone con Sushang y su devoción por Jing Yuan lo definen mejor que cualquiera de sus victorias.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Nubes Caballeros",
+    "Hielo",
+    "Cacería",
+    "Espada",
+    "Prodigio",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "honkai-star-rail-yukong",
+   "mundo": "honkai-star-rail",
+   "nombre": "Yukong",
+   "alias": "La Comandante de la Comisión de Vuelo",
+   "nombreReal": "Yukong",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Foxiana",
+   "rol": "Jefa de la Comisión de Vuelo",
+   "afiliacion": "Xianzhou Luofu, Comisión de Vuelo",
+   "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
+   "estado": "Viva",
+   "descripcion": "Dirige la Comisión de Vuelo y fue en su día una de las mejores pilotos de la flota, aunque ahora pasa más tiempo gestionando permisos que en el aire. Es una veterana de las que han visto demasiadas guerras para emocionarse con una más, y trata a los jóvenes oficiales con una mezcla de paciencia y sorna. Tiene una hija, Fu Xuan la respeta y eso ya dice bastante.",
+   "etiquetas": [
+    "Xianzhou Luofu",
+    "Comisión de Vuelo",
+    "Imaginario",
+    "Armonía",
+    "Veterana",
+    "Arco",
+    "Xianzhou Luofu"
+   ],
+   "imagen": ""
   },
   {
    "id": "marvel-ant-man",
