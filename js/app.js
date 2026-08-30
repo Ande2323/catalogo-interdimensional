@@ -265,7 +265,7 @@ function pintarDetalle() {
     </div>`;
 
   $("#btnFav").onclick = () => Fav.alternar(p.id);
-  if (p.efecto) Efectos.montar(p.efecto, cont.querySelector(".detalle-arte"));
+  if (p.efecto) Efectos.montar(p.efecto, cont);
 }
 
 /* ---------- teclado ---------- */

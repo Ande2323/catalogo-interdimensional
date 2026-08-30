@@ -429,7 +429,13 @@ a{color:var(--accent)}
 .lateral.plegado .mundos{padding-left:6px;padding-right:6px}
 
 /* ---------- efectos de fondo por personaje ---------- */
-/* Van detrás del retrato, dentro de su panel y sin capturar clics. */
-.detalle-arte .efecto{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
-.detalle-arte img{position:relative;z-index:1}
-.detalle-arte svg{position:relative;z-index:1}
+/* El lienzo cubre la ficha entera, detrás de todo su contenido y sin capturar
+   clics. El panel ya recorta lo que se salga. */
+.detalle > .efecto{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
+.detalle > .detalle-arte,
+.detalle > .detalle-cuerpo{position:relative;z-index:1}
+/* Con efecto detrás, el texto necesita algo de fondo propio para no pelearse
+   con las llamas. */
+.detalle:has(> .efecto) .detalle-cuerpo{
+  background:linear-gradient(90deg,rgba(20,20,29,.82),rgba(20,20,29,.62) 55%,rgba(20,20,29,.42))}
+.detalle:has(> .efecto) .detalle-arte{background:none}
