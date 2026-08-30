@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-30T00:22:55.674Z",
+ "actualizado": "2026-08-30T00:57:24.632Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -4552,7 +4552,7 @@
     "Trágica",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-baiheng.webp"
   },
   {
    "id": "honkai-star-rail-bailu",
@@ -4577,7 +4577,7 @@
     "Dragona",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-bailu.webp"
   },
   {
    "id": "honkai-star-rail-bestia-del-apocalipsis",
@@ -4626,7 +4626,7 @@
     "Yingxing",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-blade.webp"
   },
   {
    "id": "honkai-star-rail-bronya-rand",
@@ -4751,7 +4751,7 @@
     "Dan Heng",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-dan-feng.webp"
   },
   {
    "id": "honkai-star-rail-dan-heng",
@@ -4800,7 +4800,7 @@
     "Foxiana",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-feixiao.webp"
   },
   {
    "id": "honkai-star-rail-fu-xuan",
@@ -4825,7 +4825,7 @@
     "Escudo",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-fu-xuan.webp"
   },
   {
    "id": "honkai-star-rail-fugue",
@@ -4850,7 +4850,7 @@
     "Tingyun",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-fugue.webp"
   },
   {
    "id": "honkai-star-rail-gepard-landau",
@@ -4900,7 +4900,7 @@
     "Vida breve",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-guinaifen.webp"
   },
   {
    "id": "honkai-star-rail-hanya",
@@ -4925,7 +4925,7 @@
     "Burocracia",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-hanya.webp"
   },
   {
    "id": "honkai-star-rail-herta",
@@ -5023,7 +5023,7 @@
     "Cola",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-huohuo.webp"
   },
   {
    "id": "honkai-star-rail-jing-yuan",
@@ -5048,7 +5048,7 @@
     "Quinteto",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-jing-yuan.webp"
   },
   {
    "id": "honkai-star-rail-jingliu",
@@ -5073,7 +5073,7 @@
     "Mara",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-jingliu.webp"
   },
   {
    "id": "honkai-star-rail-kafka",
@@ -5122,7 +5122,7 @@
     "Vidyadhara",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-lingsha.webp"
   },
   {
    "id": "honkai-star-rail-luka",
@@ -5172,7 +5172,7 @@
     "Misterio",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-luocha.webp"
   },
   {
    "id": "honkai-star-rail-lynx-landau",
@@ -5320,7 +5320,7 @@
     "Sanctus Medicus",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-phantylia-la-imperecedera.webp"
   },
   {
    "id": "honkai-star-rail-pionero",
@@ -5393,7 +5393,7 @@
     "Pereza",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-qingque.webp"
   },
   {
    "id": "honkai-star-rail-sampo-koski",
@@ -5541,7 +5541,7 @@
     "Entusiasmo",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-sushang.webp"
   },
   {
    "id": "honkai-star-rail-svarog",
@@ -5591,7 +5591,7 @@
     "Traición",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-tingyun.webp"
   },
   {
    "id": "honkai-star-rail-welt-yang",
@@ -5640,7 +5640,7 @@
     "Cuerpo artificial",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-xueyi.webp"
   },
   {
    "id": "honkai-star-rail-yanqing",
@@ -5665,7 +5665,7 @@
     "Prodigio",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-yanqing.webp"
   },
   {
    "id": "honkai-star-rail-yukong",
@@ -5690,7 +5690,7 @@
     "Arco",
     "Xianzhou Luofu"
    ],
-   "imagen": ""
+   "imagen": "imagenes/honkai-star-rail-yukong.webp"
   },
   {
    "id": "marvel-ant-man",
