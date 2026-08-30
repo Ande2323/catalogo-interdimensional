@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-30T01:37:22.422Z",
+ "actualizado": "2026-08-30T01:58:29.004Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -157,7 +157,7 @@
     "Camelot",
     "Sexta Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-agravain.webp"
   },
   {
    "id": "fate-ana",
@@ -182,7 +182,7 @@
     "Babilonia",
     "Séptima Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-ana.webp"
   },
   {
    "id": "fate-angra-mainyu",
@@ -231,7 +231,7 @@
     "Camelot",
     "Sexta Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-arash.webp"
   },
   {
    "id": "fate-artoria-pendragon",
@@ -281,7 +281,7 @@
     "Camelot",
     "Sexta Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-bedivere.webp"
   },
   {
    "id": "fate-cu-chulainn",
@@ -378,7 +378,7 @@
     "Babilonia",
     "Séptima Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-enkidu.webp"
   },
   {
    "id": "fate-ereshkigal",
@@ -403,7 +403,7 @@
     "Babilonia",
     "Séptima Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-ereshkigal.webp"
   },
   {
    "id": "fate-gareth",
@@ -428,7 +428,7 @@
     "Camelot",
     "Sexta Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-gareth.webp"
   },
   {
    "id": "fate-gawain",
@@ -453,7 +453,7 @@
     "Camelot",
     "Sexta Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-gawain.webp"
   },
   {
    "id": "fate-gilgamesh",
@@ -527,7 +527,7 @@
     "Babilonia",
     "Séptima Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-gorgon.webp"
   },
   {
    "id": "fate-hassan-de-los-cien-rostros",
@@ -624,7 +624,7 @@
     "Babilonia",
     "Séptima Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-ishtar.webp"
   },
   {
    "id": "fate-iskandar",
@@ -673,7 +673,7 @@
     "Babilonia",
     "Séptima Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-kingu.webp"
   },
   {
    "id": "fate-lancelot",
@@ -722,7 +722,7 @@
     "Babilonia",
     "Séptima Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-leonidas-i.webp"
   },
   {
    "id": "fate-medea",
@@ -795,7 +795,7 @@
     "Babilonia",
     "Séptima Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-merlin.webp"
   },
   {
    "id": "fate-mordred",
@@ -820,7 +820,7 @@
     "Camelot",
     "Sexta Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-mordred.webp"
   },
   {
    "id": "fate-nitocris",
@@ -845,7 +845,7 @@
     "Camelot",
     "Sexta Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-nitocris.webp"
   },
   {
    "id": "fate-ozymandias",
@@ -870,7 +870,7 @@
     "Camelot",
     "Sexta Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-ozymandias.webp"
   },
   {
    "id": "fate-quetzalcoatl",
@@ -895,7 +895,7 @@
     "Babilonia",
     "Séptima Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-quetzalcoatl.webp"
   },
   {
    "id": "fate-rey-hassan",
@@ -920,7 +920,7 @@
     "Camelot",
     "Sexta Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-rey-hassan.webp"
   },
   {
    "id": "fate-rey-leon",
@@ -945,7 +945,7 @@
     "Camelot",
     "Sexta Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-rey-leon.webp"
   },
   {
    "id": "fate-sasaki-kojirou",
@@ -994,7 +994,7 @@
     "Camelot",
     "Sexta Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-serenity.webp"
   },
   {
    "id": "fate-tiamat",
@@ -1019,7 +1019,7 @@
     "Babilonia",
     "Séptima Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-tiamat.webp"
   },
   {
    "id": "fate-tristan",
@@ -1044,7 +1044,7 @@
     "Camelot",
     "Sexta Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-tristan.webp"
   },
   {
    "id": "fate-ushiwakamaru",
@@ -1069,7 +1069,7 @@
     "Babilonia",
     "Séptima Singularidad"
    ],
-   "imagen": ""
+   "imagen": "imagenes/fate-ushiwakamaru.webp"
   },
   {
    "id": "fnaf-balloon-boy",
