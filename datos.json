@@ -518,7 +518,7 @@
    "afiliacion": "Kur, Séptima Singularidad",
    "primeraAparicion": "Fate/Grand Order — Babilonia (2016)",
    "estado": "Espíritu Heroico",
-   "descripcion": "Hermana de Ishtar y señora de Kur, el inframundo mesopotámico, condenada a gobernar a los muertos sin poder pisar nunca el mundo de los vivos. Comparte el mismo cuerpo humano que Ishtar, lo que las convierte en dos deidades en un solo envase y en dos fichas distintas por el mismo criterio de siempre. Su carácter es el opuesto: tímida, insegura y desesperada por caer bien, con una soledad de milenios detrás que explica casi todo lo que hace.",
+   "descripcion": "Hermana de Ishtar y señora de Kur, el inframundo mesopotámico, condenada a gobernar a los muertos sin poder pisar nunca el mundo de los vivos. Comparte el mismo cuerpo humano que Ishtar, de modo que las dos hermanas habitan por turnos una única envoltura mortal. Su carácter es el opuesto: tímida, insegura y desesperada por caer bien, con una soledad de milenios detrás que explica casi todo lo que hace.",
    "etiquetas": [
     "Lancer",
     "Pseudo-Servant",
@@ -863,7 +863,7 @@
    "afiliacion": "Bruja Dragón, Primera Singularidad",
    "primeraAparicion": "Fate/Grand Order — Orleans (2015)",
    "estado": "Espíritu Heroico",
-   "descripcion": "No es Jeanne corrompida: es un ser nuevo, fabricado por el Grial a partir del deseo de Gilles de Rais, que se negaba a aceptar que su santa hubiera muerto sin odiar a nadie. Nació ya con el rencor que la original nunca tuvo, y con la certeza de ser una falsificación, lo que la vuelve mucho más peligrosa. Arrasa Francia con wyverns y condena a muerte a quien la mire. Va en ficha propia porque no comparte con Jeanne más que la cara: es otra persona, hecha a propósito.",
+   "descripcion": "No es Jeanne corrompida: es un ser nuevo, fabricado por el Grial a partir del deseo de Gilles de Rais, que se negaba a aceptar que su santa hubiera muerto sin odiar a nadie. Nació ya con el rencor que la original nunca tuvo, y con la certeza de ser una falsificación, lo que la vuelve mucho más peligrosa. Arrasa Francia con wyverns y condena a muerte a quien la mire. No comparte con Jeanne más que la cara: es otra persona, hecha a propósito.",
    "etiquetas": [
     "Avenger",
     "Espíritu Heroico",
@@ -889,7 +889,7 @@
    "afiliacion": "Alianza de las Tres Diosas, Tiamat",
    "primeraAparicion": "Fate/Grand Order — Babilonia (2016)",
    "estado": "Espíritu Heroico",
-   "descripcion": "Un alma depositada en el cuerpo del difunto Enkidu, convencida de ser el primogénito de Tiamat y el comienzo de una humanidad nueva. Descubre a lo largo del capítulo que no es hijo de nadie, y esa revelación lo destruye más que cualquier combate. Va en ficha propia por el mismo motivo que Fugue en Honkai: el cuerpo es el de Enkidu, la persona no. Su desenlace, cuando por fin decide qué quiere ser, es de lo mejor de Babilonia.",
+   "descripcion": "Un alma depositada en el cuerpo del difunto Enkidu, convencida de ser el primogénito de Tiamat y el comienzo de una humanidad nueva. Descubre a lo largo del capítulo que no es hijo de nadie, y esa revelación lo destruye más que cualquier combate. El cuerpo es el de Enkidu; la persona, no. Su desenlace, cuando por fin decide qué quiere ser, es de lo mejor de Babilonia.",
    "etiquetas": [
     "Lancer",
     "Espíritu Heroico",
@@ -1236,7 +1236,7 @@
    "afiliacion": "Caballeros del Rey León, Ciudad Santa",
    "primeraAparicion": "Fate/Grand Order — Camelot (2016)",
    "estado": "Espíritu Heroico",
-   "descripcion": "Una Artoria Pendragon de un mundo alterno, el mismo del que viene Bedivere, que en lugar de morir en Camlann empuñó Rhongomyniad y ascendió a algo que ya no es humano. Levanta la Ciudad Santa en mitad del desierto y selecciona quién merece entrar en ella, condenando al resto sin rencor ninguno: su lógica es aritmética, no cruel. Reúne a su alrededor a los Caballeros del Rey León —Lancelot, Mordred, Gawain, Tristan, Agravain y Gareth— convertidos en ejecutores de esa criba. Va en ficha propia porque no es la Saber de las guerras del Grial: es otro cuerpo, de otro mundo, que dejó de ser una persona hace mucho.",
+   "descripcion": "Una Artoria Pendragon de un mundo alterno, el mismo del que viene Bedivere, que en lugar de morir en Camlann empuñó Rhongomyniad y ascendió a algo que ya no es humano. Levanta la Ciudad Santa en mitad del desierto y selecciona quién merece entrar en ella, condenando al resto sin rencor ninguno: su lógica es aritmética, no cruel. Reúne a su alrededor a los Caballeros del Rey León —Lancelot, Mordred, Gawain, Tristan, Agravain y Gareth— convertidos en ejecutores de esa criba. No es la Saber de las guerras del Grial: es otro cuerpo, de otro mundo, que dejó de ser una persona hace mucho.",
    "etiquetas": [
     "Lancer",
     "Espíritu Heroico",
@@ -1247,6 +1247,31 @@
     "Sexta Singularidad"
    ],
    "imagen": "imagenes/fate-rey-leon.webp"
+  },
+  {
+   "id": "fate-saber-alter",
+   "mundo": "fate",
+   "nombre": "Saber Alter",
+   "alias": "Saber, el Rey Caballero ennegrecido",
+   "nombreReal": "Artoria Pendragon Alter",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Espíritu Heroico corrompido",
+   "rol": "Antagonista final de la Singularidad F",
+   "afiliacion": "Singularidad F",
+   "primeraAparicion": "Fate/stay night (2004)",
+   "estado": "Espíritu Heroico",
+   "descripcion": "Artoria después de que el lodo del Santo Grial le anegara el alma. La armadura pasa a negro, el pelo a ceniza y los ojos a un amarillo apagado, y Excalibur se convierte en Excalibur Morgan, una espada que ya no irradia luz sino una energía oscura y viciada. El cambio no es solo estético: desaparece el idealismo agotador que sostenía al Rey Caballero y queda una eficacia fría, capaz de arrasar lo que haga falta sin la menor duda ni el menor remordimiento. Combate mejor que la original precisamente porque ya no arrastra escrúpulos, y esa es exactamente la tragedia. En Fuyuki cierra la singularidad como último enemigo, con la ciudad ardiendo detrás.",
+   "etiquetas": [
+    "Saber",
+    "Espíritu Heroico",
+    "Excalibur Morgan",
+    "Corrupción",
+    "Britania",
+    "Fuyuki",
+    "Singularidad F"
+   ],
+   "imagen": ""
   },
   {
    "id": "fate-sasaki-kojirou",
@@ -6078,7 +6103,7 @@
    "afiliacion": "Xianzhou Luofu, Altos Ancianos, Quinteto de las Nubes Altas",
    "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
    "estado": "Fallecido",
-   "descripcion": "El Alto Anciano de los Vidyadhara antes de la reencarnación que dio lugar a Dan Heng, y miembro del Quinteto de las Nubes Altas junto a Jing Yuan, Jingliu, Yingxing y Baiheng. Fue condenado por un crimen relacionado con la Abundancia que marcó a toda su estirpe, y su nombre sigue siendo una herida abierta en la Luofu siglos después. Va en ficha propia porque los Vidyadhara reencarnan en cuerpos nuevos: Dan Heng carga con su historia, pero no es el mismo cuerpo ni, en muchos sentidos, la misma persona.",
+   "descripcion": "El Alto Anciano de los Vidyadhara antes de la reencarnación que dio lugar a Dan Heng, y miembro del Quinteto de las Nubes Altas junto a Jing Yuan, Jingliu, Yingxing y Baiheng. Fue condenado por un crimen relacionado con la Abundancia que marcó a toda su estirpe, y su nombre sigue siendo una herida abierta en la Luofu siglos después. Los Vidyadhara reencarnan en cuerpos nuevos: Dan Heng carga con su historia, pero no es el mismo cuerpo ni, en muchos sentidos, la misma persona.",
    "etiquetas": [
     "Xianzhou Luofu",
     "Vidyadhara",
@@ -6177,7 +6202,7 @@
    "afiliacion": "Xianzhou Luofu",
    "primeraAparicion": "Honkai: Star Rail — Xianzhou Luofu (2023)",
    "estado": "Viva",
-   "descripcion": "Lleva el cuerpo de Tingyun pero no es Tingyun. La antigua representante del gremio de Llamas Silbantes estuvo a punto de perder la vida en un incidente catastrófico durante su viaje de vuelta, y lo que regresó en su lugar es otra cosa: la Viajera del No Retorno. Comparte rostro, voz y recuerdos prestados, y aun así nadie que conociera a la original se confunde mucho rato. Va en ficha propia por eso mismo: el envase es el de Tingyun, la persona no.",
+   "descripcion": "Lleva el cuerpo de Tingyun pero no es Tingyun. La antigua representante del gremio de Llamas Silbantes estuvo a punto de perder la vida en un incidente catastrófico durante su viaje de vuelta, y lo que regresó en su lugar es otra cosa: la Viajera del No Retorno. Comparte rostro, voz y recuerdos prestados, y aun así nadie que conociera a la original se confunde mucho rato. El cuerpo es el de Tingyun; la persona, no.",
    "etiquetas": [
     "Xianzhou Luofu",
     "Foxiana",
