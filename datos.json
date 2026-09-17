@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-30T13:32:10.147Z",
+ "actualizado": "2026-08-31T22:40:39.184Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -6347,7 +6347,7 @@
     "Pueblo",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-abuelita.webp"
   },
   {
    "id": "gravity-falls-powers",
@@ -6369,7 +6369,7 @@
     "Raromagedón",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-powers.webp"
   },
   {
    "id": "gravity-falls-trigger",
@@ -6390,7 +6390,7 @@
     "Investigación",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-trigger.webp"
   },
   {
    "id": "gravity-falls-durland",
@@ -6411,7 +6411,7 @@
     "Pueblo",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-durland.webp"
   },
   {
    "id": "gravity-falls-bebe-tiempo",
@@ -6433,7 +6433,7 @@
     "Entidad",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-bebe-tiempo.webp"
   },
   {
    "id": "gravity-falls-bill",
@@ -6456,7 +6456,7 @@
     "Sueños",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-bill.webp"
   },
   {
    "id": "gravity-falls-blendin",
@@ -6478,7 +6478,7 @@
     "Cinta temporal",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-blendin.webp"
   },
   {
    "id": "gravity-falls-bud",
@@ -6500,7 +6500,7 @@
     "Coches",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-bud.webp"
   },
   {
    "id": "gravity-falls-candy",
@@ -6522,7 +6522,7 @@
     "Inventos",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-candy.webp"
   },
   {
    "id": "gravity-falls-celestabellebethabelle",
@@ -6544,7 +6544,7 @@
     "Mabel",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-celestabellebethabelle.webp"
   },
   {
    "id": "gravity-falls-cerradura",
@@ -6589,7 +6589,7 @@
     "Masculinidad",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-chutzpar.webp"
   },
   {
    "id": "gravity-falls-dientes",
@@ -6634,7 +6634,7 @@
     "Gorra",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-dipper.webp"
   },
   {
    "id": "gravity-falls-dippy-fresh",
@@ -6656,7 +6656,7 @@
     "Dipper",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-dippy-fresh.webp"
   },
   {
    "id": "gravity-falls-cambiaformas",
@@ -6678,7 +6678,7 @@
     "Ford",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-cambiaformas.webp"
   },
   {
    "id": "gravity-falls-multi-oso",
@@ -6700,7 +6700,7 @@
     "Manotauros",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-multi-oso.webp"
   },
   {
    "id": "gravity-falls-mcgucket",
@@ -6723,7 +6723,7 @@
     "Sociedad del Ojo Cegado",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-mcgucket.webp"
   },
   {
    "id": "gravity-falls-ford",
@@ -6746,7 +6746,7 @@
     "Gemelo de Stan",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-ford.webp"
   },
   {
    "id": "gravity-falls-forma-amorfa",
@@ -6790,7 +6790,7 @@
     "Amuleto",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-gideon.webp"
   },
   {
    "id": "gravity-falls-giffany",
@@ -6813,7 +6813,7 @@
     "Soos",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-giffany.webp"
   },
   {
    "id": "gravity-falls-gompers",
@@ -6835,7 +6835,7 @@
     "Fauna",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-gompers.webp"
   },
   {
    "id": "gravity-falls-grenda",
@@ -6856,7 +6856,7 @@
     "Fiesta de pijamas",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-grenda.webp"
   },
   {
    "id": "gravity-falls-hectorgon",
@@ -6883,7 +6883,7 @@
   {
    "id": "gravity-falls-ivan",
    "mundo": "gravity-falls",
-   "nombre": "Ivan el Ciego",
+   "nombre": "Ivan Cegado",
    "alias": "Blind Ivan",
    "nombreReal": "Ivan",
    "edad": "No especificada",
@@ -6900,7 +6900,7 @@
     "McGucket",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-ivan.webp"
   },
   {
    "id": "gravity-falls-jeff",
@@ -6922,7 +6922,7 @@
     "Primer monstruo",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-jeff.webp"
   },
   {
    "id": "gravity-falls-kryptos",
@@ -6944,7 +6944,7 @@
     "Rarocosmos",
     "Temporada 2"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-kryptos.webp"
   },
   {
    "id": "gravity-falls-lee",
@@ -6966,7 +6966,7 @@
     "Pueblo",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-lee.webp"
   },
   {
    "id": "gravity-falls-mabel",
@@ -6989,7 +6989,7 @@
     "Waddles",
     "Temporada 1"
    ],
-   "imagen": ""
+   "imagen": "imagenes/gravity-falls-mabel.webp"
   },
   {
    "id": "gravity-falls-manly-dan",
