@@ -6,10 +6,26 @@
 
 ---
 
-**Project:** Codex Ficcion
-**Generated:** 2026-08-16 15:20:43
-**Category:** Social Media App
-**Design Dials:** Variance 7/10 (Balanced / Modern) | Motion 5/10 (Standard) | Density 6/10 (Standard)
+**Project:** Catálogo Interdimensional
+**Generated:** 2026-08-16 · **Rediseñado:** 2026-09-17
+**Category:** Archivo / catálogo de consulta
+**Design Dials:** Variance 6/10 (Editorial / Precise) | Motion 3/10 (Restrained) | Density 6/10 (Standard)
+
+---
+
+## La idea
+
+**La casa es neutra; el mundo pone el color.**
+
+El catálogo guarda 13 universos que no se parecen en nada. Si la interfaz se viste
+de uno, miente sobre los otros doce: leer una ficha de Harry Potter dentro de una
+carcasa de FNAF no tiene sentido. Así que la casa es un instrumento de archivo —
+tinta, filetes, tipografía precisa — y el único color de la pantalla es el del
+mundo abierto.
+
+Ese color no se queda en una rayita. `app.js` lo inyecta en `:root` y el CSS lo
+mezcla (`color-mix`) dentro de cada superficie, del halo del retrato y de los
+filetes de estado: cambiar de mundo cambia la temperatura de la sala entera.
 
 ---
 
@@ -17,211 +33,227 @@
 
 ### Color Palette
 
+Tinta azulada, no gris neutro: un gris puro con trece acentos distintos encima
+dejaba la casa apagada.
+
 | Role | Hex | CSS Variable |
 |------|-----|--------------|
-| Primary | `#7C3AED` | `--color-primary` |
-| On Primary | `#FFFFFF` | `--color-on-primary` |
-| Secondary | `#A78BFA` | `--color-secondary` |
-| Accent/CTA | `#F43F5E` | `--color-accent` |
-| Background | `#0F0F23` | `--color-background` |
-| Foreground | `#E2E8F0` | `--color-foreground` |
-| Muted | `#27273B` | `--color-muted` |
-| Border | `#4C1D95` | `--color-border` |
-| Destructive | `#EF4444` | `--color-destructive` |
-| Ring | `#7C3AED` | `--color-ring` |
+| Void (barra superior) | `#06070C` | `--t-950` |
+| Background | `#0B0C14` | `--t-900` |
+| Surface (lateral, modales) | `#101220` | `--t-850` |
+| Raised (fichas, paneles) | `#161927` | `--t-800` |
+| Inset (campos, etiquetas) | `#1D2130` | `--t-750` |
+| Foreground | `#E9EAF3` | `--fg` |
+| Muted | `#A3A7BD` | `--fg-dim` |
+| Faint | `#767B94` | `--fg-faint` |
+| Border | `rgba(233,234,243,.085)` | `--line` |
+| Border strong | `rgba(233,234,243,.17)` | `--line-strong` |
+| Destructive | `#F2555A` | `--danger` |
+| Success | `#3DD68C` | `--ok` |
+| Warning | `#F6B23C` | `--warn` |
+| Accent | del mundo activo | `--accent` |
+| Accent neutro (portada) | `#D9DCEA` | — |
 
-**Color Notes:** Neon purple + rose action
+**Derivadas del acento** (se recalculan solas al cambiar de mundo):
+
+| Variable | Fórmula | Uso |
+|----------|---------|-----|
+| `--sup-baja` | `color-mix(in oklab, var(--t-850) 95%, var(--accent))` | lateral, modales |
+| `--sup-alta` | `color-mix(in oklab, var(--t-800) 94%, var(--accent))` | fichas, panel de detalle |
+| `--sup-inset` | `color-mix(in oklab, var(--t-750) 93%, var(--accent))` | campos con foco |
+| `--linea-acento` | `color-mix(in srgb, var(--accent) 34%, transparent)` | bordes de foco |
+| `--halo` | `color-mix(in srgb, var(--accent) 13%, transparent)` | rescoldo bajo los retratos |
+| `--acento-vivo` | `color-mix(in oklab, var(--accent) 72%, #EDEFF7 28%)` | filetes y estados |
+
+`--acento-vivo` existe porque hay mundos de color muy oscuro (Harry Potter
+`#462a0e`, Merlina `#6B1F3A`) que sobre la tinta no se veían. Los **rellenos**
+siguen usando `--accent` tal cual, que ahí el contraste lo resuelve `--accent-ink`
+(cada mundo declara si su color lleva texto claro u oscuro).
+
+Todo esto va dentro de un `@supports (color: color-mix(...))`; sin soporte las
+superficies se quedan en la tinta pura. Se ve más sobrio, nunca roto.
 
 ### Typography
 
-- **Heading Font:** Russo One
-- **Body Font:** Chakra Petch
-- **Mood:** gaming, bold, action, esports, competitive, energetic
-- **Google Fonts:** [Russo One + Chakra Petch](https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Russo+One&display=swap)
+- **Interfaz y titulares:** Archivo (variable, `wght` 400–800 · `wdth` 62–125)
+- **Prosa de las fichas:** Literata (variable, `opsz` 7–72)
+- **Mood:** archivo, editorial, preciso, legible, sin disfraz de género
 
-**CSS Import:**
+Una sola familia sostiene toda la interfaz: el **eje de ancho** hace el trabajo
+que en otro sitio harían dos tipografías. Literata entra solo donde hay texto
+largo que leer de verdad —la descripción del personaje y el textarea que la
+escribe—, porque una ficha es una entrada de enciclopedia, no una etiqueta.
+
 ```css
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Literata:ital,opsz,wght@0,7..72,400..600;1,7..72,400..500&display=swap');
 ```
+
+| Rol | Tamaño | Ajustes |
+|-----|--------|---------|
+| Display (portada) | `clamp(38px,5.4vw,72px)` | ver lockup abajo |
+| Título de ficha | `clamp(26px,2.6vw,36px)` | `wdth 106`, `-.03em` |
+| Título de sección | 20–21px | `wdth 110–112` |
+| UI base | 14px | `wdth 100` |
+| Prosa | 15.5px / 1.78 | Literata, máx. 66ch |
+| Clave de dato | 10.5px | versalitas, `.11em` |
+
+**El lockup de la portada:** las dos líneas se cuadran a la misma anchura con el
+eje de ancho, no a ojo — `CATÁLOGO` a `wdth 125`/800 y `INTERDIMENSIONAL` a
+`wdth 94`/500 y `.75em`. Medido con la fuente cargada. No se pinta una palabra de
+otro color: el contraste es de anchura y peso.
 
 ### Spacing Variables
 
-*Density: 6/10 — Standard*
+| Token | Value | Usage |
+|-------|-------|-------|
+| `--s1` | `4px` | Tight gaps |
+| `--s2` | `8px` | Icon gaps, inline spacing |
+| `--s3` | `12px` | Standard padding |
+| `--s4` | `16px` | Panel padding |
+| `--s5` | `24px` | Section padding |
+| `--s6` | `32px` | Section margins |
+| `--s7` | `48px` | Hero padding |
+
+### Radii
+
+Dos radios y una píldora, por jerarquía — no el mismo borde para todo:
 
 | Token | Value | Usage |
 |-------|-------|-------|
-| `--space-xs` | `4px` / `0.25rem` | Tight gaps |
-| `--space-sm` | `8px` / `0.5rem` | Icon gaps, inline spacing |
-| `--space-md` | `16px` / `1rem` | Standard padding |
-| `--space-lg` | `24px` / `1.5rem` | Section padding |
-| `--space-xl` | `32px` / `2rem` | Large gaps |
-| `--space-2xl` | `48px` / `3rem` | Section margins |
-| `--space-3xl` | `64px` / `4rem` | Hero padding |
-
-### Shadow Depths
-
-| Level | Value | Usage |
-|-------|-------|-------|
-| `--shadow-sm` | `0 1px 2px rgba(0,0,0,0.05)` | Subtle lift |
-| `--shadow-md` | `0 4px 6px rgba(0,0,0,0.1)` | Cards, buttons |
-| `--shadow-lg` | `0 10px 15px rgba(0,0,0,0.1)` | Modals, dropdowns |
-| `--shadow-xl` | `0 20px 25px rgba(0,0,0,0.15)` | Hero images, featured cards |
+| `--r-placa` | `3px` | Fichas, celdas, etiquetas, chips. Casi recto, como la etiqueta de un ejemplar. |
+| `--r-inset` | `7px` | Campos, buscadores, iconos de modal. |
+| `--r-panel` | `12px` | Contenedores grandes y modales. |
+| `--r-pill` | `999px` | **Solo** acciones: es lo único que se pulsa. |
 
 ---
 
 ## Component Specs
 
-### Buttons
+### Botones
 
 ```css
-/* Primary Button */
-.btn-primary {
-  background: #F43F5E;
-  color: white;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-weight: 600;
-  transition: all 200ms ease;
-  cursor: pointer;
-}
-
-.btn-primary:hover {
-  opacity: 0.9;
-  transform: translateY(-1px);
-}
-
-/* Secondary Button */
-.btn-secondary {
-  background: transparent;
-  color: #7C3AED;
-  border: 2px solid #7C3AED;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-weight: 600;
-  transition: all 200ms ease;
-  cursor: pointer;
-}
+.btn{ border-radius:var(--r-pill); padding:11px 20px; font-weight:600; font-size:13.5px;
+      transition:transform .18s var(--ease), box-shadow .2s, background .2s }
+.btn-primario{ background:var(--accent); color:var(--accent-ink) }
+.btn-primario:hover{ box-shadow:0 10px 32px -12px var(--accent) }
+.btn:active{ transform:scale(.975) }
 ```
 
-### Cards
+Sin versalitas ni tracking: el botón dice lo que hace y se lee de un golpe.
+
+### Placa de personaje (riel)
 
 ```css
-.card {
-  background: #0F0F23;
-  border-radius: 12px;
-  padding: 24px;
-  box-shadow: var(--shadow-md);
-  transition: all 200ms ease;
-  cursor: pointer;
-}
-
-.card:hover {
-  box-shadow: var(--shadow-lg);
-  transform: translateY(-2px);
-}
+.ficha-card{ width:156px; height:222px; border-radius:var(--r-placa);
+             background:var(--sup-alta); border:1px solid var(--line) }
+.ficha-card::before{ background:radial-gradient(ellipse 80% 55% at 50% 88%, var(--halo), transparent 72%) }
+.ficha-card:hover{ transform:translateY(-3px); border-color:var(--line-strong) }
+.ficha-card.sel{ transform:translateY(-5px); border-color:var(--acento-vivo) }
 ```
 
-### Inputs
+El retrato flota sobre un rescoldo del color del mundo; la placa inferior lleva
+nombre y alias sobre un degradado hasta `--t-950`.
+
+### Tabla de datos de la ficha
+
+Los campos son una **tabla**, no doce tarjetitas: clave a la izquierda, valor a la
+derecha, un filete por fila y dos columnas cuando cabe. Se lee en vertical de un
+vistazo y no fabrica doce cajas idénticas.
 
 ```css
-.input {
-  padding: 12px 16px;
-  border: 1px solid #E2E8F0;
-  border-radius: 8px;
-  font-size: 16px;
-  transition: border-color 200ms ease;
-}
-
-.input:focus {
-  border-color: #7C3AED;
-  outline: none;
-  box-shadow: 0 0 0 3px #7C3AED20;
-}
+.campos{ display:grid; grid-template-columns:repeat(auto-fill,minmax(232px,1fr));
+         gap:0 var(--s6); border-top:1px solid var(--line) }
+.campos .c{ display:flex; justify-content:space-between; align-items:baseline;
+            padding:9px 0; border-bottom:1px solid var(--line) }
 ```
 
-### Modals
+### Campos
 
 ```css
-.modal-overlay {
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(4px);
-}
+.campo input,.campo textarea,.campo select{
+  background:var(--t-800); border:1px solid var(--line); border-radius:var(--r-inset); padding:10px 12px }
+.campo :focus{ border-color:var(--linea-acento); background:var(--sup-inset) }
+.campo textarea{ font-family:var(--f-lectura) }   /* se escribe como se lee */
+```
 
-.modal {
-  background: white;
-  border-radius: 16px;
-  padding: 32px;
-  box-shadow: var(--shadow-xl);
-  max-width: 500px;
-  width: 90%;
-}
+### Modales
+
+```css
+.velo{ background:rgba(6,7,12,.76); backdrop-filter:blur(6px) }
+.modal{ background:var(--t-850); border:1px solid var(--line-strong);
+        border-radius:var(--r-panel); padding:var(--s6); box-shadow:0 40px 100px -24px #000 }
 ```
 
 ---
 
 ## Style Guidelines
 
-**Style:** Modern Dark (Cinema Mobile)
+**Style:** Archivo en tinta (dark, editorial)
 
-**Keywords:** dark mode, cinematic, ambient light, glassmorphism, deep black, indigo, glow, blur, atmospheric, reanimated, haptic, premium, layered, frosted glass, linear gradient
+**Keywords:** tinta, filete, hoja de contacto, ficha, retrato recortado, halo del
+mundo, versalita de dato, prosa serif, precisión
 
-**Best For:** Developer tools, pro productivity apps, fintech/trading dashboards, media/streaming platforms, AI tool interfaces, high-end gaming companion apps
-
-**Key Effects:** Expo.out Bezier(0.16,1,0.3,1) easing; spring modals (damping:20 stiffness:90); haptic-linked press (Impact Light/Medium); animated ambient light blobs (Reanimated translateX/Y slow oscillation); BlurView glassmorphism headers/nav (intensity 20); scale press 0.97 → 1.0; avoid pure #000000 (OLED smear)
+**Key Effects:** easing `cubic-bezier(.16,1,.3,1)`; superficies mezcladas con el
+acento; halo radial bajo cada retrato; máscara de degradado en los bordes del riel;
+`backdrop-filter` solo en el velo de los modales.
 
 ### Page Pattern
 
-**Pattern Name:** Immersive/Interactive Experience
+**Pattern Name:** Portada con el contenido como argumento
 
-- **Conversion Strategy:** 40% higher engagement. Performance trade-off. Provide skip option. Mobile fallback essential.
-- **CTA Placement:** After interaction complete + Skip option for impatient users
-- **Section Order:** 1. Full-screen interactive element, 2. Guided product tour, 3. Key benefits revealed, 4. CTA after completion
+- **Hero:** el muro — hoja de contacto en diagonal con retratos de verdad sacados
+  de `datos.json`, un personaje por mundo antes de repetir. Nada de degradados
+  ambientales ni rejillas enmascaradas: lo que vende esta página es lo que hay
+  dentro.
+- **Section Order:** 1. muro + lockup, 2. una frase de qué es esto, 3. la tira de
+  cifras, 4. entrar.
+- **CTA Placement:** al final del bloque de texto, alineado a la izquierda con él.
 
 ---
 
 ## Motion
 
-**Stagger List** (Standard) — Trigger: load or scroll | Duration: 300-450ms | Easing: `back.out(1.4)`
+Movimiento como **respuesta a una acción**, más un único momento ambiental.
 
-```js
-gsap.from('.grid-item', { opacity: 0, scale: 0.92, y: 16, duration: 0.4, stagger: { each: 0.06, from: 'start', grid: 'auto' }, ease: 'back.out(1.4)' });
+**Cascada del riel** — Disparo: cambiar de mundo o de vista (nunca al teclear en el
+buscador, que repinta a cada letra). Duración 420ms, `--ease`, 28ms por ficha con
+tope de 14.
+
+```css
+.riel.entra .ficha-card{ animation:asomar .42s var(--ease) both;
+                         animation-delay:calc(min(var(--i,0),14) * 28ms) }
+@keyframes asomar{ from{ opacity:0; transform:translateY(10px) scale(.975) } }
 ```
 
-**Framework notes:** grid: 'auto' lets GSAP infer rows/columns from a CSS grid layout for a natural wave stagger
-
-- ✅ Combine with from: 'center' for a bento-grid layout to draw the eye inward first
-- ❌ Don't use back.out on dense data tables; the overshoot reads as sloppy on informational UI
-- ⚡ Group DOM writes; avoid interleaving layout reads (getBoundingClientRect) between staggered tweens
+**Muro de la portada** — el único movimiento no disparado por nadie: columnas de
+retratos que van y vienen a 74–116s. Se apaga entero con `prefers-reduced-motion`.
 
 ---
 
 ## Anti-Patterns (Do NOT Use)
 
-- ❌ Heavy skeuomorphism
-- ❌ Accessibility ignored
-
-### Additional Forbidden Patterns
-
-- ❌ **Emojis as icons** — Use SVG icons (Heroicons, Lucide, Simple Icons)
-- ❌ **Missing cursor:pointer** — All clickable elements must have cursor:pointer
-- ❌ **Layout-shifting hovers** — Avoid scale transforms that shift layout
-- ❌ **Low contrast text** — Maintain 4.5:1 minimum contrast ratio
-- ❌ **Instant state changes** — Always use transitions (150-300ms)
-- ❌ **Invisible focus states** — Focus states must be visible for a11y
+- ❌ Blobs de aurora + rejilla enmascarada como fondo de portada
+- ❌ Doce tarjetas idénticas donde el contenido es una tabla
+- ❌ El mismo radio para todo, sin jerarquía
+- ❌ Versalitas con tracking encima de cada bloque de texto
+- ❌ Pintar una sola palabra del titular de otro color
+- ❌ `→` pegado al texto de un botón o un enlace
+- ❌ Emojis como iconos — SVG del juego de iconos de `index.html`
+- ❌ Falta de `cursor:pointer` en lo que se pulsa
+- ❌ Cambios de estado instantáneos — transición de 150–300ms
+- ❌ Foco invisible
+- ❌ Accesibilidad ignorada
 
 ---
 
 ## Pre-Delivery Checklist
 
-Before delivering any UI code, verify:
-
-- [ ] No emojis used as icons (use SVG instead)
-- [ ] All icons from consistent icon set (Heroicons/Lucide)
-- [ ] `cursor-pointer` on all clickable elements
-- [ ] Hover states with smooth transitions (150-300ms)
-- [ ] Light mode: text contrast 4.5:1 minimum
-- [ ] Focus states visible for keyboard navigation
-- [ ] `prefers-reduced-motion` respected
-- [ ] Responsive: 375px, 768px, 1024px, 1440px
-- [ ] No content hidden behind fixed navbars
-- [ ] No horizontal scroll on mobile
+- [ ] Ningún emoji como icono; SVG del juego ya definido
+- [ ] `cursor:pointer` en todo lo pulsable
+- [ ] Hover con transición de 150–300ms
+- [ ] Texto a 4.5:1 mínimo sobre su fondo real
+- [ ] Foco visible con teclado
+- [ ] `prefers-reduced-motion` respetado
+- [ ] Probado a 390px, 860px, 1080px y 1440px, y a 700px de alto
+- [ ] Sin scroll horizontal
+- [ ] Probado con un mundo claro (ZZZ), uno oscuro (Harry Potter) y uno pálido (NieR)

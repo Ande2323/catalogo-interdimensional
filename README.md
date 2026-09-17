@@ -61,7 +61,10 @@ datos.json            mundos y personajes
 imagenes/             retratos en WebP
 ```
 
-Cada mundo lleva su propio color, y toda la interfaz se tiñe con él al seleccionarlo. Para añadir
+Cada mundo lleva su propio color, y toda la interfaz se tiñe con él al seleccionarlo: las
+superficies se mezclan con ese acento, así que cambiar de universo cambia la temperatura de la
+pantalla entera. Las reglas del sistema visual —paleta, tipografía, componentes y lo que no se
+hace— están en [design-system/MASTER.md](design-system/MASTER.md). Para añadir
 un campo nuevo a todas las fichas basta con meterlo en `CAMPOS_FICHA` (`js/config.js`): aparece
 solo en el formulario y en el detalle.
 

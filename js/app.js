@@ -97,13 +97,63 @@ function colocarEnOrden(p) {
 
 /* Sin mundo (por ejemplo al filtrar por «todos») el acento cae a neutro, igual
    que en la bienvenida: ningún universo tiene por qué teñir la pantalla. */
-const ACENTO_NEUTRO = "#EDEDF4";
+const ACENTO_NEUTRO = "#D9DCEA";
+let acentoEnEspera = null;
 function aplicarAcento(mundo) {
+  // Con la portada delante el acento se guarda y no se aplica: esa pantalla no
+  // es de ningún mundo, y la barra superior se teñía del primero que cargara.
+  if ($("#bienvenida").classList.contains("activa")) { acentoEnEspera = mundo ?? null; return; }
   const r = document.documentElement.style;
   const color = mundo?.acento || ACENTO_NEUTRO;
   r.setProperty("--accent", color);
   r.setProperty("--accent-ink", mundo?.tinta || "#0B0B10");
   r.setProperty("--accent-soft", color + "24");
+}
+
+/* ---------- muro de la portada ---------- */
+/* La portada enseña el archivo con el archivo: una hoja de contacto de
+   retratos de verdad, repartiendo un personaje por mundo antes de repetir
+   para que se vea de un golpe lo distintos que son los universos. En móvil
+   va una columna menos, que son cinco imágenes menos que descargar. */
+const MURO_FILAS = 5;
+function pintarMuro() {
+  const muro = $("#muro");
+  if (!muro) return;
+  const columnas = matchMedia("(max-width:860px)").matches ? 3 : 4;
+
+  const barajar = a => a.map(x => [Math.random(), x]).sort((u, v) => u[0] - v[0]).map(x => x[1]);
+  const porMundo = new Map();
+  for (const p of Estado.datos.personajes) {
+    if (!p.imagen) continue;
+    if (!porMundo.has(p.mundo)) porMundo.set(p.mundo, []);
+    porMundo.get(p.mundo).push(p);
+  }
+  const pilas = barajar([...porMundo.values()].map(barajar));
+  if (!pilas.length) return;                       // archivo sin retratos: sin muro
+
+  const total = columnas * MURO_FILAS;
+  const elegidos = [];
+  for (let vuelta = 0; elegidos.length < total; vuelta++) {
+    const antes = elegidos.length;
+    for (const pila of pilas) {
+      if (elegidos.length >= total) break;
+      if (pila[vuelta]) elegidos.push(pila[vuelta]);
+    }
+    if (elegidos.length === antes) break;          // se acabaron los retratos
+  }
+  if (elegidos.length < columnas * 2) return;      // con cuatro fotos no hay muro
+
+  muro.innerHTML = "";
+  for (let c = 0; c < columnas; c++) {
+    const col = document.createElement("div");
+    col.className = "muro-col";
+    const suyos = elegidos.filter((_, i) => i % columnas === c);
+    // Cada columna lleva sus retratos dos veces: así el bucle cierra sin salto
+    // y el navegador sirve la copia de su caché, no de la red.
+    col.innerHTML = [...suyos, ...suyos].map(p =>
+      `<figure><img src="${esc(urlImagen(p.imagen))}" alt="" decoding="async" fetchpriority="low"></figure>`).join("");
+    muro.appendChild(col);
+  }
 }
 
 /* ---------- navegación entre pantallas ---------- */
@@ -161,6 +211,7 @@ function elegirMundo(id) {
   Estado.vistaFavoritos = false;
   Estado.mundoId = id;
   Estado.personajeId = null;
+  Estado.animarRiel = true;
   aplicarAcento(mundoPorId(id));
   pintarMundos();
   pintarRiel();
@@ -201,9 +252,13 @@ function pintarRiel() {
     : `— ${lista.length} ${lista.length === 1 ? "personaje" : "personajes"}`;
 
   riel.innerHTML = "";
+  riel.classList.toggle("entra", Boolean(Estado.animarRiel));
+  Estado.animarRiel = false;
+  let i = 0;
   for (const p of lista) {
     const b = document.createElement("button");
     b.className = "ficha-card" + (p.id === Estado.personajeId ? " sel" : "");
+    b.style.setProperty("--i", i++);
     b.dataset.id = p.id;
     const src = urlImagen(p.imagen);
     const arte = src
@@ -266,8 +321,10 @@ function pintarDetalle() {
     </div>
     <div class="detalle-cuerpo">
       <div class="detalle-titulo">
-        <h2>${esc(p.nombre)}</h2>
-        ${p.alias ? `<span class="alias">${esc(p.alias)}</span>` : ""}
+        <div class="ident">
+          <h2>${esc(p.nombre)}</h2>
+          ${p.alias ? `<p class="alias">${esc(p.alias)}</p>` : ""}
+        </div>
         <button class="btn-corazon${Fav.es(p.id) ? " marcado" : ""}" id="btnFav"
                 title="${Fav.es(p.id) ? "Quitar de favoritos" : "Guardar en favoritos"}"
                 aria-pressed="${Fav.es(p.id)}">${icono("i-corazon")}</button>
@@ -358,6 +415,7 @@ try { if (localStorage.getItem(LATERAL_PLEGADO) === "1") pintarPlegado(true); } 
 $("#btnFavoritos").onclick = () => {
   Estado.vistaFavoritos = !Estado.vistaFavoritos;
   Estado.personajeId = null;
+  Estado.animarRiel = true;
   if (!Estado.vistaFavoritos && !Estado.mundoId) Estado.mundoId = mundosOrdenados()[0]?.id;
   aplicarAcento(Estado.vistaFavoritos ? null : mundoPorId(Estado.mundoId));
   $("#miga").textContent = Estado.vistaFavoritos ? "Explorador · Mis favoritos"
@@ -426,6 +484,7 @@ async function arrancar() {
   $("#cifraCompletos").textContent = Estado.datos.personajes.filter(estaCompleto).length;
   $("#estadoCarga").textContent = "Archivo cargado";
   $("#btnEntrar").disabled = false;
+  pintarMuro();
 
   // La lista va alfabética, pero se entra por el mundo con más contenido: abrir
   // en uno de dos personajes por empezar por D es una mala carta de presentación.
@@ -440,5 +499,10 @@ async function arrancar() {
   if (u && typeof Admin !== "undefined") Admin.marcarSesion(u);
 }
 
-$("#btnEntrar").onclick = () => irA("explorador");
+$("#btnEntrar").onclick = () => {
+  irA("explorador");
+  aplicarAcento(acentoEnEspera ?? mundoPorId(Estado.mundoId));
+  Estado.animarRiel = true;
+  pintarRiel();
+};
 arrancar();
