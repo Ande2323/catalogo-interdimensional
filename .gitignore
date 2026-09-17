@@ -8,4 +8,7 @@ node_modules/
 secretos*
 
 # Configuración local de desarrollo (servidor de previsualización)
-.claude/
+.claude/*
+# ...pero las skills del proyecto sí se comparten: así están disponibles en
+# cualquier sesión que clone el repositorio, incluidas las de Claude en la web.
+!.claude/skills/

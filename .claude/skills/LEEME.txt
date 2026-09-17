@@ -1,0 +1,2 @@
+Coloca aquí cada skill en su propia carpeta, con un SKILL.md dentro.
+Ejemplo: .claude/skills/ui-ux-pro-max/SKILL.md
