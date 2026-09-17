@@ -7,11 +7,14 @@
 <meta name="description" content="Colección de personajes de ficción de Marvel, DC, Five Nights at Freddy's, Zenless Zone Zero, NieR: Automata y más.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Russo+One&display=swap" rel="stylesheet">
+<!-- Archivo para toda la interfaz (es variable: el ancho y el peso hacen el
+     trabajo que en otro sitio harían dos familias) y Literata sólo para la
+     prosa de las fichas, que se lee como el texto de un libro. -->
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=Literata:ital,opsz,wght@0,7..72,400..600;1,7..72,400..500&display=swap" rel="stylesheet">
 <!-- El ?v= obliga al navegador a traerse la versión nueva en vez de la que
      tenga guardada. Súbelo cuando cambies css o js. -->
-<link rel="stylesheet" href="css/estilos.css?v=19">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%23FFE14D'/><path d='M9 25.5A2.5 2.5 0 0 1 11.5 23H24M11.5 7H24v18H11.5A2.5 2.5 0 0 1 9 22.5v-13A2.5 2.5 0 0 1 11.5 7z' fill='none' stroke='%230B0B10' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+<link rel="stylesheet" href="css/estilos.css?v=20">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%23E9EAF3'/><path d='M9 25.5A2.5 2.5 0 0 1 11.5 23H24M11.5 7H24v18H11.5A2.5 2.5 0 0 1 9 22.5v-13A2.5 2.5 0 0 1 11.5 7z' fill='none' stroke='%230B0C14' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/></svg>">
 </head>
 <body>
 
@@ -53,20 +56,21 @@
 
 <!-- ============ 1. BIENVENIDA ============ -->
 <section class="pantalla activa" id="bienvenida">
-  <div class="aurora"><i></i><i></i><i></i></div>
-  <div class="rejilla"></div>
+  <!-- Lo rellena app.js con retratos de verdad en cuanto carga datos.json:
+       el mejor argumento que tiene esta página es su propio contenido. -->
+  <div class="muro" id="muro" aria-hidden="true"></div>
   <div class="bienvenida-centro">
-    <div class="ceja"><b></b> <span id="estadoCarga">Cargando archivo…</span></div>
-    <h1>CATÁLOGO<br><em>INTERDIMENSIONAL</em></h1>
-    <p class="bienvenida-sub">Una colección de personajes de todos los universos que importan. Marvel, DC, Five Nights at Freddy's, Zenless Zone Zero, NieR y los que vengan.</p>
-    <div class="cifras">
-      <div class="cifra"><div class="n" id="cifraMundos">—</div><div class="k">Mundos</div></div>
-      <div class="cifra"><div class="n" id="cifraPersonajes">—</div><div class="k">Personajes</div></div>
-      <div class="cifra"><div class="n" id="cifraCompletos">—</div><div class="k">Con ficha</div></div>
+    <div class="bienvenida-texto">
+      <div class="ceja"><b></b> <span id="estadoCarga">Cargando archivo…</span></div>
+      <h1><b>Catálogo</b><em>Interdimensional</em></h1>
+      <p class="bienvenida-sub">Una colección de personajes de todos los universos que importan. Marvel, DC, Five Nights at Freddy's, Zenless Zone Zero, NieR y los que vengan.</p>
+      <div class="cifras">
+        <div class="cifra"><div class="n" id="cifraMundos">—</div><div class="k">Mundos</div></div>
+        <div class="cifra"><div class="n" id="cifraPersonajes">—</div><div class="k">Personajes</div></div>
+        <div class="cifra"><div class="n" id="cifraCompletos">—</div><div class="k">Con ficha</div></div>
+      </div>
+      <button class="btn btn-primario" id="btnEntrar" disabled>Entrar al catálogo</button>
     </div>
-    <button class="btn btn-primario" id="btnEntrar" disabled>
-      Entrar al catálogo <svg><use href="#i-flecha"/></svg>
-    </button>
   </div>
   <div class="bienvenida-pie">
     <button data-abrir-sesion><svg><use href="#i-candado"/></svg> Acceso de editor</button>
@@ -249,12 +253,12 @@
 <div class="avisos" id="avisos"></div>
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="js/config.js?v=19"></script>
-<script src="js/imagen.js?v=19"></script>
-<script src="js/github.js?v=19"></script>
-<script src="js/favoritos.js?v=19"></script>
-<script src="js/efectos.js?v=19"></script>
-<script src="js/app.js?v=19"></script>
-<script src="js/admin.js?v=19"></script>
+<script src="js/config.js?v=20"></script>
+<script src="js/imagen.js?v=20"></script>
+<script src="js/github.js?v=20"></script>
+<script src="js/favoritos.js?v=20"></script>
+<script src="js/efectos.js?v=20"></script>
+<script src="js/app.js?v=20"></script>
+<script src="js/admin.js?v=20"></script>
 </body>
 </html>
