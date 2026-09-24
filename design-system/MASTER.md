@@ -1,3 +1,64 @@
+# Design System Master File — «Expediente»
+
+> **Rama de propuesta:** `claude/rediseno-dossier` (opción B). La versión anterior,
+> «Archivo en tinta», sigue en `main` y se conserva abajo como referencia.
+
+**Rediseñado:** 2026-09-24 · **Category:** Archivo / catálogo de consulta
+
+## La idea
+
+**El catálogo es un archivador de papel.** Cada mundo es una carpeta con su
+pestaña de color; cada personaje, una hoja de expediente con la foto grapada,
+los datos a máquina y un sello. La casa es de papel y tinta; el mundo abierto
+pone el color de la pestaña, la cinta del retrato elegido y el sello.
+
+## Paleta
+
+| Rol | Hex | Variable |
+|-----|-----|----------|
+| Escritorio (portada) | `#E3DBC9` | `--p-escritorio` |
+| Fondo | `#ECE6D8` | `--p-fondo` |
+| Carpeta (lateral) | `#E6D9BA` | `--p-carpeta` |
+| Hoja (ficha, modales) | `#F8F4EA` | `--p-hoja` |
+| Tinta / texto | `#1F1B16` | `--tinta`, `--fg` |
+| Texto secundario | `#4F473D` | `--fg-dim` |
+| Texto tenue | `#6B6154` | `--fg-faint` |
+| Peligro / OK / Aviso | `#B3261E` / `#2E7D4F` / `#B26A00` | |
+
+Todo el papel lleva `--grano` (ruido SVG). Sobre papel el problema es al revés
+que sobre tinta: los mundos **claros** (NieR, ZZZ) no se ven, así que
+`--acento-vivo` mezcla el acento con un 32 % de tinta para sellos y filetes.
+
+## Tipografía
+
+- **Special Elite** — rótulos: titular, nombre del personaje, títulos de sección.
+- **IBM Plex Mono** — datos, claves, botones, pies de foto, migas.
+- **IBM Plex Sans** — interfaz corrida (lista de mundos, textos de modal).
+- **Literata** — prosa de la ficha, sobre papel pautado a 28px.
+
+## Piezas
+
+- **Botones:** rectángulo con borde de tinta y sombra dura desplazada (3px) del
+  color del mundo; al pulsar se aplasta contra el papel.
+- **Placa del riel:** foto de identificación con marco blanco, pie a máquina y
+  un giro de ±1°. La seleccionada lleva cinta adhesiva del color del mundo.
+- **Ficha:** hoja con pestaña superior (`data-mundo`, lo rellena `app.js`),
+  foto grapada torcida, tabla de datos con renglones de puntos, sello
+  «Archivado» y descripción sobre pauta.
+- **Etiquetas:** cinta de rotuladora (fondo tinta, letra clara).
+- **Modales:** hoja con agujeros de archivador que cae sobre la mesa.
+- **Avisos:** notas amarillas con filete de estado.
+
+## Móvil (≤860px)
+
+El cajón de carpetas pasa a una fila de pestañas horizontales arriba; la escena
+hace scroll entera y la foto va encima de la hoja. El panel de edición apila
+navegación, lista y formulario.
+
+---
+
+# Referencia: sistema anterior «Archivo en tinta»
+
 # Design System Master File
 
 > **LOGIC:** When building a specific page, first check `design-system/pages/[page-name].md`.
