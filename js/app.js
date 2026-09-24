@@ -300,6 +300,7 @@ function pintarDetalle() {
   const cont = $("#detalle");
   const p = personajePorId(Estado.personajeId);
   Efectos.parar();          // el de la ficha anterior deja de correr
+  cont.dataset.mundo = p ? mundoPorId(p.mundo)?.nombre ?? "" : "";   // rótulo que pinta el CSS
 
   if (!p) {
     const buscando = Boolean(Estado.busqueda.trim());
