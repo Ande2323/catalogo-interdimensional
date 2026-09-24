@@ -1,6 +1,6 @@
 {
  "version": 1,
- "actualizado": "2026-08-31T22:40:39.184Z",
+ "actualizado": "2026-09-24T23:55:03.000Z",
  "mundos": [
   {
    "id": "fnaf",
@@ -13656,6 +13656,50 @@
    "imagen": ""
   },
   {
+   "id": "nier-11b",
+   "mundo": "nier",
+   "nombre": "11B",
+   "alias": "La desertora",
+   "nombreReal": "YoRHa No. 11 Type B",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Androide",
+   "rol": "Unidad de combate desertora",
+   "afiliacion": "YoRHa (desertora)",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Fallecida",
+   "descripcion": "Unidad de combate de YoRHa que abandona su puesto sin dar explicaciones. El Bunker encarga a 2B y 9S que la encuentren, en una misión secundaria que deja bastante mal sabor de boca.\n\nSu historia muestra lo que YoRHa hace con quienes no aguantan la guerra: desertar también tiene un precio.",
+   "etiquetas": [
+    "YoRHa",
+    "Desertora",
+    "Misión secundaria",
+    "NieR:Automata"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "nier-21o",
+   "mundo": "nier",
+   "nombre": "21O",
+   "alias": "La operadora de 9S",
+   "nombreReal": "YoRHa No. 21 Type O",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Androide",
+   "rol": "Operadora de apoyo de 9S",
+   "afiliacion": "YoRHa, Bunker",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Fallecida",
+   "descripcion": "Operadora asignada a 9S. Al contrario que 6O, es fría, metódica y habla solo de lo imprescindible: considera que las emociones son un estorbo para cumplir la misión.\n\nCon el tiempo deja ver que la relación con 9S le importa más de lo que admite. Cae con el resto del Bunker cuando el virus lógico infecta a las unidades YoRHa.",
+   "etiquetas": [
+    "YoRHa",
+    "Bunker",
+    "Operadora",
+    "NieR:Automata"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "nier-2b",
    "mundo": "nier",
    "nombre": "2B",
@@ -13679,6 +13723,28 @@
     "NieR:Automata"
    ],
    "imagen": "imagenes/nier-2b.webp"
+  },
+  {
+   "id": "nier-6o",
+   "mundo": "nier",
+   "nombre": "6O",
+   "alias": "La operadora de 2B",
+   "nombreReal": "YoRHa No. 6 Type O",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Androide",
+   "rol": "Operadora de apoyo de 2B",
+   "afiliacion": "YoRHa, Bunker",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Fallecida",
+   "descripcion": "Operadora asignada a 2B: la voz al otro lado de cada comunicación durante las misiones. Es parlanchina, alegre y le interesan cosas que en el Bunker nadie se plantea, como la moda o las flores de la Tierra, que sueña con ver algún día.\n\nSu entusiasmo contrasta con la frialdad de 2B, que acaba cogiéndole cariño a su manera. Muere cuando el virus lógico alcanza el Bunker.",
+   "etiquetas": [
+    "YoRHa",
+    "Bunker",
+    "Operadora",
+    "NieR:Automata"
+   ],
+   "imagen": ""
   },
   {
    "id": "nier-9s",
@@ -13754,6 +13820,95 @@
    "imagen": "imagenes/nier-adam.webp"
   },
   {
+   "id": "nier-anemone",
+   "mundo": "nier",
+   "nombre": "Anemone",
+   "alias": "La líder de la Resistencia",
+   "nombreReal": "Anemone",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Androide",
+   "rol": "Líder del campamento de la Resistencia",
+   "afiliacion": "Resistencia",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Viva",
+   "descripcion": "Dirige el campamento de la Resistencia en las ruinas de la ciudad, donde los androides que llevan siglos en la Tierra conviven con las unidades YoRHa que bajan del Bunker. Es serena, práctica y protectora con los suyos.\n\nLleva en la guerra mucho más tiempo que YoRHa y comparte un pasado con A2 que ninguna de las dos cuenta del todo.",
+   "etiquetas": [
+    "Resistencia",
+    "Campamento",
+    "Líder",
+    "NieR:Automata"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "nier-devola",
+   "mundo": "nier",
+   "nombre": "Devola",
+   "alias": "La gemela de la guitarra",
+   "nombreReal": "Devola",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Androide (modelo Devola)",
+   "rol": "Tendera y cantante en el campamento de la Resistencia",
+   "afiliacion": "Resistencia",
+   "primeraAparicion": "NieR (2010)",
+   "estado": "Fallecida",
+   "descripcion": "Una de las dos gemelas pelirrojas del campamento, siempre con la guitarra a mano. Pertenece a un modelo de androide que carga con la culpa de un desastre ocurrido siglos atrás, por el que el resto de androides las mira con desconfianza.\n\nViene de NieR Replicant, donde su modelo ya aparecía. En Automata ayuda a 9S a llegar a la Torre y se sacrifica por ello junto a Popola.",
+   "etiquetas": [
+    "Resistencia",
+    "Gemelas",
+    "Música",
+    "NieR Replicant",
+    "NieR:Automata"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "nier-rey-del-bosque",
+   "mundo": "nier",
+   "nombre": "El Rey del Bosque",
+   "alias": "El rey renacido",
+   "nombreReal": "Rey del Bosque",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Forma de vida mecánica",
+   "rol": "Soberano del Reino del Bosque",
+   "afiliacion": "Reino del Bosque",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Destruido",
+   "descripcion": "Las máquinas del castillo del bosque forman un reino feudal con caballeros y un rey al que juran lealtad eterna. Cuando su rey cae, esperan su renacimiento, y lo encuentran en una pequeña máquina recién nacida.\n\nSu historia es una de las más tristes del juego: la lealtad de sus caballeros no cambia ni cuando el reino ya no tiene sentido.",
+   "etiquetas": [
+    "Máquinas",
+    "Castillo del bosque",
+    "Realeza",
+    "NieR:Automata"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "nier-emil",
+   "mundo": "nier",
+   "nombre": "Emil",
+   "alias": "El tendero de la cabeza de calavera",
+   "nombreReal": "Emil",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Arma biológica (Humano modificado)",
+   "rol": "Vendedor ambulante",
+   "afiliacion": "Ninguna",
+   "primeraAparicion": "NieR (2010)",
+   "estado": "Vivo",
+   "descripcion": "Recorre la Tierra en su vehículo vendiendo objetos y cantando la misma canción. Su enorme cabeza de calavera no le quita un ápice de amabilidad.\n\nEs el mismo Emil de NieR Replicant, que lleva milenios vivo y ha perdido casi todos sus recuerdos. Las misiones secundarias que llevan hasta él revelan lo que queda de su pasado.",
+   "etiquetas": [
+    "Tienda",
+    "Misión secundaria",
+    "NieR Replicant",
+    "NieR:Automata"
+   ],
+   "imagen": ""
+  },
+  {
    "id": "nier-eve",
    "mundo": "nier",
    "nombre": "Eve",
@@ -13775,6 +13930,95 @@
     "NieR:Automata"
    ],
    "imagen": "imagenes/nier-eve.webp"
+  },
+  {
+   "id": "nier-jackass",
+   "mundo": "nier",
+   "nombre": "Jackass",
+   "alias": "La científica loca",
+   "nombreReal": "Jackass",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Androide",
+   "rol": "Especialista en explosivos e investigadora",
+   "afiliacion": "Resistencia",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Viva",
+   "descripcion": "Miembro de la Resistencia con una pasión muy poco sana por los explosivos, las drogas experimentales y cualquier cosa que pueda salir mal de forma espectacular. Encarga a 2B y 9S algunas de las misiones más absurdas del juego.\n\nDetrás del caos es una investigadora brillante que entiende las máquinas mejor que casi nadie en el campamento.",
+   "etiquetas": [
+    "Resistencia",
+    "Explosivos",
+    "Ciencia",
+    "NieR:Automata"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "nier-kierkegaard",
+   "mundo": "nier",
+   "nombre": "Kierkegaard",
+   "alias": "El sumo sacerdote",
+   "nombreReal": "Kierkegaard",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Forma de vida mecánica",
+   "rol": "Líder de la secta de la fábrica abandonada",
+   "afiliacion": "Máquinas (secta)",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Destruido",
+   "descripcion": "Dirige una secta de máquinas en la fábrica abandonada que predica que la muerte las convertirá en dioses. Sus fieles abandonan la red de máquinas para seguirle.\n\nCuando 2B y 9S entran en la fábrica descubren adónde lleva realmente esa fe.",
+   "etiquetas": [
+    "Máquinas",
+    "Secta",
+    "Fábrica abandonada",
+    "NieR:Automata"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "nier-comandante",
+   "mundo": "nier",
+   "nombre": "La Comandante",
+   "alias": "White",
+   "nombreReal": "White",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Androide",
+   "rol": "Comandante de las fuerzas YoRHa",
+   "afiliacion": "YoRHa, Bunker",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Fallecida",
+   "descripcion": "Dirige YoRHa desde el Bunker, la estación orbital desde la que se coordina la guerra contra las máquinas. Es seca, exigente y siempre parece llevar la carga de algo que no cuenta a sus subordinados.\n\nCuando el virus lógico se extiende por la red de YoRHa y el Bunker cae, se queda en su puesto hasta el final. Es de las pocas que conoce la verdad sobre el Consejo de la Humanidad y sobre el propio proyecto YoRHa.",
+   "etiquetas": [
+    "YoRHa",
+    "Bunker",
+    "Mando",
+    "NieR:Automata"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "nier-chicas-de-rojo",
+   "mundo": "nier",
+   "nombre": "Las chicas de rojo",
+   "alias": "N2",
+   "nombreReal": "N2",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Consciencia de la red de máquinas",
+   "rol": "Representación de la red de máquinas",
+   "afiliacion": "Máquinas",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Destruidas",
+   "descripcion": "La red de máquinas toma forma de niñas vestidas de rojo para hablar con quienes llegan hasta ella. Son la voluntad que dirige a todas las máquinas de la Tierra, y ven la guerra como un experimento.\n\nAparecen en la Torre, al final de la historia, y explican el sentido de todo lo que han hecho las máquinas desde la invasión.",
+   "etiquetas": [
+    "Máquinas",
+    "Red de máquinas",
+    "Torre",
+    "Jefa final",
+    "NieR:Automata"
+   ],
+   "imagen": ""
   },
   {
    "id": "nier-pascal",
@@ -13823,6 +14067,73 @@
     "NieR:Automata"
    ],
    "imagen": "imagenes/nier-pod-042.webp"
+  },
+  {
+   "id": "nier-pod-153",
+   "mundo": "nier",
+   "nombre": "Pod 153",
+   "alias": "El pod de 9S",
+   "nombreReal": "Pod 153",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Unidad de apoyo (Pod)",
+   "rol": "Unidad de apoyo táctico de 9S",
+   "afiliacion": "YoRHa",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Operativo",
+   "descripcion": "Pod flotante asignado a 9S. Como Pod 042, dispara, planea, analiza el entorno y sirve de interfaz con el Bunker, y habla con el mismo tono protocolario.\n\nA lo largo de la historia los dos pods empiezan a tomar decisiones que no están en sus órdenes, y acaban siendo mucho más que herramientas.",
+   "etiquetas": [
+    "YoRHa",
+    "Pod",
+    "Apoyo",
+    "NieR:Automata"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "nier-popola",
+   "mundo": "nier",
+   "nombre": "Popola",
+   "alias": "La gemela sensata",
+   "nombreReal": "Popola",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Androide (modelo Popola)",
+   "rol": "Tendera y sanadora en el campamento de la Resistencia",
+   "afiliacion": "Resistencia",
+   "primeraAparicion": "NieR (2010)",
+   "estado": "Fallecida",
+   "descripcion": "La otra gemela pelirroja: más tranquila y responsable que Devola, se encarga de reparar a los androides heridos. Arrastra, como su hermana, el estigma de su modelo por lo que pasó en tiempos de NieR Replicant.\n\nEn la ruta final ayuda a 9S a abrirse paso en la Torre, y las dos dan la vida en el intento.",
+   "etiquetas": [
+    "Resistencia",
+    "Gemelas",
+    "Sanadora",
+    "NieR Replicant",
+    "NieR:Automata"
+   ],
+   "imagen": ""
+  },
+  {
+   "id": "nier-simone",
+   "mundo": "nier",
+   "nombre": "Simone",
+   "alias": "Beauvoir",
+   "nombreReal": "Simone Beauvoir",
+   "edad": "No especificada",
+   "nacimiento": "No especificada",
+   "especie": "Forma de vida mecánica",
+   "rol": "Jefa del parque de atracciones",
+   "afiliacion": "Máquinas",
+   "primeraAparicion": "NieR:Automata (2017)",
+   "estado": "Destruida",
+   "descripcion": "Máquina obsesionada con la belleza que reina en el parque de atracciones. Se enamora de Jean-Paul, otra máquina, y para llamar su atención se cubre de las piezas de los androides que ha matado.\n\nEs el primer jefe que deja claro que las máquinas han empezado a imitar deseos humanos, y que los resultados pueden ser grotescos.",
+   "etiquetas": [
+    "Máquinas",
+    "Jefa",
+    "Parque de atracciones",
+    "NieR:Automata"
+   ],
+   "imagen": ""
   },
   {
    "id": "stranger-things-alexei",
