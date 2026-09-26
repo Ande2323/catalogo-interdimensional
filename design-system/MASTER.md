@@ -48,6 +48,9 @@ que sobre tinta: los mundos **claros** (NieR, ZZZ) no se ven, así que
 - **Etiquetas:** cinta de rotuladora (fondo tinta, letra clara).
 - **Modales:** hoja con agujeros de archivador que cae sobre la mesa.
 - **Avisos:** notas amarillas con filete de estado.
+- **Logo:** `logo-completo.webp` (carpeta con portal y sello «ARCHIVO») va
+  pegado a la esquina de la hoja de la portada. `logo.svg` es su versión
+  reducida —carpeta con el portal— para la pestaña y la barra superior.
 
 ## Móvil (≤860px)
 
