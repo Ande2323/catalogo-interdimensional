@@ -537,12 +537,26 @@ a{color:var(--acento-vivo);text-underline-offset:3px}
 .detalle > .efecto{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:0}
 .detalle > .detalle-arte,
 .detalle > .detalle-cuerpo{position:relative;z-index:1}
-/* Sobre papel el texto es oscuro: el velo que lo separa del efecto es claro. */
+/* Los efectos (llamas, la Puerta de Babilonia) pintan un fondo oscuro propio:
+   sobre él un velo de papel se quedaba gris y apagado. La ficha con efecto
+   pasa a ser la hoja «en negativo» del expediente: tinta de fondo, texto
+   claro y el velo oscuro, que es para lo que están hechos los efectos. */
+.detalle:has(> .efecto){
+  --fg:#EEEAE0; --fg-dim:#C9C2B4; --fg-faint:#A39C8E;
+  --line:rgba(238,234,224,.14); --line-strong:rgba(238,234,224,.3);
+  --tinta:#EEEAE0; --acento-vivo:color-mix(in oklab,var(--accent) 70%,#FFF 30%);
+  background:#14141D;color:var(--fg);border-color:#14141D}
 .detalle:has(> .efecto) .detalle-cuerpo{
   background:linear-gradient(90deg,
-    rgba(248,244,234,calc(.9 * var(--velo,1))),
-    rgba(248,244,234,calc(.78 * var(--velo,1))) 55%,
-    rgba(248,244,234,calc(.6 * var(--velo,1))))}
+    rgba(14,13,18,calc(.84 * var(--velo,1))),
+    rgba(14,13,18,calc(.64 * var(--velo,1))) 55%,
+    rgba(14,13,18,calc(.44 * var(--velo,1))))}
+.detalle:has(> .efecto) .detalle-arte{border-right-color:var(--line-strong)}
+.detalle:has(> .efecto) .bio{color:#E2DDD2;
+  background-image:repeating-linear-gradient(180deg,transparent 0 27px,rgba(238,234,224,.1) 27px 28px)}
+.detalle:has(> .efecto) .etiqueta{background:#F8F4EA;color:#1F1B16}
+.detalle:has(> .efecto) .detalle-titulo::after{mix-blend-mode:normal;opacity:.85}
+.detalle:has(> .efecto) .btn-corazon{background:rgba(20,20,29,.6)}
 
 /* ---------- adaptación ---------- */
 @media (max-width:1180px){
